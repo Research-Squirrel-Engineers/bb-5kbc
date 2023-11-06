@@ -1,0 +1,9 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/bb5kbc/Activity_collection> a skos:Collection ;
+    rdfs:label "Activity Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/con_100_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/con_200_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/con_300_pyscript> .
+
