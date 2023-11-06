@@ -1,0 +1,69 @@
+# create triples from https://github.com/Research-Squirrel-Engineers/bb-5kbc 
+# on 2023-11-06 19:52
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix pleiades: <https://pleiades.stoa.org/places/vocab#> .
+@prefix wikidata: <http://wikidata.org/entity/> .
+@prefix lado: <http://archaeology.link/ontology#> .
+@prefix bb5kbc: <http://data.archaeology.link/data/bb5kbc/> .
+@prefix fsl: <http://archaeoinformatics.link/ontology#> .
+@prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .
+
+bb5kbc:con_100 rdf:type lado:Context .
+bb5kbc:con_100 rdf:type prov:Entity .
+bb5kbc:con_100 lado:feature_type 'Siedlung'@en.
+bb5kbc:con_100 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:con_100 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:con_100 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:con_100 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:con_100 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:con_100 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
+bb5kbc:con_100 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:con_100 prov:wasGeneratedBy bb5kbc:con_100_pyscript .
+bb5kbc:con_100_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:con_100_pyscript prov:startedAtTime '2023-11-06T19:52:39.874730Z'^^xsd:dateTime .
+bb5kbc:con_100_pyscript prov:endedAtTime '2023-11-06T19:52:39.874730Z'^^xsd:dateTime .
+bb5kbc:con_100_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
+
+bb5kbc:con_200 rdf:type lado:Context .
+bb5kbc:con_200 rdf:type prov:Entity .
+bb5kbc:con_200 lado:feature_type 'Grabung'@en.
+bb5kbc:con_200 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:con_200 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:con_200 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:con_200 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:con_200 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:con_200 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
+bb5kbc:con_200 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:con_200 prov:wasGeneratedBy bb5kbc:con_200_pyscript .
+bb5kbc:con_200_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:con_200_pyscript prov:startedAtTime '2023-11-06T19:52:39.874730Z'^^xsd:dateTime .
+bb5kbc:con_200_pyscript prov:endedAtTime '2023-11-06T19:52:39.890575Z'^^xsd:dateTime .
+bb5kbc:con_200_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
+
+bb5kbc:con_300 rdf:type lado:Context .
+bb5kbc:con_300 rdf:type prov:Entity .
+bb5kbc:con_300 lado:feature_type 'Bla'@en.
+bb5kbc:con_300 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:con_300 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:con_300 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:con_300 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:con_300 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:con_300 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
+bb5kbc:con_300 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:con_300 prov:wasGeneratedBy bb5kbc:con_300_pyscript .
+bb5kbc:con_300_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:con_300_pyscript prov:startedAtTime '2023-11-06T19:52:39.874730Z'^^xsd:dateTime .
+bb5kbc:con_300_pyscript prov:endedAtTime '2023-11-06T19:52:39.890575Z'^^xsd:dateTime .
+bb5kbc:con_300_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
+
