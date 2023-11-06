@@ -1085,6 +1085,24 @@
     
 
 
+    <!-- http://archaeology.link/ontology#hasFlurname -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#hasFlurname">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has Flurname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasGemarkung -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#hasGemarkung">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has Gemarkung</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://archaeology.link/ontology#hasImage -->
 
     <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#hasImage">
@@ -1100,6 +1118,14 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">has kilnsite</rdfs:label>
         <rdfs:label xml:lang="de">hat Produktionsort</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasLocationType -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#hasLocationType">
+        <rdfs:label xml:lang="en">has location type</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1424,6 +1450,16 @@
         <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
         <rdfs:label xml:lang="en">Discovery Site</rdfs:label>
         <rdfs:label xml:lang="de">Entdeckungsort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#ExcuvationSite -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#ExcuvationSite">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:label xml:lang="de">Ausgrabungsstätte</rdfs:label>
+        <rdfs:label xml:lang="en">Excuvation Site</rdfs:label>
     </owl:Class>
     
 
