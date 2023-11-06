@@ -32,5 +32,5 @@ jobs:
       logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
       ogcapifeatures: true
       datasettitle: Brandenburg 5000 BC Data
-      templatedir: https://github.com/Research-Squirrel-Engineers/unicorn-ontdoc-template-archaeolink-scsft/archive/refs/tags/v1.0.zip
+      templatedir: https://github.com/Research-Squirrel-Engineers/unicorn-ontdoc-template-archaeolink-scsft/archive/refs/tags/v1.1.zip
       iiif: true
