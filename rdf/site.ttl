@@ -1,5 +1,5 @@
 # create triples from https://github.com/Research-Squirrel-Engineers/bb-5kbc 
-# on 2023-11-06 20:02
+# on 2023-11-06 22:37
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -31,13 +31,38 @@ bb5kbc:pc_693 prov:wasAttributedTo <https://github.com/Research-Squirrel-Enginee
 bb5kbc:pc_693 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:pc_693 prov:wasGeneratedBy bb5kbc:pc_693_pyscript .
 bb5kbc:pc_693_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_693_pyscript prov:startedAtTime '2023-11-06T20:02:10.773665Z'^^xsd:dateTime .
-bb5kbc:pc_693_pyscript prov:endedAtTime '2023-11-06T20:02:10.788532Z'^^xsd:dateTime .
+bb5kbc:pc_693_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
+bb5kbc:pc_693_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
 bb5kbc:pc_693_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_693 rdf:type lado:Location  .
+bb5kbc:loc_693 rdf:type prov:Entity .
+bb5kbc:loc_693 rdf:type fsl:Site .
+bb5kbc:loc_693 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_693 lado:hasType lado:ExcuvationSite  .
+bb5kbc:loc_693 rdfs:label 'Location 1'@de.
+bb5kbc:loc_693 lado:hasFlurname 'Test 1'@de.
+bb5kbc:loc_693 lado:hasGemarkung 'Gem 1'@de.
+bb5kbc:loc_693 lado:hasLocationType 'Typ 1'@de.
+bb5kbc:loc_693 geosparql:hasGeometry bb5kbc:loc_693_geom .
+bb5kbc:loc_693_geom rdf:type sf:Point .
+bb5kbc:loc_693_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(18.4815 42.7790)"^^geosparql:wktLiteral.
+bb5kbc:loc_693 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_693 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_693 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_693 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_693 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_693 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_693 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_693 prov:wasGeneratedBy bb5kbc:loc_693_pyscript .
+bb5kbc:loc_693_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_693_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
+bb5kbc:loc_693_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:loc_693_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:pc_563 rdf:type lado:Place .
 bb5kbc:pc_563 rdf:type prov:Entity .
-bb5kbc:pc_563 rdfs:label 'Loc 3'@en.
+bb5kbc:pc_563 rdfs:label 'Location 2'@en.
 bb5kbc:pc_563 dct:license <https://creativecommons.org/licenses/by/4.0/> .
 bb5kbc:pc_563 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 bb5kbc:pc_563 dct:creator <https://orcid.org/0000-0003-4696-2101> .
@@ -47,13 +72,38 @@ bb5kbc:pc_563 prov:wasAttributedTo <https://github.com/Research-Squirrel-Enginee
 bb5kbc:pc_563 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:pc_563 prov:wasGeneratedBy bb5kbc:pc_563_pyscript .
 bb5kbc:pc_563_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_563_pyscript prov:startedAtTime '2023-11-06T20:02:10.773665Z'^^xsd:dateTime .
-bb5kbc:pc_563_pyscript prov:endedAtTime '2023-11-06T20:02:10.789598Z'^^xsd:dateTime .
+bb5kbc:pc_563_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
+bb5kbc:pc_563_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
 bb5kbc:pc_563_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_563 rdf:type lado:Location  .
+bb5kbc:loc_563 rdf:type prov:Entity .
+bb5kbc:loc_563 rdf:type fsl:Site .
+bb5kbc:loc_563 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_563 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_563 rdfs:label 'Location 2'@de.
+bb5kbc:loc_563 lado:hasFlurname 'Test 2'@de.
+bb5kbc:loc_563 lado:hasGemarkung 'Gem 2'@de.
+bb5kbc:loc_563 lado:hasLocationType 'Typ 2'@de.
+bb5kbc:loc_563 geosparql:hasGeometry bb5kbc:loc_563_geom .
+bb5kbc:loc_563_geom rdf:type sf:Point .
+bb5kbc:loc_563_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.0053 43.1907)"^^geosparql:wktLiteral.
+bb5kbc:loc_563 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_563 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_563 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_563 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_563 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_563 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_563 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_563 prov:wasGeneratedBy bb5kbc:loc_563_pyscript .
+bb5kbc:loc_563_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_563_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
+bb5kbc:loc_563_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:loc_563_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:pc_542 rdf:type lado:Place .
 bb5kbc:pc_542 rdf:type prov:Entity .
-bb5kbc:pc_542 rdfs:label 'asda'@en.
+bb5kbc:pc_542 rdfs:label 'Location 3'@en.
 bb5kbc:pc_542 dct:license <https://creativecommons.org/licenses/by/4.0/> .
 bb5kbc:pc_542 dct:creator <https://orcid.org/0000-0002-3246-3531> .
 bb5kbc:pc_542 dct:creator <https://orcid.org/0000-0003-4696-2101> .
@@ -63,7 +113,32 @@ bb5kbc:pc_542 prov:wasAttributedTo <https://github.com/Research-Squirrel-Enginee
 bb5kbc:pc_542 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:pc_542 prov:wasGeneratedBy bb5kbc:pc_542_pyscript .
 bb5kbc:pc_542_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_542_pyscript prov:startedAtTime '2023-11-06T20:02:10.773665Z'^^xsd:dateTime .
-bb5kbc:pc_542_pyscript prov:endedAtTime '2023-11-06T20:02:10.789598Z'^^xsd:dateTime .
+bb5kbc:pc_542_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
+bb5kbc:pc_542_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
 bb5kbc:pc_542_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_542 rdf:type lado:Location  .
+bb5kbc:loc_542 rdf:type prov:Entity .
+bb5kbc:loc_542 rdf:type fsl:Site .
+bb5kbc:loc_542 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_542 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_542 rdfs:label 'Location 3'@de.
+bb5kbc:loc_542 lado:hasFlurname 'Test 3'@de.
+bb5kbc:loc_542 lado:hasGemarkung 'Gem 3'@de.
+bb5kbc:loc_542 lado:hasLocationType 'Typ 3'@de.
+bb5kbc:loc_542 geosparql:hasGeometry bb5kbc:loc_542_geom .
+bb5kbc:loc_542_geom rdf:type sf:Point .
+bb5kbc:loc_542_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.3998 40.6385)"^^geosparql:wktLiteral.
+bb5kbc:loc_542 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_542 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_542 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_542 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_542 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_542 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_542 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_542 prov:wasGeneratedBy bb5kbc:loc_542_pyscript .
+bb5kbc:loc_542_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_542_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
+bb5kbc:loc_542_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:loc_542_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 

@@ -1,4 +1,4 @@
-"id","name","flurname","gemarkung","typ","sitetype","lat","lon","wkt"
-693,"Location 1",,,,,,,
-563,"Loc 3",,,,,,,
-542,"asda",,,,,,,
+"id","name","flurname","gemarkung","typ","sitetype","wkt"
+693,"Location 1","Test 1","Gem 1","Typ 1","es","POINT(18.4815 42.7790)"
+563,"Location 2","Test 2","Gem 2","Typ 2","ds","POINT(24.0053 43.1907)"
+542,"Location 3","Test 3","Gem 3","Typ 3","ds","POINT(14.3998 40.6385)"

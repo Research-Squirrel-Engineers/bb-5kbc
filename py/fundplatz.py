@@ -38,7 +38,7 @@ data = pd.read_csv(
     encoding='utf-8',
     sep=',',
     usecols=['id', 'name', 'flurname', 'gemarkung',
-             'typ', 'sitetype', 'lat', 'lon', 'wkt'],
+             'typ', 'sitetype', 'wkt'],
     na_values=['.', '??', 'NULL']  # take any '.' or '??' values as NA
 )
 print("*****************************************")
@@ -89,6 +89,78 @@ for index, row in data.iterrows():
                  str(row['id']) + "_pyscript " + "prov:endedAtTime '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("bb5kbc:pc_" +
+                 str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .")
+
+    lines.append("")
+
+    # location
+
+    # typing
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "rdf:type" + " lado:Location  .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "rdf:type" + " prov:Entity .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "rdf:type" + " fsl:Site .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "fsl:siteType" + " fsl:ArchaeologicalSite .")
+    if str(row['sitetype']) == 'ds':
+        lines.append(
+            "bb5kbc:loc_" + str(row['id']) + " " + "lado:hasType" + " lado:DiscoverySite  .")
+    if str(row['sitetype']) == 'es':
+        lines.append(
+            "bb5kbc:loc_" + str(row['id']) + " " + "lado:hasType" + " lado:ExcuvationSite  .")
+
+    # metadata
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "rdfs:label" + " '" + str(row['name']) + "'@de.")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "lado:hasFlurname" + " '" + str(row['flurname']) + "'@de.")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "lado:hasGemarkung" + " '" + str(row['gemarkung']) + "'@de.")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + " " + "lado:hasLocationType" + " '" + str(row['typ']) + "'@de.")
+
+    # geometry
+    point = str(row['wkt'])
+    point = "\"<http://www.opengis.net/def/crs/EPSG/0/4326> " + \
+        point + "\"^^geosparql:wktLiteral"
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " +
+                 "geosparql:hasGeometry" + " bb5kbc:loc_" + str(row['id']) + "_geom .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + "_geom " + "rdf:type" + " sf:Point .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + "_geom " + "geosparql:asWKT " + point + ".")
+
+    # usecols=[''', '','', '', 'lat', 'lon', 'wkt'],
+
+    # license
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " + "dct:license" +
+                 " <" + "https://creativecommons.org/licenses/by/4.0/" + "> .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " + "dct:creator" +
+                 " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " + "dct:creator" +
+                 " <" + "https://orcid.org/0000-0003-4696-2101" + "> .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " + "dct:rightsHolder" +
+                 " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " + "dct:rightsHolder" +
+                 " <" + "https://orcid.org/0000-0003-4696-2101" + "> .")
+
+    # prov-o for script
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " +
+                 "prov:wasAttributedTo" + " <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " +
+                 "prov:wasDerivedFrom" + " <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " +
+                 "prov:wasGeneratedBy" + " bb5kbc:loc_" + str(row['id']) + "_pyscript .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + "_pyscript " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + "_pyscript " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("bb5kbc:loc_" +
+                 str(row['id']) + "_pyscript " + "prov:endedAtTime '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("bb5kbc:loc_" +
                  str(row['id']) + "_pyscript " + "prov:wasAssociatedWith" + " <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .")
 
     lines.append("")
