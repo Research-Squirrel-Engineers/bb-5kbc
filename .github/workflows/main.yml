@@ -19,7 +19,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
       version: v017dev
-      rdffilepath: rdf/context.ttl
+      rdffilepath: rdf/context.ttl rdf/informationcarrier.ttl rdf/site.ttl
       docpath: docs
       prefixns: http://data.archaeology.link/data/bb5kbc/
       prefixnsshort: no
@@ -31,6 +31,6 @@ jobs:
       createnonNSPages: true
       logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
       ogcapifeatures: true
-      datasettitle: NAVISone Linked Open Data
+      datasettitle: Brandenburg 5000 BC Data
       templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-archaeolink/archive/refs/tags/v0.3.zip
       iiif: true
