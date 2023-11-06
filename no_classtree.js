@@ -223,8 +223,9 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeology.link/ontology#Place": 1,
-              "http://www.w3.org/ns/prov#Entity": 1
+              "http://archaeology.link/ontology#Location": 1,
+              "http://www.w3.org/ns/prov#Entity": 1,
+              "http://archaeoinformatics.link/ontology#Site": 1
             }
           }
         },
