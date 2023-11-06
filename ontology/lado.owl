@@ -23,15 +23,15 @@
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
     <owl:Ontology rdf:about="http://archaeology.link/ontology#">
         <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
-        <dc:contributor>Florian Thiery, Allard Mees</dc:contributor>
-        <dc:creator>Florian Thiery, Allard Mees</dc:creator>
+        <dc:contributor>Florian Thiery, Allard Mees, Sophie C. Schmidt</dc:contributor>
+        <dc:creator>Florian Thiery, Allard Mees, Sophie C. Schmidt</dc:creator>
         <dc:description xml:lang="en">This ontology contains classes to describe data of the LEIZA.</dc:description>
-        <dc:publisher>Römisch-Germanisches Zentralmuseum Leibniz-Forschungsinstitut für Archäologie</dc:publisher>
+        <dc:publisher>Leibniz-Zentrum für Archäologie (LEIZA)</dc:publisher>
         <dc:rights>CC BY 4.0</dc:rights>
         <dc:subject>archaeology; samian ware;</dc:subject>
         <rdfs:comment xml:lang="en">This ontology contains classes to describe data of the LEIZA.</rdfs:comment>
-        <rdfs:label xml:lang="en">Linked Archaeological Data Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <rdfs:label xml:lang="en">bb-5kbc Ontology bases on the Linked Archaeological Data Ontology</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</owl:versionInfo>
     </owl:Ontology>
     
 
