@@ -1,0 +1,195 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/bb5kbc/Activity_collection> a skos:Collection ;
+    rdfs:label "Activity Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/con_100_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/con_200_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/con_300_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/ic_1_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/ic_2_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/ic_3_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/loc_542_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/pc_542_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/pc_563_pyscript>,
+        <http://data.archaeology.link/data/bb5kbc/pc_693_pyscript> .
+
+<http://data.archaeology.link/data/bb5kbc/Entity_collection> a skos:Collection ;
+    rdfs:label "Entity Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/con_100>,
+        <http://data.archaeology.link/data/bb5kbc/con_200>,
+        <http://data.archaeology.link/data/bb5kbc/con_300>,
+        <http://data.archaeology.link/data/bb5kbc/ic_1>,
+        <http://data.archaeology.link/data/bb5kbc/ic_2>,
+        <http://data.archaeology.link/data/bb5kbc/ic_3>,
+        <http://data.archaeology.link/data/bb5kbc/loc_542>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693>,
+        <http://data.archaeology.link/data/bb5kbc/pc_542>,
+        <http://data.archaeology.link/data/bb5kbc/pc_563>,
+        <http://data.archaeology.link/data/bb5kbc/pc_693> .
+
+<http://data.archaeology.link/data/bb5kbc/Location_collection> a geo:FeatureCollection ;
+    rdfs:label "Location Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/loc_542>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693> .
+
+<http://data.archaeology.link/data/bb5kbc/Place_collection> a skos:Collection ;
+    rdfs:label "Place Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/pc_542>,
+        <http://data.archaeology.link/data/bb5kbc/pc_563>,
+        <http://data.archaeology.link/data/bb5kbc/pc_693> .
+
+<http://data.archaeology.link/data/bb5kbc/Point_collection> a geo:GeometryCollection ;
+    rdfs:label "Point Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/loc_542_geom>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563_geom>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693_geom> .
+
+<http://data.archaeology.link/data/bb5kbc/Site_collection> a geo:FeatureCollection ;
+    rdfs:label "Site Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/loc_542>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_542_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.3998 40.6385)"^^geo:wktLiteral .
+
+<http://data.archaeology.link/data/bb5kbc/loc_542_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_563_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.0053 43.1907)"^^geo:wktLiteral .
+
+<http://data.archaeology.link/data/bb5kbc/loc_563_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_693_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(18.4815 42.7790)"^^geo:wktLiteral .
+
+<http://data.archaeology.link/data/bb5kbc/loc_693_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_542> a ns1:Place,
+        prov:Entity ;
+    rdfs:label "Location 3"@en ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_542_pyscript> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_542_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_563> a ns1:Place,
+        prov:Entity ;
+    rdfs:label "Location 2"@en ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_563_pyscript> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_563_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_693> a ns1:Place,
+        prov:Entity ;
+    rdfs:label "Location 1"@en ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_693_pyscript> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_693_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_542> a ns2:Site,
+        ns1:Location,
+        prov:Entity ;
+    rdfs:label "Location 3"@de ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Test 3"@de ;
+    ns1:hasGemarkung "Gem 3"@de ;
+    ns1:hasLocationType "Typ 3"@de ;
+    ns1:hasType ns1:DiscoverySite ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    geo:hasGeometry <http://data.archaeology.link/data/bb5kbc/loc_542_geom> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_542_pyscript> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_563> a ns2:Site,
+        ns1:Location,
+        prov:Entity ;
+    rdfs:label "Location 2"@de ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Test 2"@de ;
+    ns1:hasGemarkung "Gem 2"@de ;
+    ns1:hasLocationType "Typ 2"@de ;
+    ns1:hasType ns1:DiscoverySite ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    geo:hasGeometry <http://data.archaeology.link/data/bb5kbc/loc_563_geom> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_563_pyscript> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_693> a ns2:Site,
+        ns1:Location,
+        prov:Entity ;
+    rdfs:label "Location 1"@de ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Test 1"@de ;
+    ns1:hasGemarkung "Gem 1"@de ;
+    ns1:hasLocationType "Typ 1"@de ;
+    ns1:hasType ns1:ExcuvationSite ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    geo:hasGeometry <http://data.archaeology.link/data/bb5kbc/loc_693_geom> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_693_pyscript> .
+
