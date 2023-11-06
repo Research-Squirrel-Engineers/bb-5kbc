@@ -1,0 +1,9 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/bb5kbc/Site_collection> a geo:FeatureCollection ;
+    rdfs:label "Site Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/loc_542>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693> .
+

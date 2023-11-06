@@ -1,0 +1,9 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/bb5kbc/Point_collection> a geo:GeometryCollection ;
+    rdfs:label "Point Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/bb5kbc/loc_542_geom>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563_geom>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693_geom> .
+

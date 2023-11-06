@@ -5,5 +5,14 @@
     rdfs:label "Entity Instances Collection" ;
     rdfs:member <http://data.archaeology.link/data/bb5kbc/con_100>,
         <http://data.archaeology.link/data/bb5kbc/con_200>,
-        <http://data.archaeology.link/data/bb5kbc/con_300> .
+        <http://data.archaeology.link/data/bb5kbc/con_300>,
+        <http://data.archaeology.link/data/bb5kbc/ic_1>,
+        <http://data.archaeology.link/data/bb5kbc/ic_2>,
+        <http://data.archaeology.link/data/bb5kbc/ic_3>,
+        <http://data.archaeology.link/data/bb5kbc/loc_542>,
+        <http://data.archaeology.link/data/bb5kbc/loc_563>,
+        <http://data.archaeology.link/data/bb5kbc/loc_693>,
+        <http://data.archaeology.link/data/bb5kbc/pc_542>,
+        <http://data.archaeology.link/data/bb5kbc/pc_563>,
+        <http://data.archaeology.link/data/bb5kbc/pc_693> .
 

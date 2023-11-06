@@ -1,0 +1,8 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/bb5kbc/ic_3_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-06T19:40:21.784119+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-06T19:40:21.772307+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+

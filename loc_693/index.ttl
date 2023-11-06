@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_693> a ns1:Site,
+        ns2:Location,
+        prov:Entity ;
+    rdfs:label "Location 1"@de ;
+    ns1:siteType ns1:ArchaeologicalSite ;
+    ns2:hasFlurname "Test 1"@de ;
+    ns2:hasGemarkung "Gem 1"@de ;
+    ns2:hasLocationType "Typ 1"@de ;
+    ns2:hasType ns2:ExcuvationSite ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    geo:hasGeometry <http://data.archaeology.link/data/bb5kbc/loc_693_geom> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_693_pyscript> .
+
