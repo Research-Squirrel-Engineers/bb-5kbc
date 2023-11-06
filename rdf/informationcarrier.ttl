@@ -1,0 +1,69 @@
+# create triples from https://github.com/Research-Squirrel-Engineers/bb-5kbc 
+# on 2023-11-06 19:40
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix pleiades: <https://pleiades.stoa.org/places/vocab#> .
+@prefix wikidata: <http://wikidata.org/entity/> .
+@prefix lado: <http://archaeology.link/ontology#> .
+@prefix bb5kbc: <http://data.archaeology.link/data/bb5kbc/> .
+@prefix fsl: <http://archaeoinformatics.link/ontology#> .
+@prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .
+
+bb5kbc:ic_1 rdf:type lado:InformationCarrier .
+bb5kbc:ic_1 rdf:type prov:Entity .
+bb5kbc:ic_1 lado:potsherd_type 'Wandscherbe'@en.
+bb5kbc:ic_1 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:ic_1 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:ic_1 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:ic_1 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:ic_1 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:ic_1 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+bb5kbc:ic_1 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:ic_1 prov:wasGeneratedBy bb5kbc:ic_1_pyscript .
+bb5kbc:ic_1_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:ic_1_pyscript prov:startedAtTime '2023-11-06T19:40:21.772307Z'^^xsd:dateTime .
+bb5kbc:ic_1_pyscript prov:endedAtTime '2023-11-06T19:40:21.784119Z'^^xsd:dateTime .
+bb5kbc:ic_1_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+
+bb5kbc:ic_2 rdf:type lado:InformationCarrier .
+bb5kbc:ic_2 rdf:type prov:Entity .
+bb5kbc:ic_2 lado:potsherd_type 'Randscherbe'@en.
+bb5kbc:ic_2 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:ic_2 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:ic_2 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:ic_2 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:ic_2 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:ic_2 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+bb5kbc:ic_2 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:ic_2 prov:wasGeneratedBy bb5kbc:ic_2_pyscript .
+bb5kbc:ic_2_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:ic_2_pyscript prov:startedAtTime '2023-11-06T19:40:21.772307Z'^^xsd:dateTime .
+bb5kbc:ic_2_pyscript prov:endedAtTime '2023-11-06T19:40:21.784119Z'^^xsd:dateTime .
+bb5kbc:ic_2_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+
+bb5kbc:ic_3 rdf:type lado:InformationCarrier .
+bb5kbc:ic_3 rdf:type prov:Entity .
+bb5kbc:ic_3 lado:potsherd_type 'Wandscherbe'@en.
+bb5kbc:ic_3 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:ic_3 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:ic_3 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:ic_3 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:ic_3 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:ic_3 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+bb5kbc:ic_3 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:ic_3 prov:wasGeneratedBy bb5kbc:ic_3_pyscript .
+bb5kbc:ic_3_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:ic_3_pyscript prov:startedAtTime '2023-11-06T19:40:21.772307Z'^^xsd:dateTime .
+bb5kbc:ic_3_pyscript prov:endedAtTime '2023-11-06T19:40:21.784119Z'^^xsd:dateTime .
+bb5kbc:ic_3_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> .
+
