@@ -1,5 +1,5 @@
 # create triples from https://github.com/Research-Squirrel-Engineers/bb-5kbc 
-# on 2023-11-07 08:57
+# on 2023-11-07 18:53
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -19,126 +19,2523 @@
 @prefix fsl: <http://archaeoinformatics.link/ontology#> .
 @prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .
 
-bb5kbc:pc_693 rdf:type lado:Place .
-bb5kbc:pc_693 rdf:type prov:Entity .
-bb5kbc:pc_693 rdfs:label 'Location 1'@en.
-bb5kbc:pc_693 dct:license <https://creativecommons.org/licenses/by/4.0/> .
-bb5kbc:pc_693 dct:creator <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:pc_693 dct:creator <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:pc_693 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:pc_693 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:pc_693 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-bb5kbc:pc_693 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
-bb5kbc:pc_693 prov:wasGeneratedBy bb5kbc:pc_693_pyscript .
-bb5kbc:pc_693_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_693_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
-bb5kbc:pc_693_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
-bb5kbc:pc_693_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_2 rdf:type lado:Place .
+bb5kbc:pc_2 rdf:type prov:Entity .
+bb5kbc:pc_2 rdfs:label 'Hohenfinow 10'@en.
+bb5kbc:pc_2 geosparql:hasGeometry bb5kbc:pc_2_geom .
+bb5kbc:pc_2 lado:hasRepresentativeGeometry bb5kbc:pc_2_geom .
+bb5kbc:pc_2_geom rdf:type sf:Point .
+bb5kbc:pc_2_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9298055943383 52.8274620574839)"^^geosparql:wktLiteral.
+bb5kbc:pc_2 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_2 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_2 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_2 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_2 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_2 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_2 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_2 prov:wasGeneratedBy bb5kbc:pc_2_pyscript .
+bb5kbc:pc_2_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_2_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_2_pyscript prov:endedAtTime '2023-11-07T18:53:05.949894Z'^^xsd:dateTime .
+bb5kbc:pc_2_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-bb5kbc:loc_693 rdf:type lado:Location  .
-bb5kbc:loc_693 rdf:type prov:Entity .
-bb5kbc:loc_693 rdf:type fsl:Site .
-bb5kbc:loc_693 fsl:siteType fsl:ArchaeologicalSite .
-bb5kbc:loc_693 lado:hasType lado:ExcavationSite  .
-bb5kbc:loc_693 rdfs:label 'Location 1'@de.
-bb5kbc:loc_693 lado:hasFlurname 'Test 1'@de.
-bb5kbc:loc_693 lado:hasGemarkung 'Gem 1'@de.
-bb5kbc:loc_693 lado:hasLocationType 'Typ 1'@de.
-bb5kbc:loc_693 geosparql:hasGeometry bb5kbc:loc_693_geom .
-bb5kbc:loc_693_geom rdf:type sf:Point .
-bb5kbc:loc_693_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(18.4815 42.7790)"^^geosparql:wktLiteral.
-bb5kbc:loc_693 dct:license <https://creativecommons.org/licenses/by/4.0/> .
-bb5kbc:loc_693 dct:creator <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:loc_693 dct:creator <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:loc_693 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:loc_693 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:loc_693 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-bb5kbc:loc_693 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
-bb5kbc:loc_693 prov:wasGeneratedBy bb5kbc:loc_693_pyscript .
-bb5kbc:loc_693_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:loc_693_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
-bb5kbc:loc_693_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
-bb5kbc:loc_693_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_2 rdf:type lado:Location  .
+bb5kbc:loc_2 rdf:type prov:Entity .
+bb5kbc:loc_2 rdf:type fsl:Site .
+bb5kbc:loc_2 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_2 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_2 rdfs:label 'Hohenfinow 10'@de.
+bb5kbc:loc_2 lado:hasFlurname 'Struwenberg'@de.
+bb5kbc:loc_2 lado:hasGemarkung 'Hohenfinow'@de.
+bb5kbc:loc_2 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_2 geosparql:hasGeometry bb5kbc:loc_2_geom .
+bb5kbc:loc_2_geom rdf:type sf:Point .
+bb5kbc:loc_2_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9298055943383 52.8274620574839)"^^geosparql:wktLiteral.
+bb5kbc:loc_2 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_2 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_2 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_2 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_2 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_2 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_2 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_2 prov:wasGeneratedBy bb5kbc:loc_2_pyscript .
+bb5kbc:loc_2_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_2_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_2_pyscript prov:endedAtTime '2023-11-07T18:53:05.949894Z'^^xsd:dateTime .
+bb5kbc:loc_2_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-bb5kbc:pc_563 rdf:type lado:Place .
-bb5kbc:pc_563 rdf:type prov:Entity .
-bb5kbc:pc_563 rdfs:label 'Location 2'@en.
-bb5kbc:pc_563 dct:license <https://creativecommons.org/licenses/by/4.0/> .
-bb5kbc:pc_563 dct:creator <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:pc_563 dct:creator <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:pc_563 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:pc_563 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:pc_563 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-bb5kbc:pc_563 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
-bb5kbc:pc_563 prov:wasGeneratedBy bb5kbc:pc_563_pyscript .
-bb5kbc:pc_563_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_563_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
-bb5kbc:pc_563_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
-bb5kbc:pc_563_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_3 rdf:type lado:Place .
+bb5kbc:pc_3 rdf:type prov:Entity .
+bb5kbc:pc_3 rdfs:label 'Egsdorf bei Königs Wusterhausen 2'@en.
+bb5kbc:pc_3 geosparql:hasGeometry bb5kbc:pc_3_geom .
+bb5kbc:pc_3 lado:hasRepresentativeGeometry bb5kbc:pc_3_geom .
+bb5kbc:pc_3_geom rdf:type sf:Point .
+bb5kbc:pc_3_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5751209183095 52.1238876997843)"^^geosparql:wktLiteral.
+bb5kbc:pc_3 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_3 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_3 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_3 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_3 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_3 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_3 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_3 prov:wasGeneratedBy bb5kbc:pc_3_pyscript .
+bb5kbc:pc_3_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_3_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_3_pyscript prov:endedAtTime '2023-11-07T18:53:05.952524Z'^^xsd:dateTime .
+bb5kbc:pc_3_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-bb5kbc:loc_563 rdf:type lado:Location  .
-bb5kbc:loc_563 rdf:type prov:Entity .
-bb5kbc:loc_563 rdf:type fsl:Site .
-bb5kbc:loc_563 fsl:siteType fsl:ArchaeologicalSite .
-bb5kbc:loc_563 lado:hasType lado:DiscoverySite  .
-bb5kbc:loc_563 rdfs:label 'Location 2'@de.
-bb5kbc:loc_563 lado:hasFlurname 'Test 2'@de.
-bb5kbc:loc_563 lado:hasGemarkung 'Gem 2'@de.
-bb5kbc:loc_563 lado:hasLocationType 'Typ 2'@de.
-bb5kbc:loc_563 geosparql:hasGeometry bb5kbc:loc_563_geom .
-bb5kbc:loc_563_geom rdf:type sf:Point .
-bb5kbc:loc_563_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.0053 43.1907)"^^geosparql:wktLiteral.
-bb5kbc:loc_563 dct:license <https://creativecommons.org/licenses/by/4.0/> .
-bb5kbc:loc_563 dct:creator <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:loc_563 dct:creator <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:loc_563 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:loc_563 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:loc_563 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-bb5kbc:loc_563 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
-bb5kbc:loc_563 prov:wasGeneratedBy bb5kbc:loc_563_pyscript .
-bb5kbc:loc_563_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:loc_563_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
-bb5kbc:loc_563_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
-bb5kbc:loc_563_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_3 rdf:type lado:Location  .
+bb5kbc:loc_3 rdf:type prov:Entity .
+bb5kbc:loc_3 rdf:type fsl:Site .
+bb5kbc:loc_3 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_3 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_3 rdfs:label 'Egsdorf bei Königs Wusterhausen 2'@de.
+bb5kbc:loc_3 lado:hasFlurname 'Schmidts Acker'@de.
+bb5kbc:loc_3 lado:hasGemarkung 'Egsdorf bei Königs Wusterhausen'@de.
+bb5kbc:loc_3 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_3 geosparql:hasGeometry bb5kbc:loc_3_geom .
+bb5kbc:loc_3_geom rdf:type sf:Point .
+bb5kbc:loc_3_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5751209183095 52.1238876997843)"^^geosparql:wktLiteral.
+bb5kbc:loc_3 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_3 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_3 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_3 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_3 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_3 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_3 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_3 prov:wasGeneratedBy bb5kbc:loc_3_pyscript .
+bb5kbc:loc_3_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_3_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_3_pyscript prov:endedAtTime '2023-11-07T18:53:05.954040Z'^^xsd:dateTime .
+bb5kbc:loc_3_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-bb5kbc:pc_542 rdf:type lado:Place .
-bb5kbc:pc_542 rdf:type prov:Entity .
-bb5kbc:pc_542 rdfs:label 'Location 3'@en.
-bb5kbc:pc_542 dct:license <https://creativecommons.org/licenses/by/4.0/> .
-bb5kbc:pc_542 dct:creator <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:pc_542 dct:creator <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:pc_542 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:pc_542 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:pc_542 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-bb5kbc:pc_542 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
-bb5kbc:pc_542 prov:wasGeneratedBy bb5kbc:pc_542_pyscript .
-bb5kbc:pc_542_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_542_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
-bb5kbc:pc_542_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
-bb5kbc:pc_542_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_4 rdf:type lado:Place .
+bb5kbc:pc_4 rdf:type prov:Entity .
+bb5kbc:pc_4 rdfs:label 'Gallun 4'@en.
+bb5kbc:pc_4 geosparql:hasGeometry bb5kbc:pc_4_geom .
+bb5kbc:pc_4 lado:hasRepresentativeGeometry bb5kbc:pc_4_geom .
+bb5kbc:pc_4_geom rdf:type sf:Point .
+bb5kbc:pc_4_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5577360107329 52.2482428722165)"^^geosparql:wktLiteral.
+bb5kbc:pc_4 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_4 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_4 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_4 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_4 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_4 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_4 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_4 prov:wasGeneratedBy bb5kbc:pc_4_pyscript .
+bb5kbc:pc_4_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_4_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_4_pyscript prov:endedAtTime '2023-11-07T18:53:05.955363Z'^^xsd:dateTime .
+bb5kbc:pc_4_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-bb5kbc:loc_542 rdf:type lado:Location  .
-bb5kbc:loc_542 rdf:type prov:Entity .
-bb5kbc:loc_542 rdf:type fsl:Site .
-bb5kbc:loc_542 fsl:siteType fsl:ArchaeologicalSite .
-bb5kbc:loc_542 lado:hasType lado:DiscoverySite  .
-bb5kbc:loc_542 rdfs:label 'Location 3'@de.
-bb5kbc:loc_542 lado:hasFlurname 'Test 3'@de.
-bb5kbc:loc_542 lado:hasGemarkung 'Gem 3'@de.
-bb5kbc:loc_542 lado:hasLocationType 'Typ 3'@de.
-bb5kbc:loc_542 geosparql:hasGeometry bb5kbc:loc_542_geom .
-bb5kbc:loc_542_geom rdf:type sf:Point .
-bb5kbc:loc_542_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.3998 40.6385)"^^geosparql:wktLiteral.
-bb5kbc:loc_542 dct:license <https://creativecommons.org/licenses/by/4.0/> .
-bb5kbc:loc_542 dct:creator <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:loc_542 dct:creator <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:loc_542 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
-bb5kbc:loc_542 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
-bb5kbc:loc_542 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-bb5kbc:loc_542 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
-bb5kbc:loc_542 prov:wasGeneratedBy bb5kbc:loc_542_pyscript .
-bb5kbc:loc_542_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:loc_542_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
-bb5kbc:loc_542_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
-bb5kbc:loc_542_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_4 rdf:type lado:Location  .
+bb5kbc:loc_4 rdf:type prov:Entity .
+bb5kbc:loc_4 rdf:type fsl:Site .
+bb5kbc:loc_4 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_4 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_4 rdfs:label 'Gallun 4'@de.
+bb5kbc:loc_4 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_4 lado:hasGemarkung 'Gallun'@de.
+bb5kbc:loc_4 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_4 geosparql:hasGeometry bb5kbc:loc_4_geom .
+bb5kbc:loc_4_geom rdf:type sf:Point .
+bb5kbc:loc_4_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5577360107329 52.2482428722165)"^^geosparql:wktLiteral.
+bb5kbc:loc_4 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_4 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_4 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_4 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_4 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_4 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_4 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_4 prov:wasGeneratedBy bb5kbc:loc_4_pyscript .
+bb5kbc:loc_4_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_4_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_4_pyscript prov:endedAtTime '2023-11-07T18:53:05.955363Z'^^xsd:dateTime .
+bb5kbc:loc_4_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_5 rdf:type lado:Place .
+bb5kbc:pc_5 rdf:type prov:Entity .
+bb5kbc:pc_5 rdfs:label 'Hohenbrück 3'@en.
+bb5kbc:pc_5 geosparql:hasGeometry bb5kbc:pc_5_geom .
+bb5kbc:pc_5 lado:hasRepresentativeGeometry bb5kbc:pc_5_geom .
+bb5kbc:pc_5_geom rdf:type sf:Point .
+bb5kbc:pc_5_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9061497197174 52.0999192589813)"^^geosparql:wktLiteral.
+bb5kbc:pc_5 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_5 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_5 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_5 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_5 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_5 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_5 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_5 prov:wasGeneratedBy bb5kbc:pc_5_pyscript .
+bb5kbc:pc_5_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_5_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_5_pyscript prov:endedAtTime '2023-11-07T18:53:05.956466Z'^^xsd:dateTime .
+bb5kbc:pc_5_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_5 rdf:type lado:Location  .
+bb5kbc:loc_5 rdf:type prov:Entity .
+bb5kbc:loc_5 rdf:type fsl:Site .
+bb5kbc:loc_5 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_5 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_5 rdfs:label 'Hohenbrück 3'@de.
+bb5kbc:loc_5 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_5 lado:hasGemarkung 'Hohenbrück'@de.
+bb5kbc:loc_5 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_5 geosparql:hasGeometry bb5kbc:loc_5_geom .
+bb5kbc:loc_5_geom rdf:type sf:Point .
+bb5kbc:loc_5_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9061497197174 52.0999192589813)"^^geosparql:wktLiteral.
+bb5kbc:loc_5 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_5 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_5 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_5 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_5 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_5 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_5 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_5 prov:wasGeneratedBy bb5kbc:loc_5_pyscript .
+bb5kbc:loc_5_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_5_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_5_pyscript prov:endedAtTime '2023-11-07T18:53:05.957483Z'^^xsd:dateTime .
+bb5kbc:loc_5_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_6 rdf:type lado:Place .
+bb5kbc:pc_6 rdf:type prov:Entity .
+bb5kbc:pc_6 rdfs:label 'Kaden 4'@en.
+bb5kbc:pc_6 geosparql:hasGeometry bb5kbc:pc_6_geom .
+bb5kbc:pc_6 lado:hasRepresentativeGeometry bb5kbc:pc_6_geom .
+bb5kbc:pc_6_geom rdf:type sf:Point .
+bb5kbc:pc_6_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8034684990564 51.9065771715704)"^^geosparql:wktLiteral.
+bb5kbc:pc_6 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_6 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_6 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_6 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_6 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_6 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_6 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_6 prov:wasGeneratedBy bb5kbc:pc_6_pyscript .
+bb5kbc:pc_6_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_6_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_6_pyscript prov:endedAtTime '2023-11-07T18:53:05.958483Z'^^xsd:dateTime .
+bb5kbc:pc_6_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_6 rdf:type lado:Location  .
+bb5kbc:loc_6 rdf:type prov:Entity .
+bb5kbc:loc_6 rdf:type fsl:Site .
+bb5kbc:loc_6 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_6 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_6 rdfs:label 'Kaden 4'@de.
+bb5kbc:loc_6 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_6 lado:hasGemarkung 'Kaden'@de.
+bb5kbc:loc_6 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_6 geosparql:hasGeometry bb5kbc:loc_6_geom .
+bb5kbc:loc_6_geom rdf:type sf:Point .
+bb5kbc:loc_6_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8034684990564 51.9065771715704)"^^geosparql:wktLiteral.
+bb5kbc:loc_6 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_6 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_6 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_6 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_6 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_6 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_6 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_6 prov:wasGeneratedBy bb5kbc:loc_6_pyscript .
+bb5kbc:loc_6_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_6_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_6_pyscript prov:endedAtTime '2023-11-07T18:53:05.958483Z'^^xsd:dateTime .
+bb5kbc:loc_6_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_7 rdf:type lado:Place .
+bb5kbc:pc_7 rdf:type prov:Entity .
+bb5kbc:pc_7 rdfs:label 'Neuendorf am See 13'@en.
+bb5kbc:pc_7 geosparql:hasGeometry bb5kbc:pc_7_geom .
+bb5kbc:pc_7 lado:hasRepresentativeGeometry bb5kbc:pc_7_geom .
+bb5kbc:pc_7_geom rdf:type sf:Point .
+bb5kbc:pc_7_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8801446514295 52.1012036059188)"^^geosparql:wktLiteral.
+bb5kbc:pc_7 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_7 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_7 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_7 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_7 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_7 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_7 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_7 prov:wasGeneratedBy bb5kbc:pc_7_pyscript .
+bb5kbc:pc_7_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_7_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_7_pyscript prov:endedAtTime '2023-11-07T18:53:05.959481Z'^^xsd:dateTime .
+bb5kbc:pc_7_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_7 rdf:type lado:Location  .
+bb5kbc:loc_7 rdf:type prov:Entity .
+bb5kbc:loc_7 rdf:type fsl:Site .
+bb5kbc:loc_7 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_7 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_7 rdfs:label 'Neuendorf am See 13'@de.
+bb5kbc:loc_7 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_7 lado:hasGemarkung 'Neuendorf am See'@de.
+bb5kbc:loc_7 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_7 geosparql:hasGeometry bb5kbc:loc_7_geom .
+bb5kbc:loc_7_geom rdf:type sf:Point .
+bb5kbc:loc_7_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8801446514295 52.1012036059188)"^^geosparql:wktLiteral.
+bb5kbc:loc_7 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_7 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_7 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_7 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_7 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_7 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_7 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_7 prov:wasGeneratedBy bb5kbc:loc_7_pyscript .
+bb5kbc:loc_7_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_7_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_7_pyscript prov:endedAtTime '2023-11-07T18:53:05.959481Z'^^xsd:dateTime .
+bb5kbc:loc_7_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_8 rdf:type lado:Place .
+bb5kbc:pc_8 rdf:type prov:Entity .
+bb5kbc:pc_8 rdfs:label 'Neuendorf am See 6'@en.
+bb5kbc:pc_8 geosparql:hasGeometry bb5kbc:pc_8_geom .
+bb5kbc:pc_8 lado:hasRepresentativeGeometry bb5kbc:pc_8_geom .
+bb5kbc:pc_8_geom rdf:type sf:Point .
+bb5kbc:pc_8_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8787796612809 52.0974143164012)"^^geosparql:wktLiteral.
+bb5kbc:pc_8 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_8 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_8 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_8 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_8 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_8 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_8 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_8 prov:wasGeneratedBy bb5kbc:pc_8_pyscript .
+bb5kbc:pc_8_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_8_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_8_pyscript prov:endedAtTime '2023-11-07T18:53:05.960480Z'^^xsd:dateTime .
+bb5kbc:pc_8_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_8 rdf:type lado:Location  .
+bb5kbc:loc_8 rdf:type prov:Entity .
+bb5kbc:loc_8 rdf:type fsl:Site .
+bb5kbc:loc_8 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_8 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_8 rdfs:label 'Neuendorf am See 6'@de.
+bb5kbc:loc_8 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_8 lado:hasGemarkung 'Neuendorf am See'@de.
+bb5kbc:loc_8 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_8 geosparql:hasGeometry bb5kbc:loc_8_geom .
+bb5kbc:loc_8_geom rdf:type sf:Point .
+bb5kbc:loc_8_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8787796612809 52.0974143164012)"^^geosparql:wktLiteral.
+bb5kbc:loc_8 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_8 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_8 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_8 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_8 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_8 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_8 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_8 prov:wasGeneratedBy bb5kbc:loc_8_pyscript .
+bb5kbc:loc_8_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_8_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_8_pyscript prov:endedAtTime '2023-11-07T18:53:05.961487Z'^^xsd:dateTime .
+bb5kbc:loc_8_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_9 rdf:type lado:Place .
+bb5kbc:pc_9 rdf:type prov:Entity .
+bb5kbc:pc_9 rdfs:label 'Selchow 7'@en.
+bb5kbc:pc_9 geosparql:hasGeometry bb5kbc:pc_9_geom .
+bb5kbc:pc_9 lado:hasRepresentativeGeometry bb5kbc:pc_9_geom .
+bb5kbc:pc_9_geom rdf:type sf:Point .
+bb5kbc:pc_9_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4682086474743 52.3525830057769)"^^geosparql:wktLiteral.
+bb5kbc:pc_9 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_9 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_9 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_9 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_9 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_9 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_9 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_9 prov:wasGeneratedBy bb5kbc:pc_9_pyscript .
+bb5kbc:pc_9_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_9_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_9_pyscript prov:endedAtTime '2023-11-07T18:53:05.961487Z'^^xsd:dateTime .
+bb5kbc:pc_9_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_9 rdf:type lado:Location  .
+bb5kbc:loc_9 rdf:type prov:Entity .
+bb5kbc:loc_9 rdf:type fsl:Site .
+bb5kbc:loc_9 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_9 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_9 rdfs:label 'Selchow 7'@de.
+bb5kbc:loc_9 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_9 lado:hasGemarkung 'Selchow'@de.
+bb5kbc:loc_9 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_9 geosparql:hasGeometry bb5kbc:loc_9_geom .
+bb5kbc:loc_9_geom rdf:type sf:Point .
+bb5kbc:loc_9_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4682086474743 52.3525830057769)"^^geosparql:wktLiteral.
+bb5kbc:loc_9 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_9 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_9 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_9 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_9 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_9 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_9 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_9 prov:wasGeneratedBy bb5kbc:loc_9_pyscript .
+bb5kbc:loc_9_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_9_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_9_pyscript prov:endedAtTime '2023-11-07T18:53:05.962967Z'^^xsd:dateTime .
+bb5kbc:loc_9_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_10 rdf:type lado:Place .
+bb5kbc:pc_10 rdf:type prov:Entity .
+bb5kbc:pc_10 rdfs:label 'Lübben Steinkirchen 6'@en.
+bb5kbc:pc_10 geosparql:hasGeometry bb5kbc:pc_10_geom .
+bb5kbc:pc_10 lado:hasRepresentativeGeometry bb5kbc:pc_10_geom .
+bb5kbc:pc_10_geom rdf:type sf:Point .
+bb5kbc:pc_10_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9248020668579 51.9068490790357)"^^geosparql:wktLiteral.
+bb5kbc:pc_10 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_10 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_10 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_10 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_10 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_10 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_10 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_10 prov:wasGeneratedBy bb5kbc:pc_10_pyscript .
+bb5kbc:pc_10_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_10_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_10_pyscript prov:endedAtTime '2023-11-07T18:53:05.965108Z'^^xsd:dateTime .
+bb5kbc:pc_10_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_10 rdf:type lado:Location  .
+bb5kbc:loc_10 rdf:type prov:Entity .
+bb5kbc:loc_10 rdf:type fsl:Site .
+bb5kbc:loc_10 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_10 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_10 rdfs:label 'Lübben Steinkirchen 6'@de.
+bb5kbc:loc_10 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_10 lado:hasGemarkung 'Lübben Steinkirchen 6'@de.
+bb5kbc:loc_10 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_10 geosparql:hasGeometry bb5kbc:loc_10_geom .
+bb5kbc:loc_10_geom rdf:type sf:Point .
+bb5kbc:loc_10_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9248020668579 51.9068490790357)"^^geosparql:wktLiteral.
+bb5kbc:loc_10 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_10 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_10 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_10 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_10 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_10 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_10 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_10 prov:wasGeneratedBy bb5kbc:loc_10_pyscript .
+bb5kbc:loc_10_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_10_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_10_pyscript prov:endedAtTime '2023-11-07T18:53:05.966093Z'^^xsd:dateTime .
+bb5kbc:loc_10_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_11 rdf:type lado:Place .
+bb5kbc:pc_11 rdf:type prov:Entity .
+bb5kbc:pc_11 rdfs:label 'Brottewitz 8'@en.
+bb5kbc:pc_11 geosparql:hasGeometry bb5kbc:pc_11_geom .
+bb5kbc:pc_11 lado:hasRepresentativeGeometry bb5kbc:pc_11_geom .
+bb5kbc:pc_11_geom rdf:type sf:Point .
+bb5kbc:pc_11_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.2462762802107 51.4705372020643)"^^geosparql:wktLiteral.
+bb5kbc:pc_11 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_11 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_11 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_11 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_11 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_11 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_11 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_11 prov:wasGeneratedBy bb5kbc:pc_11_pyscript .
+bb5kbc:pc_11_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_11_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_11_pyscript prov:endedAtTime '2023-11-07T18:53:05.967096Z'^^xsd:dateTime .
+bb5kbc:pc_11_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_11 rdf:type lado:Location  .
+bb5kbc:loc_11 rdf:type prov:Entity .
+bb5kbc:loc_11 rdf:type fsl:Site .
+bb5kbc:loc_11 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_11 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_11 rdfs:label 'Brottewitz 8'@de.
+bb5kbc:loc_11 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_11 lado:hasGemarkung 'Brottewitz'@de.
+bb5kbc:loc_11 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_11 geosparql:hasGeometry bb5kbc:loc_11_geom .
+bb5kbc:loc_11_geom rdf:type sf:Point .
+bb5kbc:loc_11_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.2462762802107 51.4705372020643)"^^geosparql:wktLiteral.
+bb5kbc:loc_11 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_11 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_11 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_11 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_11 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_11 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_11 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_11 prov:wasGeneratedBy bb5kbc:loc_11_pyscript .
+bb5kbc:loc_11_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_11_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_11_pyscript prov:endedAtTime '2023-11-07T18:53:05.968095Z'^^xsd:dateTime .
+bb5kbc:loc_11_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_12 rdf:type lado:Place .
+bb5kbc:pc_12 rdf:type prov:Entity .
+bb5kbc:pc_12 rdfs:label 'Elsterwerda 10'@en.
+bb5kbc:pc_12 geosparql:hasGeometry bb5kbc:pc_12_geom .
+bb5kbc:pc_12 lado:hasRepresentativeGeometry bb5kbc:pc_12_geom .
+bb5kbc:pc_12_geom rdf:type sf:Point .
+bb5kbc:pc_12_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5586988021946 51.4398316239272)"^^geosparql:wktLiteral.
+bb5kbc:pc_12 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_12 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_12 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_12 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_12 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_12 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_12 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_12 prov:wasGeneratedBy bb5kbc:pc_12_pyscript .
+bb5kbc:pc_12_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_12_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_12_pyscript prov:endedAtTime '2023-11-07T18:53:05.968095Z'^^xsd:dateTime .
+bb5kbc:pc_12_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_12 rdf:type lado:Location  .
+bb5kbc:loc_12 rdf:type prov:Entity .
+bb5kbc:loc_12 rdf:type fsl:Site .
+bb5kbc:loc_12 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_12 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_12 rdfs:label 'Elsterwerda 10'@de.
+bb5kbc:loc_12 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_12 lado:hasGemarkung 'Elsterwerda'@de.
+bb5kbc:loc_12 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_12 geosparql:hasGeometry bb5kbc:loc_12_geom .
+bb5kbc:loc_12_geom rdf:type sf:Point .
+bb5kbc:loc_12_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5586988021946 51.4398316239272)"^^geosparql:wktLiteral.
+bb5kbc:loc_12 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_12 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_12 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_12 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_12 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_12 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_12 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_12 prov:wasGeneratedBy bb5kbc:loc_12_pyscript .
+bb5kbc:loc_12_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_12_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_12_pyscript prov:endedAtTime '2023-11-07T18:53:05.969092Z'^^xsd:dateTime .
+bb5kbc:loc_12_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_13 rdf:type lado:Place .
+bb5kbc:pc_13 rdf:type prov:Entity .
+bb5kbc:pc_13 rdfs:label 'Booßen 2'@en.
+bb5kbc:pc_13 geosparql:hasGeometry bb5kbc:pc_13_geom .
+bb5kbc:pc_13 lado:hasRepresentativeGeometry bb5kbc:pc_13_geom .
+bb5kbc:pc_13_geom rdf:type sf:Point .
+bb5kbc:pc_13_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.4891514077344 52.3751537006729)"^^geosparql:wktLiteral.
+bb5kbc:pc_13 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_13 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_13 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_13 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_13 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_13 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_13 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_13 prov:wasGeneratedBy bb5kbc:pc_13_pyscript .
+bb5kbc:pc_13_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_13_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_13_pyscript prov:endedAtTime '2023-11-07T18:53:05.969092Z'^^xsd:dateTime .
+bb5kbc:pc_13_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_13 rdf:type lado:Location  .
+bb5kbc:loc_13 rdf:type prov:Entity .
+bb5kbc:loc_13 rdf:type fsl:Site .
+bb5kbc:loc_13 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_13 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_13 rdfs:label 'Booßen 2'@de.
+bb5kbc:loc_13 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_13 lado:hasGemarkung 'Booßen'@de.
+bb5kbc:loc_13 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_13 geosparql:hasGeometry bb5kbc:loc_13_geom .
+bb5kbc:loc_13_geom rdf:type sf:Point .
+bb5kbc:loc_13_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.4891514077344 52.3751537006729)"^^geosparql:wktLiteral.
+bb5kbc:loc_13 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_13 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_13 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_13 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_13 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_13 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_13 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_13 prov:wasGeneratedBy bb5kbc:loc_13_pyscript .
+bb5kbc:loc_13_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_13_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_13_pyscript prov:endedAtTime '2023-11-07T18:53:05.970091Z'^^xsd:dateTime .
+bb5kbc:loc_13_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_1 rdf:type lado:Place .
+bb5kbc:pc_1 rdf:type prov:Entity .
+bb5kbc:pc_1 rdfs:label 'Seelow 20'@en.
+bb5kbc:pc_1 geosparql:hasGeometry bb5kbc:pc_1_geom .
+bb5kbc:pc_1 lado:hasRepresentativeGeometry bb5kbc:pc_1_geom .
+bb5kbc:pc_1_geom rdf:type sf:Point .
+bb5kbc:pc_1_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.3833333255572 52.5452775430815)"^^geosparql:wktLiteral.
+bb5kbc:pc_1 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_1 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_1 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_1 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_1 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_1 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_1 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_1 prov:wasGeneratedBy bb5kbc:pc_1_pyscript .
+bb5kbc:pc_1_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_1_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_1_pyscript prov:endedAtTime '2023-11-07T18:53:05.970091Z'^^xsd:dateTime .
+bb5kbc:pc_1_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_1 rdf:type lado:Location  .
+bb5kbc:loc_1 rdf:type prov:Entity .
+bb5kbc:loc_1 rdf:type fsl:Site .
+bb5kbc:loc_1 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_1 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_1 rdfs:label 'Seelow 20'@de.
+bb5kbc:loc_1 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_1 lado:hasGemarkung 'Seelow'@de.
+bb5kbc:loc_1 lado:hasLocationType 'Siedlung'@de.
+bb5kbc:loc_1 geosparql:hasGeometry bb5kbc:loc_1_geom .
+bb5kbc:loc_1_geom rdf:type sf:Point .
+bb5kbc:loc_1_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.3833333255572 52.5452775430815)"^^geosparql:wktLiteral.
+bb5kbc:loc_1 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_1 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_1 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_1 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_1 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_1 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_1 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_1 prov:wasGeneratedBy bb5kbc:loc_1_pyscript .
+bb5kbc:loc_1_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_1_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_1_pyscript prov:endedAtTime '2023-11-07T18:53:05.971093Z'^^xsd:dateTime .
+bb5kbc:loc_1_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_14 rdf:type lado:Place .
+bb5kbc:pc_14 rdf:type prov:Entity .
+bb5kbc:pc_14 rdfs:label 'Neupetershain 5/33 (5)'@en.
+bb5kbc:pc_14 geosparql:hasGeometry bb5kbc:pc_14_geom .
+bb5kbc:pc_14 lado:hasRepresentativeGeometry bb5kbc:pc_14_geom .
+bb5kbc:pc_14_geom rdf:type sf:Point .
+bb5kbc:pc_14_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.189614353341 51.6068726263749)"^^geosparql:wktLiteral.
+bb5kbc:pc_14 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_14 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_14 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_14 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_14 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_14 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_14 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_14 prov:wasGeneratedBy bb5kbc:pc_14_pyscript .
+bb5kbc:pc_14_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_14_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_14_pyscript prov:endedAtTime '2023-11-07T18:53:05.972099Z'^^xsd:dateTime .
+bb5kbc:pc_14_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_14 rdf:type lado:Location  .
+bb5kbc:loc_14 rdf:type prov:Entity .
+bb5kbc:loc_14 rdf:type fsl:Site .
+bb5kbc:loc_14 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_14 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_14 rdfs:label 'Neupetershain 5/33 (5)'@de.
+bb5kbc:loc_14 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_14 lado:hasGemarkung 'Neupetershain'@de.
+bb5kbc:loc_14 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_14 geosparql:hasGeometry bb5kbc:loc_14_geom .
+bb5kbc:loc_14_geom rdf:type sf:Point .
+bb5kbc:loc_14_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.189614353341 51.6068726263749)"^^geosparql:wktLiteral.
+bb5kbc:loc_14 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_14 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_14 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_14 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_14 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_14 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_14 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_14 prov:wasGeneratedBy bb5kbc:loc_14_pyscript .
+bb5kbc:loc_14_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_14_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_14_pyscript prov:endedAtTime '2023-11-07T18:53:05.973095Z'^^xsd:dateTime .
+bb5kbc:loc_14_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_15 rdf:type lado:Place .
+bb5kbc:pc_15 rdf:type prov:Entity .
+bb5kbc:pc_15 rdfs:label 'Trebatsch 1'@en.
+bb5kbc:pc_15 geosparql:hasGeometry bb5kbc:pc_15_geom .
+bb5kbc:pc_15 lado:hasRepresentativeGeometry bb5kbc:pc_15_geom .
+bb5kbc:pc_15_geom rdf:type sf:Point .
+bb5kbc:pc_15_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1985845087684 52.0849261660395)"^^geosparql:wktLiteral.
+bb5kbc:pc_15 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_15 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_15 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_15 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_15 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_15 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_15 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_15 prov:wasGeneratedBy bb5kbc:pc_15_pyscript .
+bb5kbc:pc_15_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_15_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_15_pyscript prov:endedAtTime '2023-11-07T18:53:05.974092Z'^^xsd:dateTime .
+bb5kbc:pc_15_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_15 rdf:type lado:Location  .
+bb5kbc:loc_15 rdf:type prov:Entity .
+bb5kbc:loc_15 rdf:type fsl:Site .
+bb5kbc:loc_15 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_15 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_15 rdfs:label 'Trebatsch 1'@de.
+bb5kbc:loc_15 lado:hasFlurname 'Sabrodt 1'@de.
+bb5kbc:loc_15 lado:hasGemarkung 'Sabrodt'@de.
+bb5kbc:loc_15 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_15 geosparql:hasGeometry bb5kbc:loc_15_geom .
+bb5kbc:loc_15_geom rdf:type sf:Point .
+bb5kbc:loc_15_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1985845087684 52.0849261660395)"^^geosparql:wktLiteral.
+bb5kbc:loc_15 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_15 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_15 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_15 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_15 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_15 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_15 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_15 prov:wasGeneratedBy bb5kbc:loc_15_pyscript .
+bb5kbc:loc_15_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_15_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_15_pyscript prov:endedAtTime '2023-11-07T18:53:05.974603Z'^^xsd:dateTime .
+bb5kbc:loc_15_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_16 rdf:type lado:Place .
+bb5kbc:pc_16 rdf:type prov:Entity .
+bb5kbc:pc_16 rdfs:label 'Drebkau 2'@en.
+bb5kbc:pc_16 geosparql:hasGeometry bb5kbc:pc_16_geom .
+bb5kbc:pc_16 lado:hasRepresentativeGeometry bb5kbc:pc_16_geom .
+bb5kbc:pc_16_geom rdf:type sf:Point .
+bb5kbc:pc_16_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.2260737668818 51.6503688034177)"^^geosparql:wktLiteral.
+bb5kbc:pc_16 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_16 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_16 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_16 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_16 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_16 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_16 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_16 prov:wasGeneratedBy bb5kbc:pc_16_pyscript .
+bb5kbc:pc_16_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_16_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_16_pyscript prov:endedAtTime '2023-11-07T18:53:05.974603Z'^^xsd:dateTime .
+bb5kbc:pc_16_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_16 rdf:type lado:Location  .
+bb5kbc:loc_16 rdf:type prov:Entity .
+bb5kbc:loc_16 rdf:type fsl:Site .
+bb5kbc:loc_16 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_16 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_16 rdfs:label 'Drebkau 2'@de.
+bb5kbc:loc_16 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_16 lado:hasGemarkung 'Drebkau'@de.
+bb5kbc:loc_16 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_16 geosparql:hasGeometry bb5kbc:loc_16_geom .
+bb5kbc:loc_16_geom rdf:type sf:Point .
+bb5kbc:loc_16_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.2260737668818 51.6503688034177)"^^geosparql:wktLiteral.
+bb5kbc:loc_16 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_16 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_16 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_16 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_16 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_16 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_16 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_16 prov:wasGeneratedBy bb5kbc:loc_16_pyscript .
+bb5kbc:loc_16_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_16_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_16_pyscript prov:endedAtTime '2023-11-07T18:53:05.974603Z'^^xsd:dateTime .
+bb5kbc:loc_16_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_17 rdf:type lado:Place .
+bb5kbc:pc_17 rdf:type prov:Entity .
+bb5kbc:pc_17 rdfs:label 'Neuendorf 23'@en.
+bb5kbc:pc_17 geosparql:hasGeometry bb5kbc:pc_17_geom .
+bb5kbc:pc_17 lado:hasRepresentativeGeometry bb5kbc:pc_17_geom .
+bb5kbc:pc_17_geom rdf:type sf:Point .
+bb5kbc:pc_17_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.417554004278 51.8011468406747)"^^geosparql:wktLiteral.
+bb5kbc:pc_17 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_17 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_17 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_17 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_17 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_17 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_17 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_17 prov:wasGeneratedBy bb5kbc:pc_17_pyscript .
+bb5kbc:pc_17_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_17_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_17_pyscript prov:endedAtTime '2023-11-07T18:53:05.975620Z'^^xsd:dateTime .
+bb5kbc:pc_17_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_17 rdf:type lado:Location  .
+bb5kbc:loc_17 rdf:type prov:Entity .
+bb5kbc:loc_17 rdf:type fsl:Site .
+bb5kbc:loc_17 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_17 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_17 rdfs:label 'Neuendorf 23'@de.
+bb5kbc:loc_17 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_17 lado:hasGemarkung 'Neuendorf'@de.
+bb5kbc:loc_17 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_17 geosparql:hasGeometry bb5kbc:loc_17_geom .
+bb5kbc:loc_17_geom rdf:type sf:Point .
+bb5kbc:loc_17_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.417554004278 51.8011468406747)"^^geosparql:wktLiteral.
+bb5kbc:loc_17 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_17 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_17 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_17 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_17 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_17 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_17 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_17 prov:wasGeneratedBy bb5kbc:loc_17_pyscript .
+bb5kbc:loc_17_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_17_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_17_pyscript prov:endedAtTime '2023-11-07T18:53:05.975620Z'^^xsd:dateTime .
+bb5kbc:loc_17_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_18 rdf:type lado:Place .
+bb5kbc:pc_18 rdf:type prov:Entity .
+bb5kbc:pc_18 rdfs:label 'Bochow 15'@en.
+bb5kbc:pc_18 geosparql:hasGeometry bb5kbc:pc_18_geom .
+bb5kbc:pc_18 lado:hasRepresentativeGeometry bb5kbc:pc_18_geom .
+bb5kbc:pc_18_geom rdf:type sf:Point .
+bb5kbc:pc_18_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.085296860556 51.9626182078923)"^^geosparql:wktLiteral.
+bb5kbc:pc_18 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_18 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_18 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_18 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_18 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_18 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_18 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_18 prov:wasGeneratedBy bb5kbc:pc_18_pyscript .
+bb5kbc:pc_18_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_18_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_18_pyscript prov:endedAtTime '2023-11-07T18:53:05.975620Z'^^xsd:dateTime .
+bb5kbc:pc_18_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_18 rdf:type lado:Location  .
+bb5kbc:loc_18 rdf:type prov:Entity .
+bb5kbc:loc_18 rdf:type fsl:Site .
+bb5kbc:loc_18 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_18 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_18 rdfs:label 'Bochow 15'@de.
+bb5kbc:loc_18 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_18 lado:hasGemarkung 'Bochow'@de.
+bb5kbc:loc_18 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_18 geosparql:hasGeometry bb5kbc:loc_18_geom .
+bb5kbc:loc_18_geom rdf:type sf:Point .
+bb5kbc:loc_18_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.085296860556 51.9626182078923)"^^geosparql:wktLiteral.
+bb5kbc:loc_18 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_18 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_18 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_18 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_18 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_18 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_18 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_18 prov:wasGeneratedBy bb5kbc:loc_18_pyscript .
+bb5kbc:loc_18_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_18_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_18_pyscript prov:endedAtTime '2023-11-07T18:53:05.976620Z'^^xsd:dateTime .
+bb5kbc:loc_18_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_19 rdf:type lado:Place .
+bb5kbc:pc_19 rdf:type prov:Entity .
+bb5kbc:pc_19 rdfs:label 'Bochow 16'@en.
+bb5kbc:pc_19 geosparql:hasGeometry bb5kbc:pc_19_geom .
+bb5kbc:pc_19 lado:hasRepresentativeGeometry bb5kbc:pc_19_geom .
+bb5kbc:pc_19_geom rdf:type sf:Point .
+bb5kbc:pc_19_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0815683800061 51.9630071146682)"^^geosparql:wktLiteral.
+bb5kbc:pc_19 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_19 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_19 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_19 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_19 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_19 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_19 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_19 prov:wasGeneratedBy bb5kbc:pc_19_pyscript .
+bb5kbc:pc_19_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_19_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_19_pyscript prov:endedAtTime '2023-11-07T18:53:05.976620Z'^^xsd:dateTime .
+bb5kbc:pc_19_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_19 rdf:type lado:Location  .
+bb5kbc:loc_19 rdf:type prov:Entity .
+bb5kbc:loc_19 rdf:type fsl:Site .
+bb5kbc:loc_19 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_19 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_19 rdfs:label 'Bochow 16'@de.
+bb5kbc:loc_19 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_19 lado:hasGemarkung 'Bochow'@de.
+bb5kbc:loc_19 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_19 geosparql:hasGeometry bb5kbc:loc_19_geom .
+bb5kbc:loc_19_geom rdf:type sf:Point .
+bb5kbc:loc_19_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0815683800061 51.9630071146682)"^^geosparql:wktLiteral.
+bb5kbc:loc_19 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_19 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_19 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_19 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_19 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_19 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_19 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_19 prov:wasGeneratedBy bb5kbc:loc_19_pyscript .
+bb5kbc:loc_19_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_19_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_19_pyscript prov:endedAtTime '2023-11-07T18:53:05.976620Z'^^xsd:dateTime .
+bb5kbc:loc_19_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_20 rdf:type lado:Place .
+bb5kbc:pc_20 rdf:type prov:Entity .
+bb5kbc:pc_20 rdfs:label 'Bochow 2'@en.
+bb5kbc:pc_20 geosparql:hasGeometry bb5kbc:pc_20_geom .
+bb5kbc:pc_20 lado:hasRepresentativeGeometry bb5kbc:pc_20_geom .
+bb5kbc:pc_20_geom rdf:type sf:Point .
+bb5kbc:pc_20_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0692830806605 51.9623206773578)"^^geosparql:wktLiteral.
+bb5kbc:pc_20 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_20 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_20 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_20 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_20 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_20 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_20 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_20 prov:wasGeneratedBy bb5kbc:pc_20_pyscript .
+bb5kbc:pc_20_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_20_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_20_pyscript prov:endedAtTime '2023-11-07T18:53:05.977623Z'^^xsd:dateTime .
+bb5kbc:pc_20_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_20 rdf:type lado:Location  .
+bb5kbc:loc_20 rdf:type prov:Entity .
+bb5kbc:loc_20 rdf:type fsl:Site .
+bb5kbc:loc_20 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_20 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_20 rdfs:label 'Bochow 2'@de.
+bb5kbc:loc_20 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_20 lado:hasGemarkung 'Bochow'@de.
+bb5kbc:loc_20 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_20 geosparql:hasGeometry bb5kbc:loc_20_geom .
+bb5kbc:loc_20_geom rdf:type sf:Point .
+bb5kbc:loc_20_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0692830806605 51.9623206773578)"^^geosparql:wktLiteral.
+bb5kbc:loc_20 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_20 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_20 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_20 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_20 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_20 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_20 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_20 prov:wasGeneratedBy bb5kbc:loc_20_pyscript .
+bb5kbc:loc_20_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_20_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_20_pyscript prov:endedAtTime '2023-11-07T18:53:05.977623Z'^^xsd:dateTime .
+bb5kbc:loc_20_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_21 rdf:type lado:Place .
+bb5kbc:pc_21 rdf:type prov:Entity .
+bb5kbc:pc_21 rdfs:label 'Bochow 6'@en.
+bb5kbc:pc_21 geosparql:hasGeometry bb5kbc:pc_21_geom .
+bb5kbc:pc_21 lado:hasRepresentativeGeometry bb5kbc:pc_21_geom .
+bb5kbc:pc_21_geom rdf:type sf:Point .
+bb5kbc:pc_21_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0858993739255 51.9635092440072)"^^geosparql:wktLiteral.
+bb5kbc:pc_21 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_21 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_21 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_21 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_21 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_21 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_21 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_21 prov:wasGeneratedBy bb5kbc:pc_21_pyscript .
+bb5kbc:pc_21_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_21_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_21_pyscript prov:endedAtTime '2023-11-07T18:53:05.977623Z'^^xsd:dateTime .
+bb5kbc:pc_21_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_21 rdf:type lado:Location  .
+bb5kbc:loc_21 rdf:type prov:Entity .
+bb5kbc:loc_21 rdf:type fsl:Site .
+bb5kbc:loc_21 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_21 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_21 rdfs:label 'Bochow 6'@de.
+bb5kbc:loc_21 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_21 lado:hasGemarkung 'Bochow'@de.
+bb5kbc:loc_21 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_21 geosparql:hasGeometry bb5kbc:loc_21_geom .
+bb5kbc:loc_21_geom rdf:type sf:Point .
+bb5kbc:loc_21_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0858993739255 51.9635092440072)"^^geosparql:wktLiteral.
+bb5kbc:loc_21 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_21 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_21 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_21 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_21 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_21 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_21 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_21 prov:wasGeneratedBy bb5kbc:loc_21_pyscript .
+bb5kbc:loc_21_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_21_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_21_pyscript prov:endedAtTime '2023-11-07T18:53:05.978619Z'^^xsd:dateTime .
+bb5kbc:loc_21_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_22 rdf:type lado:Place .
+bb5kbc:pc_22 rdf:type prov:Entity .
+bb5kbc:pc_22 rdfs:label 'Bochow 7'@en.
+bb5kbc:pc_22 geosparql:hasGeometry bb5kbc:pc_22_geom .
+bb5kbc:pc_22 lado:hasRepresentativeGeometry bb5kbc:pc_22_geom .
+bb5kbc:pc_22_geom rdf:type sf:Point .
+bb5kbc:pc_22_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0847532115604 51.9647854812076)"^^geosparql:wktLiteral.
+bb5kbc:pc_22 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_22 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_22 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_22 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_22 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_22 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_22 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_22 prov:wasGeneratedBy bb5kbc:pc_22_pyscript .
+bb5kbc:pc_22_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_22_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_22_pyscript prov:endedAtTime '2023-11-07T18:53:05.978619Z'^^xsd:dateTime .
+bb5kbc:pc_22_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_22 rdf:type lado:Location  .
+bb5kbc:loc_22 rdf:type prov:Entity .
+bb5kbc:loc_22 rdf:type fsl:Site .
+bb5kbc:loc_22 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_22 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_22 rdfs:label 'Bochow 7'@de.
+bb5kbc:loc_22 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_22 lado:hasGemarkung 'Bochow'@de.
+bb5kbc:loc_22 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_22 geosparql:hasGeometry bb5kbc:loc_22_geom .
+bb5kbc:loc_22_geom rdf:type sf:Point .
+bb5kbc:loc_22_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0847532115604 51.9647854812076)"^^geosparql:wktLiteral.
+bb5kbc:loc_22 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_22 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_22 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_22 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_22 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_22 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_22 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_22 prov:wasGeneratedBy bb5kbc:loc_22_pyscript .
+bb5kbc:loc_22_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_22_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_22_pyscript prov:endedAtTime '2023-11-07T18:53:05.979618Z'^^xsd:dateTime .
+bb5kbc:loc_22_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_23 rdf:type lado:Place .
+bb5kbc:pc_23 rdf:type prov:Entity .
+bb5kbc:pc_23 rdfs:label 'Groß Kienitz 7'@en.
+bb5kbc:pc_23 geosparql:hasGeometry bb5kbc:pc_23_geom .
+bb5kbc:pc_23 lado:hasRepresentativeGeometry bb5kbc:pc_23_geom .
+bb5kbc:pc_23_geom rdf:type sf:Point .
+bb5kbc:pc_23_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4551075002326 52.3269941183066)"^^geosparql:wktLiteral.
+bb5kbc:pc_23 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_23 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_23 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_23 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_23 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_23 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_23 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_23 prov:wasGeneratedBy bb5kbc:pc_23_pyscript .
+bb5kbc:pc_23_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_23_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_23_pyscript prov:endedAtTime '2023-11-07T18:53:05.980619Z'^^xsd:dateTime .
+bb5kbc:pc_23_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_23 rdf:type lado:Location  .
+bb5kbc:loc_23 rdf:type prov:Entity .
+bb5kbc:loc_23 rdf:type fsl:Site .
+bb5kbc:loc_23 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_23 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_23 rdfs:label 'Groß Kienitz 7'@de.
+bb5kbc:loc_23 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_23 lado:hasGemarkung 'Groß Kienitz'@de.
+bb5kbc:loc_23 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_23 geosparql:hasGeometry bb5kbc:loc_23_geom .
+bb5kbc:loc_23_geom rdf:type sf:Point .
+bb5kbc:loc_23_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4551075002326 52.3269941183066)"^^geosparql:wktLiteral.
+bb5kbc:loc_23 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_23 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_23 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_23 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_23 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_23 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_23 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_23 prov:wasGeneratedBy bb5kbc:loc_23_pyscript .
+bb5kbc:loc_23_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_23_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_23_pyscript prov:endedAtTime '2023-11-07T18:53:05.981626Z'^^xsd:dateTime .
+bb5kbc:loc_23_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_24 rdf:type lado:Place .
+bb5kbc:pc_24 rdf:type prov:Entity .
+bb5kbc:pc_24 rdfs:label 'Jüterbog 31'@en.
+bb5kbc:pc_24 geosparql:hasGeometry bb5kbc:pc_24_geom .
+bb5kbc:pc_24 lado:hasRepresentativeGeometry bb5kbc:pc_24_geom .
+bb5kbc:pc_24_geom rdf:type sf:Point .
+bb5kbc:pc_24_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0492011888627 51.9896677289187)"^^geosparql:wktLiteral.
+bb5kbc:pc_24 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_24 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_24 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_24 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_24 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_24 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_24 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_24 prov:wasGeneratedBy bb5kbc:pc_24_pyscript .
+bb5kbc:pc_24_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_24_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_24_pyscript prov:endedAtTime '2023-11-07T18:53:05.984695Z'^^xsd:dateTime .
+bb5kbc:pc_24_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_24 rdf:type lado:Location  .
+bb5kbc:loc_24 rdf:type prov:Entity .
+bb5kbc:loc_24 rdf:type fsl:Site .
+bb5kbc:loc_24 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_24 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_24 rdfs:label 'Jüterbog 31'@de.
+bb5kbc:loc_24 lado:hasFlurname 'Starenberg / Jüterbog-Damm??'@de.
+bb5kbc:loc_24 lado:hasGemarkung 'Jüterbog'@de.
+bb5kbc:loc_24 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_24 geosparql:hasGeometry bb5kbc:loc_24_geom .
+bb5kbc:loc_24_geom rdf:type sf:Point .
+bb5kbc:loc_24_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0492011888627 51.9896677289187)"^^geosparql:wktLiteral.
+bb5kbc:loc_24 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_24 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_24 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_24 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_24 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_24 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_24 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_24 prov:wasGeneratedBy bb5kbc:loc_24_pyscript .
+bb5kbc:loc_24_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_24_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_24_pyscript prov:endedAtTime '2023-11-07T18:53:05.985712Z'^^xsd:dateTime .
+bb5kbc:loc_24_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_25 rdf:type lado:Place .
+bb5kbc:pc_25 rdf:type prov:Entity .
+bb5kbc:pc_25 rdfs:label 'Rohrbeck 14'@en.
+bb5kbc:pc_25 geosparql:hasGeometry bb5kbc:pc_25_geom .
+bb5kbc:pc_25 lado:hasRepresentativeGeometry bb5kbc:pc_25_geom .
+bb5kbc:pc_25_geom rdf:type sf:Point .
+bb5kbc:pc_25_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0316686141939 51.965663321984)"^^geosparql:wktLiteral.
+bb5kbc:pc_25 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_25 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_25 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_25 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_25 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_25 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_25 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_25 prov:wasGeneratedBy bb5kbc:pc_25_pyscript .
+bb5kbc:pc_25_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_25_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_25_pyscript prov:endedAtTime '2023-11-07T18:53:05.986734Z'^^xsd:dateTime .
+bb5kbc:pc_25_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_25 rdf:type lado:Location  .
+bb5kbc:loc_25 rdf:type prov:Entity .
+bb5kbc:loc_25 rdf:type fsl:Site .
+bb5kbc:loc_25 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_25 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_25 rdfs:label 'Rohrbeck 14'@de.
+bb5kbc:loc_25 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_25 lado:hasGemarkung 'Rohrbeck'@de.
+bb5kbc:loc_25 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_25 geosparql:hasGeometry bb5kbc:loc_25_geom .
+bb5kbc:loc_25_geom rdf:type sf:Point .
+bb5kbc:loc_25_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0316686141939 51.965663321984)"^^geosparql:wktLiteral.
+bb5kbc:loc_25 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_25 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_25 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_25 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_25 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_25 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_25 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_25 prov:wasGeneratedBy bb5kbc:loc_25_pyscript .
+bb5kbc:loc_25_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_25_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_25_pyscript prov:endedAtTime '2023-11-07T18:53:05.986734Z'^^xsd:dateTime .
+bb5kbc:loc_25_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_26 rdf:type lado:Place .
+bb5kbc:pc_26 rdf:type prov:Entity .
+bb5kbc:pc_26 rdfs:label 'Angermünde 41'@en.
+bb5kbc:pc_26 geosparql:hasGeometry bb5kbc:pc_26_geom .
+bb5kbc:pc_26 lado:hasRepresentativeGeometry bb5kbc:pc_26_geom .
+bb5kbc:pc_26_geom rdf:type sf:Point .
+bb5kbc:pc_26_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0133745411872 52.9992823167434)"^^geosparql:wktLiteral.
+bb5kbc:pc_26 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_26 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_26 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_26 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_26 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_26 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_26 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_26 prov:wasGeneratedBy bb5kbc:pc_26_pyscript .
+bb5kbc:pc_26_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_26_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_26_pyscript prov:endedAtTime '2023-11-07T18:53:05.987730Z'^^xsd:dateTime .
+bb5kbc:pc_26_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_26 rdf:type lado:Location  .
+bb5kbc:loc_26 rdf:type prov:Entity .
+bb5kbc:loc_26 rdf:type fsl:Site .
+bb5kbc:loc_26 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_26 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_26 rdfs:label 'Angermünde 41'@de.
+bb5kbc:loc_26 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_26 lado:hasGemarkung 'Angermünde'@de.
+bb5kbc:loc_26 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_26 geosparql:hasGeometry bb5kbc:loc_26_geom .
+bb5kbc:loc_26_geom rdf:type sf:Point .
+bb5kbc:loc_26_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0133745411872 52.9992823167434)"^^geosparql:wktLiteral.
+bb5kbc:loc_26 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_26 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_26 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_26 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_26 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_26 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_26 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_26 prov:wasGeneratedBy bb5kbc:loc_26_pyscript .
+bb5kbc:loc_26_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_26_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_26_pyscript prov:endedAtTime '2023-11-07T18:53:05.987730Z'^^xsd:dateTime .
+bb5kbc:loc_26_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_27 rdf:type lado:Place .
+bb5kbc:pc_27 rdf:type prov:Entity .
+bb5kbc:pc_27 rdfs:label 'Berkholz zu Berkholz-Meyenburg 5'@en.
+bb5kbc:pc_27 geosparql:hasGeometry bb5kbc:pc_27_geom .
+bb5kbc:pc_27 lado:hasRepresentativeGeometry bb5kbc:pc_27_geom .
+bb5kbc:pc_27_geom rdf:type sf:Point .
+bb5kbc:pc_27_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1862300013802 53.0625025101861)"^^geosparql:wktLiteral.
+bb5kbc:pc_27 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_27 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_27 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_27 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_27 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_27 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_27 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_27 prov:wasGeneratedBy bb5kbc:pc_27_pyscript .
+bb5kbc:pc_27_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_27_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_27_pyscript prov:endedAtTime '2023-11-07T18:53:05.988728Z'^^xsd:dateTime .
+bb5kbc:pc_27_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_27 rdf:type lado:Location  .
+bb5kbc:loc_27 rdf:type prov:Entity .
+bb5kbc:loc_27 rdf:type fsl:Site .
+bb5kbc:loc_27 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_27 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_27 rdfs:label 'Berkholz zu Berkholz-Meyenburg 5'@de.
+bb5kbc:loc_27 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_27 lado:hasGemarkung 'Berkholz zu Berkholz-Meyenburg'@de.
+bb5kbc:loc_27 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_27 geosparql:hasGeometry bb5kbc:loc_27_geom .
+bb5kbc:loc_27_geom rdf:type sf:Point .
+bb5kbc:loc_27_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1862300013802 53.0625025101861)"^^geosparql:wktLiteral.
+bb5kbc:loc_27 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_27 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_27 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_27 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_27 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_27 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_27 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_27 prov:wasGeneratedBy bb5kbc:loc_27_pyscript .
+bb5kbc:loc_27_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_27_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_27_pyscript prov:endedAtTime '2023-11-07T18:53:05.988728Z'^^xsd:dateTime .
+bb5kbc:loc_27_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_28 rdf:type lado:Place .
+bb5kbc:pc_28 rdf:type prov:Entity .
+bb5kbc:pc_28 rdfs:label 'Berkholz zu Berkholz-Meyenburg 8'@en.
+bb5kbc:pc_28 geosparql:hasGeometry bb5kbc:pc_28_geom .
+bb5kbc:pc_28 lado:hasRepresentativeGeometry bb5kbc:pc_28_geom .
+bb5kbc:pc_28_geom rdf:type sf:Point .
+bb5kbc:pc_28_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1895328419857 53.0614463027942)"^^geosparql:wktLiteral.
+bb5kbc:pc_28 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_28 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_28 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_28 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_28 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_28 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_28 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_28 prov:wasGeneratedBy bb5kbc:pc_28_pyscript .
+bb5kbc:pc_28_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_28_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_28_pyscript prov:endedAtTime '2023-11-07T18:53:05.988728Z'^^xsd:dateTime .
+bb5kbc:pc_28_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_28 rdf:type lado:Location  .
+bb5kbc:loc_28 rdf:type prov:Entity .
+bb5kbc:loc_28 rdf:type fsl:Site .
+bb5kbc:loc_28 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_28 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_28 rdfs:label 'Berkholz zu Berkholz-Meyenburg 8'@de.
+bb5kbc:loc_28 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_28 lado:hasGemarkung 'Berkholz zu Berkholz-Meyenburg'@de.
+bb5kbc:loc_28 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_28 geosparql:hasGeometry bb5kbc:loc_28_geom .
+bb5kbc:loc_28_geom rdf:type sf:Point .
+bb5kbc:loc_28_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1895328419857 53.0614463027942)"^^geosparql:wktLiteral.
+bb5kbc:loc_28 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_28 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_28 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_28 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_28 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_28 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_28 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_28 prov:wasGeneratedBy bb5kbc:loc_28_pyscript .
+bb5kbc:loc_28_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_28_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_28_pyscript prov:endedAtTime '2023-11-07T18:53:05.989730Z'^^xsd:dateTime .
+bb5kbc:loc_28_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_29 rdf:type lado:Place .
+bb5kbc:pc_29 rdf:type prov:Entity .
+bb5kbc:pc_29 rdfs:label 'Flemsdorf 10'@en.
+bb5kbc:pc_29 geosparql:hasGeometry bb5kbc:pc_29_geom .
+bb5kbc:pc_29 lado:hasRepresentativeGeometry bb5kbc:pc_29_geom .
+bb5kbc:pc_29_geom rdf:type sf:Point .
+bb5kbc:pc_29_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1641122617899 53.0302292598348)"^^geosparql:wktLiteral.
+bb5kbc:pc_29 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_29 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_29 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_29 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_29 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_29 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_29 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_29 prov:wasGeneratedBy bb5kbc:pc_29_pyscript .
+bb5kbc:pc_29_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_29_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_29_pyscript prov:endedAtTime '2023-11-07T18:53:05.990732Z'^^xsd:dateTime .
+bb5kbc:pc_29_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_29 rdf:type lado:Location  .
+bb5kbc:loc_29 rdf:type prov:Entity .
+bb5kbc:loc_29 rdf:type fsl:Site .
+bb5kbc:loc_29 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_29 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_29 rdfs:label 'Flemsdorf 10'@de.
+bb5kbc:loc_29 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_29 lado:hasGemarkung 'Flemsdorf'@de.
+bb5kbc:loc_29 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_29 geosparql:hasGeometry bb5kbc:loc_29_geom .
+bb5kbc:loc_29_geom rdf:type sf:Point .
+bb5kbc:loc_29_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1641122617899 53.0302292598348)"^^geosparql:wktLiteral.
+bb5kbc:loc_29 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_29 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_29 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_29 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_29 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_29 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_29 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_29 prov:wasGeneratedBy bb5kbc:loc_29_pyscript .
+bb5kbc:loc_29_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_29_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_29_pyscript prov:endedAtTime '2023-11-07T18:53:05.990732Z'^^xsd:dateTime .
+bb5kbc:loc_29_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_30 rdf:type lado:Place .
+bb5kbc:pc_30 rdf:type prov:Entity .
+bb5kbc:pc_30 rdfs:label 'Flemsdorf 6/1 (6)'@en.
+bb5kbc:pc_30 geosparql:hasGeometry bb5kbc:pc_30_geom .
+bb5kbc:pc_30 lado:hasRepresentativeGeometry bb5kbc:pc_30_geom .
+bb5kbc:pc_30_geom rdf:type sf:Point .
+bb5kbc:pc_30_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1650907441802 53.0305238006921)"^^geosparql:wktLiteral.
+bb5kbc:pc_30 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_30 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_30 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_30 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_30 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_30 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_30 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_30 prov:wasGeneratedBy bb5kbc:pc_30_pyscript .
+bb5kbc:pc_30_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_30_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_30_pyscript prov:endedAtTime '2023-11-07T18:53:05.991727Z'^^xsd:dateTime .
+bb5kbc:pc_30_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_30 rdf:type lado:Location  .
+bb5kbc:loc_30 rdf:type prov:Entity .
+bb5kbc:loc_30 rdf:type fsl:Site .
+bb5kbc:loc_30 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_30 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_30 rdfs:label 'Flemsdorf 6/1 (6)'@de.
+bb5kbc:loc_30 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_30 lado:hasGemarkung 'Flemsdorf'@de.
+bb5kbc:loc_30 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_30 geosparql:hasGeometry bb5kbc:loc_30_geom .
+bb5kbc:loc_30_geom rdf:type sf:Point .
+bb5kbc:loc_30_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1650907441802 53.0305238006921)"^^geosparql:wktLiteral.
+bb5kbc:loc_30 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_30 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_30 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_30 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_30 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_30 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_30 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_30 prov:wasGeneratedBy bb5kbc:loc_30_pyscript .
+bb5kbc:loc_30_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_30_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_30_pyscript prov:endedAtTime '2023-11-07T18:53:05.991727Z'^^xsd:dateTime .
+bb5kbc:loc_30_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_31 rdf:type lado:Place .
+bb5kbc:pc_31 rdf:type prov:Entity .
+bb5kbc:pc_31 rdfs:label 'Grünow bei Schönermark 17/18 (17)'@en.
+bb5kbc:pc_31 geosparql:hasGeometry bb5kbc:pc_31_geom .
+bb5kbc:pc_31 lado:hasRepresentativeGeometry bb5kbc:pc_31_geom .
+bb5kbc:pc_31_geom rdf:type sf:Point .
+bb5kbc:pc_31_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0752749543883 53.1239629867006)"^^geosparql:wktLiteral.
+bb5kbc:pc_31 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_31 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_31 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_31 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_31 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_31 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_31 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_31 prov:wasGeneratedBy bb5kbc:pc_31_pyscript .
+bb5kbc:pc_31_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_31_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_31_pyscript prov:endedAtTime '2023-11-07T18:53:05.992726Z'^^xsd:dateTime .
+bb5kbc:pc_31_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_31 rdf:type lado:Location  .
+bb5kbc:loc_31 rdf:type prov:Entity .
+bb5kbc:loc_31 rdf:type fsl:Site .
+bb5kbc:loc_31 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_31 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_31 rdfs:label 'Grünow bei Schönermark 17/18 (17)'@de.
+bb5kbc:loc_31 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_31 lado:hasGemarkung 'Grünow bei Schönermark'@de.
+bb5kbc:loc_31 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_31 geosparql:hasGeometry bb5kbc:loc_31_geom .
+bb5kbc:loc_31_geom rdf:type sf:Point .
+bb5kbc:loc_31_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0752749543883 53.1239629867006)"^^geosparql:wktLiteral.
+bb5kbc:loc_31 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_31 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_31 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_31 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_31 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_31 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_31 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_31 prov:wasGeneratedBy bb5kbc:loc_31_pyscript .
+bb5kbc:loc_31_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_31_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_31_pyscript prov:endedAtTime '2023-11-07T18:53:05.992726Z'^^xsd:dateTime .
+bb5kbc:loc_31_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_32 rdf:type lado:Place .
+bb5kbc:pc_32 rdf:type prov:Entity .
+bb5kbc:pc_32 rdfs:label 'Herzsprung 7'@en.
+bb5kbc:pc_32 geosparql:hasGeometry bb5kbc:pc_32_geom .
+bb5kbc:pc_32 lado:hasRepresentativeGeometry bb5kbc:pc_32_geom .
+bb5kbc:pc_32_geom rdf:type sf:Point .
+bb5kbc:pc_32_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0149531909195 52.9986661192959)"^^geosparql:wktLiteral.
+bb5kbc:pc_32 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_32 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_32 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_32 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_32 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_32 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_32 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_32 prov:wasGeneratedBy bb5kbc:pc_32_pyscript .
+bb5kbc:pc_32_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_32_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_32_pyscript prov:endedAtTime '2023-11-07T18:53:05.993728Z'^^xsd:dateTime .
+bb5kbc:pc_32_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_32 rdf:type lado:Location  .
+bb5kbc:loc_32 rdf:type prov:Entity .
+bb5kbc:loc_32 rdf:type fsl:Site .
+bb5kbc:loc_32 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_32 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_32 rdfs:label 'Herzsprung 7'@de.
+bb5kbc:loc_32 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_32 lado:hasGemarkung 'Herzsprung'@de.
+bb5kbc:loc_32 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_32 geosparql:hasGeometry bb5kbc:loc_32_geom .
+bb5kbc:loc_32_geom rdf:type sf:Point .
+bb5kbc:loc_32_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0149531909195 52.9986661192959)"^^geosparql:wktLiteral.
+bb5kbc:loc_32 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_32 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_32 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_32 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_32 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_32 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_32 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_32 prov:wasGeneratedBy bb5kbc:loc_32_pyscript .
+bb5kbc:loc_32_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_32_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_32_pyscript prov:endedAtTime '2023-11-07T18:53:05.994244Z'^^xsd:dateTime .
+bb5kbc:loc_32_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_33 rdf:type lado:Place .
+bb5kbc:pc_33 rdf:type prov:Entity .
+bb5kbc:pc_33 rdfs:label 'Meichow 8'@en.
+bb5kbc:pc_33 geosparql:hasGeometry bb5kbc:pc_33_geom .
+bb5kbc:pc_33 lado:hasRepresentativeGeometry bb5kbc:pc_33_geom .
+bb5kbc:pc_33_geom rdf:type sf:Point .
+bb5kbc:pc_33_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9652498943823 53.1832699725103)"^^geosparql:wktLiteral.
+bb5kbc:pc_33 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_33 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_33 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_33 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_33 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_33 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_33 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_33 prov:wasGeneratedBy bb5kbc:pc_33_pyscript .
+bb5kbc:pc_33_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_33_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_33_pyscript prov:endedAtTime '2023-11-07T18:53:05.995269Z'^^xsd:dateTime .
+bb5kbc:pc_33_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_33 rdf:type lado:Location  .
+bb5kbc:loc_33 rdf:type prov:Entity .
+bb5kbc:loc_33 rdf:type fsl:Site .
+bb5kbc:loc_33 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_33 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_33 rdfs:label 'Meichow 8'@de.
+bb5kbc:loc_33 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_33 lado:hasGemarkung 'Meichow'@de.
+bb5kbc:loc_33 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_33 geosparql:hasGeometry bb5kbc:loc_33_geom .
+bb5kbc:loc_33_geom rdf:type sf:Point .
+bb5kbc:loc_33_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9652498943823 53.1832699725103)"^^geosparql:wktLiteral.
+bb5kbc:loc_33 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_33 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_33 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_33 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_33 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_33 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_33 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_33 prov:wasGeneratedBy bb5kbc:loc_33_pyscript .
+bb5kbc:loc_33_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_33_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_33_pyscript prov:endedAtTime '2023-11-07T18:53:05.995269Z'^^xsd:dateTime .
+bb5kbc:loc_33_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_34 rdf:type lado:Place .
+bb5kbc:pc_34 rdf:type prov:Entity .
+bb5kbc:pc_34 rdfs:label 'Niederlandin 8'@en.
+bb5kbc:pc_34 geosparql:hasGeometry bb5kbc:pc_34_geom .
+bb5kbc:pc_34 lado:hasRepresentativeGeometry bb5kbc:pc_34_geom .
+bb5kbc:pc_34_geom rdf:type sf:Point .
+bb5kbc:pc_34_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1523596505517 53.0554339377783)"^^geosparql:wktLiteral.
+bb5kbc:pc_34 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_34 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_34 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_34 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_34 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_34 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_34 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_34 prov:wasGeneratedBy bb5kbc:pc_34_pyscript .
+bb5kbc:pc_34_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_34_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_34_pyscript prov:endedAtTime '2023-11-07T18:53:05.997266Z'^^xsd:dateTime .
+bb5kbc:pc_34_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_34 rdf:type lado:Location  .
+bb5kbc:loc_34 rdf:type prov:Entity .
+bb5kbc:loc_34 rdf:type fsl:Site .
+bb5kbc:loc_34 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_34 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_34 rdfs:label 'Niederlandin 8'@de.
+bb5kbc:loc_34 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_34 lado:hasGemarkung 'Niederlandin'@de.
+bb5kbc:loc_34 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_34 geosparql:hasGeometry bb5kbc:loc_34_geom .
+bb5kbc:loc_34_geom rdf:type sf:Point .
+bb5kbc:loc_34_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1523596505517 53.0554339377783)"^^geosparql:wktLiteral.
+bb5kbc:loc_34 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_34 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_34 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_34 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_34 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_34 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_34 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_34 prov:wasGeneratedBy bb5kbc:loc_34_pyscript .
+bb5kbc:loc_34_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_34_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_34_pyscript prov:endedAtTime '2023-11-07T18:53:05.999260Z'^^xsd:dateTime .
+bb5kbc:loc_34_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_35 rdf:type lado:Place .
+bb5kbc:pc_35 rdf:type prov:Entity .
+bb5kbc:pc_35 rdfs:label 'Schönfeld bei Prenzlau 11'@en.
+bb5kbc:pc_35 geosparql:hasGeometry bb5kbc:pc_35_geom .
+bb5kbc:pc_35 lado:hasRepresentativeGeometry bb5kbc:pc_35_geom .
+bb5kbc:pc_35_geom rdf:type sf:Point .
+bb5kbc:pc_35_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9636863071334 53.4277586791405)"^^geosparql:wktLiteral.
+bb5kbc:pc_35 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_35 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_35 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_35 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_35 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_35 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_35 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_35 prov:wasGeneratedBy bb5kbc:pc_35_pyscript .
+bb5kbc:pc_35_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_35_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_35_pyscript prov:endedAtTime '2023-11-07T18:53:06.000263Z'^^xsd:dateTime .
+bb5kbc:pc_35_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_35 rdf:type lado:Location  .
+bb5kbc:loc_35 rdf:type prov:Entity .
+bb5kbc:loc_35 rdf:type fsl:Site .
+bb5kbc:loc_35 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_35 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_35 rdfs:label 'Schönfeld bei Prenzlau 11'@de.
+bb5kbc:loc_35 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_35 lado:hasGemarkung 'Schönfeld bei Prenzlau'@de.
+bb5kbc:loc_35 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_35 geosparql:hasGeometry bb5kbc:loc_35_geom .
+bb5kbc:loc_35_geom rdf:type sf:Point .
+bb5kbc:loc_35_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9636863071334 53.4277586791405)"^^geosparql:wktLiteral.
+bb5kbc:loc_35 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_35 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_35 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_35 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_35 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_35 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_35 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_35 prov:wasGeneratedBy bb5kbc:loc_35_pyscript .
+bb5kbc:loc_35_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_35_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_35_pyscript prov:endedAtTime '2023-11-07T18:53:06.001262Z'^^xsd:dateTime .
+bb5kbc:loc_35_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_36 rdf:type lado:Place .
+bb5kbc:pc_36 rdf:type prov:Entity .
+bb5kbc:pc_36 rdfs:label 'Schönwerder 5'@en.
+bb5kbc:pc_36 geosparql:hasGeometry bb5kbc:pc_36_geom .
+bb5kbc:pc_36 lado:hasRepresentativeGeometry bb5kbc:pc_36_geom .
+bb5kbc:pc_36_geom rdf:type sf:Point .
+bb5kbc:pc_36_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.815411741033 53.3874740969454)"^^geosparql:wktLiteral.
+bb5kbc:pc_36 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_36 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_36 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_36 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_36 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_36 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_36 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_36 prov:wasGeneratedBy bb5kbc:pc_36_pyscript .
+bb5kbc:pc_36_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_36_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_36_pyscript prov:endedAtTime '2023-11-07T18:53:06.002265Z'^^xsd:dateTime .
+bb5kbc:pc_36_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_36 rdf:type lado:Location  .
+bb5kbc:loc_36 rdf:type prov:Entity .
+bb5kbc:loc_36 rdf:type fsl:Site .
+bb5kbc:loc_36 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_36 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_36 rdfs:label 'Schönwerder 5'@de.
+bb5kbc:loc_36 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_36 lado:hasGemarkung 'Schönwerder'@de.
+bb5kbc:loc_36 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_36 geosparql:hasGeometry bb5kbc:loc_36_geom .
+bb5kbc:loc_36_geom rdf:type sf:Point .
+bb5kbc:loc_36_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.815411741033 53.3874740969454)"^^geosparql:wktLiteral.
+bb5kbc:loc_36 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_36 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_36 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_36 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_36 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_36 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_36 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_36 prov:wasGeneratedBy bb5kbc:loc_36_pyscript .
+bb5kbc:loc_36_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_36_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_36_pyscript prov:endedAtTime '2023-11-07T18:53:06.002265Z'^^xsd:dateTime .
+bb5kbc:loc_36_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_37 rdf:type lado:Place .
+bb5kbc:pc_37 rdf:type prov:Entity .
+bb5kbc:pc_37 rdfs:label 'Platkow 13'@en.
+bb5kbc:pc_37 geosparql:hasGeometry bb5kbc:pc_37_geom .
+bb5kbc:pc_37 lado:hasRepresentativeGeometry bb5kbc:pc_37_geom .
+bb5kbc:pc_37_geom rdf:type sf:Point .
+bb5kbc:pc_37_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.331376484099 52.6057790432099)"^^geosparql:wktLiteral.
+bb5kbc:pc_37 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_37 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_37 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_37 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_37 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_37 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_37 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_37 prov:wasGeneratedBy bb5kbc:pc_37_pyscript .
+bb5kbc:pc_37_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_37_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_37_pyscript prov:endedAtTime '2023-11-07T18:53:06.003781Z'^^xsd:dateTime .
+bb5kbc:pc_37_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_37 rdf:type lado:Location  .
+bb5kbc:loc_37 rdf:type prov:Entity .
+bb5kbc:loc_37 rdf:type fsl:Site .
+bb5kbc:loc_37 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_37 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_37 rdfs:label 'Platkow 13'@de.
+bb5kbc:loc_37 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_37 lado:hasGemarkung 'Gusow-Platkow'@de.
+bb5kbc:loc_37 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_37 geosparql:hasGeometry bb5kbc:loc_37_geom .
+bb5kbc:loc_37_geom rdf:type sf:Point .
+bb5kbc:loc_37_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.331376484099 52.6057790432099)"^^geosparql:wktLiteral.
+bb5kbc:loc_37 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_37 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_37 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_37 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_37 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_37 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_37 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_37 prov:wasGeneratedBy bb5kbc:loc_37_pyscript .
+bb5kbc:loc_37_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_37_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_37_pyscript prov:endedAtTime '2023-11-07T18:53:06.003781Z'^^xsd:dateTime .
+bb5kbc:loc_37_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_38 rdf:type lado:Place .
+bb5kbc:pc_38 rdf:type prov:Entity .
+bb5kbc:pc_38 rdfs:label 'Cremzow 5'@en.
+bb5kbc:pc_38 geosparql:hasGeometry bb5kbc:pc_38_geom .
+bb5kbc:pc_38 lado:hasRepresentativeGeometry bb5kbc:pc_38_geom .
+bb5kbc:pc_38_geom rdf:type sf:Point .
+bb5kbc:pc_38_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_38 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_38 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_38 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_38 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_38 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_38 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_38 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_38 prov:wasGeneratedBy bb5kbc:pc_38_pyscript .
+bb5kbc:pc_38_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_38_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_38_pyscript prov:endedAtTime '2023-11-07T18:53:06.004799Z'^^xsd:dateTime .
+bb5kbc:pc_38_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_38 rdf:type lado:Location  .
+bb5kbc:loc_38 rdf:type prov:Entity .
+bb5kbc:loc_38 rdf:type fsl:Site .
+bb5kbc:loc_38 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_38 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_38 rdfs:label 'Cremzow 5'@de.
+bb5kbc:loc_38 lado:hasFlurname 'Rehberge'@de.
+bb5kbc:loc_38 lado:hasGemarkung 'Cremzow'@de.
+bb5kbc:loc_38 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_38 geosparql:hasGeometry bb5kbc:loc_38_geom .
+bb5kbc:loc_38_geom rdf:type sf:Point .
+bb5kbc:loc_38_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_38 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_38 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_38 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_38 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_38 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_38 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_38 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_38 prov:wasGeneratedBy bb5kbc:loc_38_pyscript .
+bb5kbc:loc_38_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_38_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_38_pyscript prov:endedAtTime '2023-11-07T18:53:06.004799Z'^^xsd:dateTime .
+bb5kbc:loc_38_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_39 rdf:type lado:Place .
+bb5kbc:pc_39 rdf:type prov:Entity .
+bb5kbc:pc_39 rdfs:label 'Hohenbrück 2'@en.
+bb5kbc:pc_39 geosparql:hasGeometry bb5kbc:pc_39_geom .
+bb5kbc:pc_39 lado:hasRepresentativeGeometry bb5kbc:pc_39_geom .
+bb5kbc:pc_39_geom rdf:type sf:Point .
+bb5kbc:pc_39_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_39 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_39 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_39 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_39 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_39 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_39 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_39 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_39 prov:wasGeneratedBy bb5kbc:pc_39_pyscript .
+bb5kbc:pc_39_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_39_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_39_pyscript prov:endedAtTime '2023-11-07T18:53:06.005798Z'^^xsd:dateTime .
+bb5kbc:pc_39_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_39 rdf:type lado:Location  .
+bb5kbc:loc_39 rdf:type prov:Entity .
+bb5kbc:loc_39 rdf:type fsl:Site .
+bb5kbc:loc_39 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_39 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_39 rdfs:label 'Hohenbrück 2'@de.
+bb5kbc:loc_39 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_39 lado:hasGemarkung 'Hohenbrück'@de.
+bb5kbc:loc_39 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_39 geosparql:hasGeometry bb5kbc:loc_39_geom .
+bb5kbc:loc_39_geom rdf:type sf:Point .
+bb5kbc:loc_39_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_39 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_39 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_39 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_39 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_39 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_39 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_39 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_39 prov:wasGeneratedBy bb5kbc:loc_39_pyscript .
+bb5kbc:loc_39_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_39_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_39_pyscript prov:endedAtTime '2023-11-07T18:53:06.005798Z'^^xsd:dateTime .
+bb5kbc:loc_39_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_40 rdf:type lado:Place .
+bb5kbc:pc_40 rdf:type prov:Entity .
+bb5kbc:pc_40 rdfs:label 'Kruszynek 6'@en.
+bb5kbc:pc_40 geosparql:hasGeometry bb5kbc:pc_40_geom .
+bb5kbc:pc_40 lado:hasRepresentativeGeometry bb5kbc:pc_40_geom .
+bb5kbc:pc_40_geom rdf:type sf:Point .
+bb5kbc:pc_40_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.9947200232498 52.5665872011118)"^^geosparql:wktLiteral.
+bb5kbc:pc_40 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_40 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_40 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_40 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_40 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_40 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_40 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_40 prov:wasGeneratedBy bb5kbc:pc_40_pyscript .
+bb5kbc:pc_40_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_40_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_40_pyscript prov:endedAtTime '2023-11-07T18:53:06.006801Z'^^xsd:dateTime .
+bb5kbc:pc_40_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_40 rdf:type lado:Location  .
+bb5kbc:loc_40 rdf:type prov:Entity .
+bb5kbc:loc_40 rdf:type fsl:Site .
+bb5kbc:loc_40 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_40 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_40 rdfs:label 'Kruszynek 6'@de.
+bb5kbc:loc_40 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_40 lado:hasGemarkung 'Kruszynek'@de.
+bb5kbc:loc_40 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_40 geosparql:hasGeometry bb5kbc:loc_40_geom .
+bb5kbc:loc_40_geom rdf:type sf:Point .
+bb5kbc:loc_40_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.9947200232498 52.5665872011118)"^^geosparql:wktLiteral.
+bb5kbc:loc_40 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_40 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_40 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_40 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_40 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_40 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_40 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_40 prov:wasGeneratedBy bb5kbc:loc_40_pyscript .
+bb5kbc:loc_40_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_40_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_40_pyscript prov:endedAtTime '2023-11-07T18:53:06.006801Z'^^xsd:dateTime .
+bb5kbc:loc_40_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_41 rdf:type lado:Place .
+bb5kbc:pc_41 rdf:type prov:Entity .
+bb5kbc:pc_41 rdfs:label 'Racot 18'@en.
+bb5kbc:pc_41 geosparql:hasGeometry bb5kbc:pc_41_geom .
+bb5kbc:pc_41 lado:hasRepresentativeGeometry bb5kbc:pc_41_geom .
+bb5kbc:pc_41_geom rdf:type sf:Point .
+bb5kbc:pc_41_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.7086330880121 52.0574297734268)"^^geosparql:wktLiteral.
+bb5kbc:pc_41 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_41 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_41 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_41 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_41 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_41 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_41 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_41 prov:wasGeneratedBy bb5kbc:pc_41_pyscript .
+bb5kbc:pc_41_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_41_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_41_pyscript prov:endedAtTime '2023-11-07T18:53:06.006801Z'^^xsd:dateTime .
+bb5kbc:pc_41_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_41 rdf:type lado:Location  .
+bb5kbc:loc_41 rdf:type prov:Entity .
+bb5kbc:loc_41 rdf:type fsl:Site .
+bb5kbc:loc_41 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_41 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_41 rdfs:label 'Racot 18'@de.
+bb5kbc:loc_41 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_41 lado:hasGemarkung 'Racot'@de.
+bb5kbc:loc_41 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_41 geosparql:hasGeometry bb5kbc:loc_41_geom .
+bb5kbc:loc_41_geom rdf:type sf:Point .
+bb5kbc:loc_41_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.7086330880121 52.0574297734268)"^^geosparql:wktLiteral.
+bb5kbc:loc_41 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_41 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_41 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_41 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_41 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_41 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_41 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_41 prov:wasGeneratedBy bb5kbc:loc_41_pyscript .
+bb5kbc:loc_41_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_41_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_41_pyscript prov:endedAtTime '2023-11-07T18:53:06.007801Z'^^xsd:dateTime .
+bb5kbc:loc_41_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_42 rdf:type lado:Place .
+bb5kbc:pc_42 rdf:type prov:Entity .
+bb5kbc:pc_42 rdfs:label 'Zwenkau-Eythra'@en.
+bb5kbc:pc_42 geosparql:hasGeometry bb5kbc:pc_42_geom .
+bb5kbc:pc_42 lado:hasRepresentativeGeometry bb5kbc:pc_42_geom .
+bb5kbc:pc_42_geom rdf:type sf:Point .
+bb5kbc:pc_42_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.2961222325768 51.2351275316024)"^^geosparql:wktLiteral.
+bb5kbc:pc_42 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_42 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_42 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_42 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_42 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_42 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_42 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_42 prov:wasGeneratedBy bb5kbc:pc_42_pyscript .
+bb5kbc:pc_42_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_42_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_42_pyscript prov:endedAtTime '2023-11-07T18:53:06.007801Z'^^xsd:dateTime .
+bb5kbc:pc_42_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_42 rdf:type lado:Location  .
+bb5kbc:loc_42 rdf:type prov:Entity .
+bb5kbc:loc_42 rdf:type fsl:Site .
+bb5kbc:loc_42 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_42 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_42 rdfs:label 'Zwenkau-Eythra'@de.
+bb5kbc:loc_42 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_42 lado:hasGemarkung 'Eythra'@de.
+bb5kbc:loc_42 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_42 geosparql:hasGeometry bb5kbc:loc_42_geom .
+bb5kbc:loc_42_geom rdf:type sf:Point .
+bb5kbc:loc_42_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.2961222325768 51.2351275316024)"^^geosparql:wktLiteral.
+bb5kbc:loc_42 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_42 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_42 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_42 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_42 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_42 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_42 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_42 prov:wasGeneratedBy bb5kbc:loc_42_pyscript .
+bb5kbc:loc_42_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_42_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_42_pyscript prov:endedAtTime '2023-11-07T18:53:06.008800Z'^^xsd:dateTime .
+bb5kbc:loc_42_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_43 rdf:type lado:Place .
+bb5kbc:pc_43 rdf:type prov:Entity .
+bb5kbc:pc_43 rdfs:label 'Quedlinburg KGA 1'@en.
+bb5kbc:pc_43 geosparql:hasGeometry bb5kbc:pc_43_geom .
+bb5kbc:pc_43 lado:hasRepresentativeGeometry bb5kbc:pc_43_geom .
+bb5kbc:pc_43_geom rdf:type sf:Point .
+bb5kbc:pc_43_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1534869240729 51.7846213076888)"^^geosparql:wktLiteral.
+bb5kbc:pc_43 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_43 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_43 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_43 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_43 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_43 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_43 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_43 prov:wasGeneratedBy bb5kbc:pc_43_pyscript .
+bb5kbc:pc_43_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_43_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_43_pyscript prov:endedAtTime '2023-11-07T18:53:06.008800Z'^^xsd:dateTime .
+bb5kbc:pc_43_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_43 rdf:type lado:Location  .
+bb5kbc:loc_43 rdf:type prov:Entity .
+bb5kbc:loc_43 rdf:type fsl:Site .
+bb5kbc:loc_43 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_43 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_43 rdfs:label 'Quedlinburg KGA 1'@de.
+bb5kbc:loc_43 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_43 lado:hasGemarkung 'Quedlinburg'@de.
+bb5kbc:loc_43 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_43 geosparql:hasGeometry bb5kbc:loc_43_geom .
+bb5kbc:loc_43_geom rdf:type sf:Point .
+bb5kbc:loc_43_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1534869240729 51.7846213076888)"^^geosparql:wktLiteral.
+bb5kbc:loc_43 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_43 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_43 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_43 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_43 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_43 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_43 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_43 prov:wasGeneratedBy bb5kbc:loc_43_pyscript .
+bb5kbc:loc_43_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_43_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_43_pyscript prov:endedAtTime '2023-11-07T18:53:06.009796Z'^^xsd:dateTime .
+bb5kbc:loc_43_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_44 rdf:type lado:Place .
+bb5kbc:pc_44 rdf:type prov:Entity .
+bb5kbc:pc_44 rdfs:label 'Quedlinburg KGA 2'@en.
+bb5kbc:pc_44 geosparql:hasGeometry bb5kbc:pc_44_geom .
+bb5kbc:pc_44 lado:hasRepresentativeGeometry bb5kbc:pc_44_geom .
+bb5kbc:pc_44_geom rdf:type sf:Point .
+bb5kbc:pc_44_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1566059319996 51.7858029144234)"^^geosparql:wktLiteral.
+bb5kbc:pc_44 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_44 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_44 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_44 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_44 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_44 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_44 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_44 prov:wasGeneratedBy bb5kbc:pc_44_pyscript .
+bb5kbc:pc_44_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_44_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_44_pyscript prov:endedAtTime '2023-11-07T18:53:06.009796Z'^^xsd:dateTime .
+bb5kbc:pc_44_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_44 rdf:type lado:Location  .
+bb5kbc:loc_44 rdf:type prov:Entity .
+bb5kbc:loc_44 rdf:type fsl:Site .
+bb5kbc:loc_44 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_44 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_44 rdfs:label 'Quedlinburg KGA 2'@de.
+bb5kbc:loc_44 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_44 lado:hasGemarkung 'Quedlinburg'@de.
+bb5kbc:loc_44 lado:hasLocationType 'Siedlung / Befestigung u.ä.'@de.
+bb5kbc:loc_44 geosparql:hasGeometry bb5kbc:loc_44_geom .
+bb5kbc:loc_44_geom rdf:type sf:Point .
+bb5kbc:loc_44_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1566059319996 51.7858029144234)"^^geosparql:wktLiteral.
+bb5kbc:loc_44 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_44 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_44 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_44 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_44 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_44 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_44 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_44 prov:wasGeneratedBy bb5kbc:loc_44_pyscript .
+bb5kbc:loc_44_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_44_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_44_pyscript prov:endedAtTime '2023-11-07T18:53:06.010845Z'^^xsd:dateTime .
+bb5kbc:loc_44_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_45 rdf:type lado:Place .
+bb5kbc:pc_45 rdf:type prov:Entity .
+bb5kbc:pc_45 rdfs:label 'Schiaß 1'@en.
+bb5kbc:pc_45 geosparql:hasGeometry bb5kbc:pc_45_geom .
+bb5kbc:pc_45 lado:hasRepresentativeGeometry bb5kbc:pc_45_geom .
+bb5kbc:pc_45_geom rdf:type sf:Point .
+bb5kbc:pc_45_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.1416364677636 52.2612893628189)"^^geosparql:wktLiteral.
+bb5kbc:pc_45 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_45 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_45 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_45 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_45 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_45 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_45 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_45 prov:wasGeneratedBy bb5kbc:pc_45_pyscript .
+bb5kbc:pc_45_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_45_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_45_pyscript prov:endedAtTime '2023-11-07T18:53:06.010845Z'^^xsd:dateTime .
+bb5kbc:pc_45_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_45 rdf:type lado:Location  .
+bb5kbc:loc_45 rdf:type prov:Entity .
+bb5kbc:loc_45 rdf:type fsl:Site .
+bb5kbc:loc_45 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_45 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_45 rdfs:label 'Schiaß 1'@de.
+bb5kbc:loc_45 lado:hasFlurname 'Windmühlenhügel'@de.
+bb5kbc:loc_45 lado:hasGemarkung 'Schiaß 1'@de.
+bb5kbc:loc_45 lado:hasLocationType 'Einzel-/Lesefunde'@de.
+bb5kbc:loc_45 geosparql:hasGeometry bb5kbc:loc_45_geom .
+bb5kbc:loc_45_geom rdf:type sf:Point .
+bb5kbc:loc_45_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.1416364677636 52.2612893628189)"^^geosparql:wktLiteral.
+bb5kbc:loc_45 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_45 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_45 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_45 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_45 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_45 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_45 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_45 prov:wasGeneratedBy bb5kbc:loc_45_pyscript .
+bb5kbc:loc_45_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_45_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_45_pyscript prov:endedAtTime '2023-11-07T18:53:06.011808Z'^^xsd:dateTime .
+bb5kbc:loc_45_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_46 rdf:type lado:Place .
+bb5kbc:pc_46 rdf:type prov:Entity .
+bb5kbc:pc_46 rdfs:label 'Karsko/Schöningsburg'@en.
+bb5kbc:pc_46 geosparql:hasGeometry bb5kbc:pc_46_geom .
+bb5kbc:pc_46 lado:hasRepresentativeGeometry bb5kbc:pc_46_geom .
+bb5kbc:pc_46_geom rdf:type sf:Point .
+bb5kbc:pc_46_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_46 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_46 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_46 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_46 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_46 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_46 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_46 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_46 prov:wasGeneratedBy bb5kbc:pc_46_pyscript .
+bb5kbc:pc_46_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_46_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_46_pyscript prov:endedAtTime '2023-11-07T18:53:06.012800Z'^^xsd:dateTime .
+bb5kbc:pc_46_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_46 rdf:type lado:Location  .
+bb5kbc:loc_46 rdf:type prov:Entity .
+bb5kbc:loc_46 rdf:type fsl:Site .
+bb5kbc:loc_46 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_46 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_46 rdfs:label 'Karsko/Schöningsburg'@de.
+bb5kbc:loc_46 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_46 lado:hasGemarkung 'Karsko/Schöningsburg'@de.
+bb5kbc:loc_46 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_46 geosparql:hasGeometry bb5kbc:loc_46_geom .
+bb5kbc:loc_46_geom rdf:type sf:Point .
+bb5kbc:loc_46_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_46 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_46 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_46 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_46 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_46 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_46 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_46 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_46 prov:wasGeneratedBy bb5kbc:loc_46_pyscript .
+bb5kbc:loc_46_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_46_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_46_pyscript prov:endedAtTime '2023-11-07T18:53:06.013800Z'^^xsd:dateTime .
+bb5kbc:loc_46_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_47 rdf:type lado:Place .
+bb5kbc:pc_47 rdf:type prov:Entity .
+bb5kbc:pc_47 rdfs:label 'Kerkow 1'@en.
+bb5kbc:pc_47 geosparql:hasGeometry bb5kbc:pc_47_geom .
+bb5kbc:pc_47 lado:hasRepresentativeGeometry bb5kbc:pc_47_geom .
+bb5kbc:pc_47_geom rdf:type sf:Point .
+bb5kbc:pc_47_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_47 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_47 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_47 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_47 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_47 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_47 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_47 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_47 prov:wasGeneratedBy bb5kbc:pc_47_pyscript .
+bb5kbc:pc_47_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_47_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_47_pyscript prov:endedAtTime '2023-11-07T18:53:06.015350Z'^^xsd:dateTime .
+bb5kbc:pc_47_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_47 rdf:type lado:Location  .
+bb5kbc:loc_47 rdf:type prov:Entity .
+bb5kbc:loc_47 rdf:type fsl:Site .
+bb5kbc:loc_47 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_47 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_47 rdfs:label 'Kerkow 1'@de.
+bb5kbc:loc_47 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_47 lado:hasGemarkung 'Kerkow 1'@de.
+bb5kbc:loc_47 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_47 geosparql:hasGeometry bb5kbc:loc_47_geom .
+bb5kbc:loc_47_geom rdf:type sf:Point .
+bb5kbc:loc_47_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_47 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_47 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_47 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_47 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_47 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_47 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_47 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_47 prov:wasGeneratedBy bb5kbc:loc_47_pyscript .
+bb5kbc:loc_47_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_47_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_47_pyscript prov:endedAtTime '2023-11-07T18:53:06.016343Z'^^xsd:dateTime .
+bb5kbc:loc_47_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_48 rdf:type lado:Place .
+bb5kbc:pc_48 rdf:type prov:Entity .
+bb5kbc:pc_48 rdfs:label 'Schönweide 19'@en.
+bb5kbc:pc_48 geosparql:hasGeometry bb5kbc:pc_48_geom .
+bb5kbc:pc_48 lado:hasRepresentativeGeometry bb5kbc:pc_48_geom .
+bb5kbc:pc_48_geom rdf:type sf:Point .
+bb5kbc:pc_48_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_48 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_48 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_48 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_48 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_48 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_48 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_48 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_48 prov:wasGeneratedBy bb5kbc:pc_48_pyscript .
+bb5kbc:pc_48_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_48_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_48_pyscript prov:endedAtTime '2023-11-07T18:53:06.016343Z'^^xsd:dateTime .
+bb5kbc:pc_48_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_48 rdf:type lado:Location  .
+bb5kbc:loc_48 rdf:type prov:Entity .
+bb5kbc:loc_48 rdf:type fsl:Site .
+bb5kbc:loc_48 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_48 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_48 rdfs:label 'Schönweide 19'@de.
+bb5kbc:loc_48 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_48 lado:hasGemarkung 'Schönweide 19'@de.
+bb5kbc:loc_48 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_48 geosparql:hasGeometry bb5kbc:loc_48_geom .
+bb5kbc:loc_48_geom rdf:type sf:Point .
+bb5kbc:loc_48_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_48 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_48 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_48 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_48 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_48 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_48 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_48 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_48 prov:wasGeneratedBy bb5kbc:loc_48_pyscript .
+bb5kbc:loc_48_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_48_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_48_pyscript prov:endedAtTime '2023-11-07T18:53:06.016343Z'^^xsd:dateTime .
+bb5kbc:loc_48_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_49 rdf:type lado:Place .
+bb5kbc:pc_49 rdf:type prov:Entity .
+bb5kbc:pc_49 rdfs:label 'Zöllmersdorf'@en.
+bb5kbc:pc_49 geosparql:hasGeometry bb5kbc:pc_49_geom .
+bb5kbc:pc_49 lado:hasRepresentativeGeometry bb5kbc:pc_49_geom .
+bb5kbc:pc_49_geom rdf:type sf:Point .
+bb5kbc:pc_49_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_49 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_49 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_49 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_49 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_49 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_49 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_49 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_49 prov:wasGeneratedBy bb5kbc:pc_49_pyscript .
+bb5kbc:pc_49_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_49_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_49_pyscript prov:endedAtTime '2023-11-07T18:53:06.017707Z'^^xsd:dateTime .
+bb5kbc:pc_49_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_49 rdf:type lado:Location  .
+bb5kbc:loc_49 rdf:type prov:Entity .
+bb5kbc:loc_49 rdf:type fsl:Site .
+bb5kbc:loc_49 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_49 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_49 rdfs:label 'Zöllmersdorf'@de.
+bb5kbc:loc_49 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_49 lado:hasGemarkung 'Zöllmersdorf'@de.
+bb5kbc:loc_49 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_49 geosparql:hasGeometry bb5kbc:loc_49_geom .
+bb5kbc:loc_49_geom rdf:type sf:Point .
+bb5kbc:loc_49_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_49 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_49 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_49 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_49 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_49 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_49 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_49 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_49 prov:wasGeneratedBy bb5kbc:loc_49_pyscript .
+bb5kbc:loc_49_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_49_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_49_pyscript prov:endedAtTime '2023-11-07T18:53:06.018734Z'^^xsd:dateTime .
+bb5kbc:loc_49_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_50 rdf:type lado:Place .
+bb5kbc:pc_50 rdf:type prov:Entity .
+bb5kbc:pc_50 rdfs:label 'Nowe Objezierze 7'@en.
+bb5kbc:pc_50 geosparql:hasGeometry bb5kbc:pc_50_geom .
+bb5kbc:pc_50 lado:hasRepresentativeGeometry bb5kbc:pc_50_geom .
+bb5kbc:pc_50_geom rdf:type sf:Point .
+bb5kbc:pc_50_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_50 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_50 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_50 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_50 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_50 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_50 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_50 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_50 prov:wasGeneratedBy bb5kbc:pc_50_pyscript .
+bb5kbc:pc_50_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_50_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_50_pyscript prov:endedAtTime '2023-11-07T18:53:06.019734Z'^^xsd:dateTime .
+bb5kbc:pc_50_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_50 rdf:type lado:Location  .
+bb5kbc:loc_50 rdf:type prov:Entity .
+bb5kbc:loc_50 rdf:type fsl:Site .
+bb5kbc:loc_50 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_50 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_50 rdfs:label 'Nowe Objezierze 7'@de.
+bb5kbc:loc_50 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_50 lado:hasGemarkung 'Nowe Objezierze 7'@de.
+bb5kbc:loc_50 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_50 geosparql:hasGeometry bb5kbc:loc_50_geom .
+bb5kbc:loc_50_geom rdf:type sf:Point .
+bb5kbc:loc_50_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_50 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_50 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_50 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_50 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_50 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_50 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_50 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_50 prov:wasGeneratedBy bb5kbc:loc_50_pyscript .
+bb5kbc:loc_50_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_50_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_50_pyscript prov:endedAtTime '2023-11-07T18:53:06.019734Z'^^xsd:dateTime .
+bb5kbc:loc_50_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_51 rdf:type lado:Place .
+bb5kbc:pc_51 rdf:type prov:Entity .
+bb5kbc:pc_51 rdfs:label 'Szczecin-Gumieńce 17b'@en.
+bb5kbc:pc_51 geosparql:hasGeometry bb5kbc:pc_51_geom .
+bb5kbc:pc_51 lado:hasRepresentativeGeometry bb5kbc:pc_51_geom .
+bb5kbc:pc_51_geom rdf:type sf:Point .
+bb5kbc:pc_51_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_51 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_51 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_51 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_51 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_51 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_51 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_51 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_51 prov:wasGeneratedBy bb5kbc:pc_51_pyscript .
+bb5kbc:pc_51_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_51_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_51_pyscript prov:endedAtTime '2023-11-07T18:53:06.020732Z'^^xsd:dateTime .
+bb5kbc:pc_51_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_51 rdf:type lado:Location  .
+bb5kbc:loc_51 rdf:type prov:Entity .
+bb5kbc:loc_51 rdf:type fsl:Site .
+bb5kbc:loc_51 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_51 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_51 rdfs:label 'Szczecin-Gumieńce 17b'@de.
+bb5kbc:loc_51 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_51 lado:hasGemarkung 'Szczecin-Gumieńce 17b'@de.
+bb5kbc:loc_51 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_51 geosparql:hasGeometry bb5kbc:loc_51_geom .
+bb5kbc:loc_51_geom rdf:type sf:Point .
+bb5kbc:loc_51_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_51 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_51 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_51 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_51 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_51 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_51 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_51 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_51 prov:wasGeneratedBy bb5kbc:loc_51_pyscript .
+bb5kbc:loc_51_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_51_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_51_pyscript prov:endedAtTime '2023-11-07T18:53:06.020732Z'^^xsd:dateTime .
+bb5kbc:loc_51_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_52 rdf:type lado:Place .
+bb5kbc:pc_52 rdf:type prov:Entity .
+bb5kbc:pc_52 rdfs:label 'Gartz ?'@en.
+bb5kbc:pc_52 geosparql:hasGeometry bb5kbc:pc_52_geom .
+bb5kbc:pc_52 lado:hasRepresentativeGeometry bb5kbc:pc_52_geom .
+bb5kbc:pc_52_geom rdf:type sf:Point .
+bb5kbc:pc_52_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_52 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_52 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_52 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_52 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_52 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_52 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_52 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_52 prov:wasGeneratedBy bb5kbc:pc_52_pyscript .
+bb5kbc:pc_52_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_52_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_52_pyscript prov:endedAtTime '2023-11-07T18:53:06.020732Z'^^xsd:dateTime .
+bb5kbc:pc_52_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_52 rdf:type lado:Location  .
+bb5kbc:loc_52 rdf:type prov:Entity .
+bb5kbc:loc_52 rdf:type fsl:Site .
+bb5kbc:loc_52 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_52 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_52 rdfs:label 'Gartz ?'@de.
+bb5kbc:loc_52 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_52 lado:hasGemarkung 'Gartz ?'@de.
+bb5kbc:loc_52 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_52 geosparql:hasGeometry bb5kbc:loc_52_geom .
+bb5kbc:loc_52_geom rdf:type sf:Point .
+bb5kbc:loc_52_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_52 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_52 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_52 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_52 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_52 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_52 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_52 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_52 prov:wasGeneratedBy bb5kbc:loc_52_pyscript .
+bb5kbc:loc_52_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_52_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_52_pyscript prov:endedAtTime '2023-11-07T18:53:06.021738Z'^^xsd:dateTime .
+bb5kbc:loc_52_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_53 rdf:type lado:Place .
+bb5kbc:pc_53 rdf:type prov:Entity .
+bb5kbc:pc_53 rdfs:label 'Gramzow 23'@en.
+bb5kbc:pc_53 geosparql:hasGeometry bb5kbc:pc_53_geom .
+bb5kbc:pc_53 lado:hasRepresentativeGeometry bb5kbc:pc_53_geom .
+bb5kbc:pc_53_geom rdf:type sf:Point .
+bb5kbc:pc_53_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_53 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_53 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_53 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_53 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_53 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_53 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_53 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_53 prov:wasGeneratedBy bb5kbc:pc_53_pyscript .
+bb5kbc:pc_53_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_53_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_53_pyscript prov:endedAtTime '2023-11-07T18:53:06.022730Z'^^xsd:dateTime .
+bb5kbc:pc_53_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_53 rdf:type lado:Location  .
+bb5kbc:loc_53 rdf:type prov:Entity .
+bb5kbc:loc_53 rdf:type fsl:Site .
+bb5kbc:loc_53 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_53 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_53 rdfs:label 'Gramzow 23'@de.
+bb5kbc:loc_53 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_53 lado:hasGemarkung 'Gramzow 23'@de.
+bb5kbc:loc_53 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_53 geosparql:hasGeometry bb5kbc:loc_53_geom .
+bb5kbc:loc_53_geom rdf:type sf:Point .
+bb5kbc:loc_53_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_53 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_53 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_53 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_53 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_53 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_53 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_53 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_53 prov:wasGeneratedBy bb5kbc:loc_53_pyscript .
+bb5kbc:loc_53_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_53_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_53_pyscript prov:endedAtTime '2023-11-07T18:53:06.022730Z'^^xsd:dateTime .
+bb5kbc:loc_53_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_54 rdf:type lado:Place .
+bb5kbc:pc_54 rdf:type prov:Entity .
+bb5kbc:pc_54 rdfs:label 'Friesack 4'@en.
+bb5kbc:pc_54 geosparql:hasGeometry bb5kbc:pc_54_geom .
+bb5kbc:pc_54 lado:hasRepresentativeGeometry bb5kbc:pc_54_geom .
+bb5kbc:pc_54_geom rdf:type sf:Point .
+bb5kbc:pc_54_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_54 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_54 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_54 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_54 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_54 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_54 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_54 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_54 prov:wasGeneratedBy bb5kbc:pc_54_pyscript .
+bb5kbc:pc_54_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_54_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_54_pyscript prov:endedAtTime '2023-11-07T18:53:06.023730Z'^^xsd:dateTime .
+bb5kbc:pc_54_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_54 rdf:type lado:Location  .
+bb5kbc:loc_54 rdf:type prov:Entity .
+bb5kbc:loc_54 rdf:type fsl:Site .
+bb5kbc:loc_54 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_54 lado:hasType lado:ExcavationSite  .
+bb5kbc:loc_54 rdfs:label 'Friesack 4'@de.
+bb5kbc:loc_54 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_54 lado:hasGemarkung 'Friesack 4'@de.
+bb5kbc:loc_54 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_54 geosparql:hasGeometry bb5kbc:loc_54_geom .
+bb5kbc:loc_54_geom rdf:type sf:Point .
+bb5kbc:loc_54_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_54 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_54 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_54 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_54 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_54 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_54 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_54 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_54 prov:wasGeneratedBy bb5kbc:loc_54_pyscript .
+bb5kbc:loc_54_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_54_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_54_pyscript prov:endedAtTime '2023-11-07T18:53:06.023730Z'^^xsd:dateTime .
+bb5kbc:loc_54_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_55 rdf:type lado:Place .
+bb5kbc:pc_55 rdf:type prov:Entity .
+bb5kbc:pc_55 rdfs:label 'Steckelsdorf 12'@en.
+bb5kbc:pc_55 geosparql:hasGeometry bb5kbc:pc_55_geom .
+bb5kbc:pc_55 lado:hasRepresentativeGeometry bb5kbc:pc_55_geom .
+bb5kbc:pc_55_geom rdf:type sf:Point .
+bb5kbc:pc_55_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_55 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_55 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_55 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_55 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_55 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_55 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_55 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_55 prov:wasGeneratedBy bb5kbc:pc_55_pyscript .
+bb5kbc:pc_55_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_55_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_55_pyscript prov:endedAtTime '2023-11-07T18:53:06.024240Z'^^xsd:dateTime .
+bb5kbc:pc_55_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_55 rdf:type lado:Location  .
+bb5kbc:loc_55 rdf:type prov:Entity .
+bb5kbc:loc_55 rdf:type fsl:Site .
+bb5kbc:loc_55 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_55 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_55 rdfs:label 'Steckelsdorf 12'@de.
+bb5kbc:loc_55 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_55 lado:hasGemarkung 'Steckelsdorf 12'@de.
+bb5kbc:loc_55 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_55 geosparql:hasGeometry bb5kbc:loc_55_geom .
+bb5kbc:loc_55_geom rdf:type sf:Point .
+bb5kbc:loc_55_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_55 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_55 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_55 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_55 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_55 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_55 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_55 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_55 prov:wasGeneratedBy bb5kbc:loc_55_pyscript .
+bb5kbc:loc_55_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_55_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_55_pyscript prov:endedAtTime '2023-11-07T18:53:06.024240Z'^^xsd:dateTime .
+bb5kbc:loc_55_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:pc_56 rdf:type lado:Place .
+bb5kbc:pc_56 rdf:type prov:Entity .
+bb5kbc:pc_56 rdfs:label 'Bochow 6/7'@en.
+bb5kbc:pc_56 geosparql:hasGeometry bb5kbc:pc_56_geom .
+bb5kbc:pc_56 lado:hasRepresentativeGeometry bb5kbc:pc_56_geom .
+bb5kbc:pc_56_geom rdf:type sf:Point .
+bb5kbc:pc_56_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:pc_56 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:pc_56 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_56 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_56 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:pc_56 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:pc_56 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:pc_56 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:pc_56 prov:wasGeneratedBy bb5kbc:pc_56_pyscript .
+bb5kbc:pc_56_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:pc_56_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:pc_56_pyscript prov:endedAtTime '2023-11-07T18:53:06.024240Z'^^xsd:dateTime .
+bb5kbc:pc_56_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+bb5kbc:loc_56 rdf:type lado:Location  .
+bb5kbc:loc_56 rdf:type prov:Entity .
+bb5kbc:loc_56 rdf:type fsl:Site .
+bb5kbc:loc_56 fsl:siteType fsl:ArchaeologicalSite .
+bb5kbc:loc_56 lado:hasType lado:DiscoverySite  .
+bb5kbc:loc_56 rdfs:label 'Bochow 6/7'@de.
+bb5kbc:loc_56 lado:hasFlurname 'nan'@de.
+bb5kbc:loc_56 lado:hasGemarkung 'Bochow 6/7'@de.
+bb5kbc:loc_56 lado:hasLocationType 'nan'@de.
+bb5kbc:loc_56 geosparql:hasGeometry bb5kbc:loc_56_geom .
+bb5kbc:loc_56_geom rdf:type sf:Point .
+bb5kbc:loc_56_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geosparql:wktLiteral.
+bb5kbc:loc_56 dct:license <https://creativecommons.org/licenses/by/4.0/> .
+bb5kbc:loc_56 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_56 dct:creator <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_56 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+bb5kbc:loc_56 dct:rightsHolder <https://orcid.org/0000-0003-4696-2101> .
+bb5kbc:loc_56 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+bb5kbc:loc_56 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
+bb5kbc:loc_56 prov:wasGeneratedBy bb5kbc:loc_56_pyscript .
+bb5kbc:loc_56_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
+bb5kbc:loc_56_pyscript prov:startedAtTime '2023-11-07T18:53:05.899350Z'^^xsd:dateTime .
+bb5kbc:loc_56_pyscript prov:endedAtTime '2023-11-07T18:53:06.025254Z'^^xsd:dateTime .
+bb5kbc:loc_56_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 

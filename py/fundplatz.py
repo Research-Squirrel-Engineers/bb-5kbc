@@ -62,6 +62,19 @@ for index, row in data.iterrows():
     lines.append("bb5kbc:pc_" +
                  str(row['id']) + " " + "rdfs:label" + " '" + str(row['name']) + "'@en.")
 
+    # geometry
+    point = str(row['wkt'])
+    point = "\"<http://www.opengis.net/def/crs/EPSG/0/4326> " + \
+        point + "\"^^geosparql:wktLiteral"
+    lines.append("bb5kbc:pc_" + str(row['id']) + " " +
+                 "geosparql:hasGeometry" + " bb5kbc:pc_" + str(row['id']) + "_geom .")
+    lines.append("bb5kbc:pc_" + str(row['id']) + " " +
+                 "lado:hasRepresentativeGeometry" + " bb5kbc:pc_" + str(row['id']) + "_geom .")
+    lines.append("bb5kbc:pc_" +
+                 str(row['id']) + "_geom " + "rdf:type" + " sf:Point .")
+    lines.append("bb5kbc:pc_" +
+                 str(row['id']) + "_geom " + "geosparql:asWKT " + point + ".")
+
     # license
     lines.append("bb5kbc:pc_" + str(row['id']) + " " + "dct:license" +
                  " <" + "https://creativecommons.org/licenses/by/4.0/" + "> .")

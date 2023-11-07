@@ -37,7 +37,7 @@ data = pd.read_csv(
     file_in,
     encoding='utf-8',
     sep=',',
-    usecols=['id', 'type'],
+    usecols=['id', 'type', 'fundplatz_id'],
     na_values=['.', '??', 'NULL']  # take any '.' or '??' values as NA
 )
 print("*****************************************")
@@ -58,6 +58,9 @@ for index, row in data.iterrows():
     # metadata
     lines.append("bb5kbc:con_" +
                  str(row['id']) + " " + "lado:feature_type" + " '" + str(row['type']) + "'@en.")
+    
+    # cross-table
+    lines.append("bb5kbc:con_" + str(row['id']) + " " + "lado:locatedWithin" + " " + "bb5kbc:loc_" + str(row['fundplatz_id']))
 
     # license
     lines.append("bb5kbc:con_" + str(row['id']) + " " + "dct:license" +

@@ -511,6 +511,17 @@
     
 
 
+    <!-- http://archaeology.link/ontology#hasRepresentativeGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasRepresentativeGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">has representative geometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://archaeology.link/ontology#hasSameFlute -->
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasSameFlute">
@@ -652,6 +663,26 @@
         <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">is located hat</rdfs:label>
         <rdfs:label xml:lang="de">ist verortet in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#locatedWithin -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#locatedWithin">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Context"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <rdfs:label xml:lang="en">located within</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#partOf">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Context"/>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
     </owl:ObjectProperty>
     
 
