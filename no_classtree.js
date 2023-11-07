@@ -2904,9 +2904,8 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeology.link/ontology#Location": 1,
-              "http://www.w3.org/ns/prov#Entity": 1,
-              "http://archaeoinformatics.link/ontology#Site": 1
+              "http://archaeology.link/ontology#Place": 1,
+              "http://www.w3.org/ns/prov#Entity": 1
             }
           }
         },
@@ -3808,9 +3807,8 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 56,
-              "http://archaeology.link/ontology#Location": 56,
-              "http://www.w3.org/ns/prov#Entity": 56,
-              "http://archaeoinformatics.link/ontology#Site": 56
+              "http://archaeology.link/ontology#Place": 56,
+              "http://www.w3.org/ns/prov#Entity": 56
             }
           },
           "from": {}

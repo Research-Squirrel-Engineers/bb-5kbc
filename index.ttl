@@ -1,7 +1,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://archaeoinformatics.link/ontology#> .
-@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://archaeoinformatics.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -2618,10 +2618,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_1> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_1> a ns1:Place,
         prov:Entity ;
     rdfs:label "Seelow 20"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_1_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_1_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2632,10 +2632,10 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_1_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_10> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_10> a ns1:Place,
         prov:Entity ;
     rdfs:label "Lübben Steinkirchen 6"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_10_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_10_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2651,10 +2651,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_11> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_11> a ns1:Place,
         prov:Entity ;
     rdfs:label "Brottewitz 8"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_11_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_11_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2670,10 +2670,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_12> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_12> a ns1:Place,
         prov:Entity ;
     rdfs:label "Elsterwerda 10"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_12_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_12_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2689,10 +2689,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_13> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_13> a ns1:Place,
         prov:Entity ;
     rdfs:label "Booßen 2"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_13_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_13_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2708,10 +2708,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_14> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_14> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neupetershain 5/33 (5)"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_14_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_14_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2727,10 +2727,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_15> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_15> a ns1:Place,
         prov:Entity ;
     rdfs:label "Trebatsch 1"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_15_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_15_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2746,10 +2746,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_16> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_16> a ns1:Place,
         prov:Entity ;
     rdfs:label "Drebkau 2"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_16_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_16_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2765,10 +2765,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_17> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_17> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neuendorf 23"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_17_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_17_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2784,10 +2784,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_18> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_18> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 15"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_18_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_18_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2803,10 +2803,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_19> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_19> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 16"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_19_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_19_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2827,10 +2827,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_2> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_2> a ns1:Place,
         prov:Entity ;
     rdfs:label "Hohenfinow 10"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_2_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_2_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2841,10 +2841,10 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_2_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_20> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_20> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 2"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_20_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_20_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2860,10 +2860,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_21> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_21> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 6"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_21_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_21_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2879,10 +2879,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_22> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_22> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 7"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_22_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_22_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2898,10 +2898,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_23> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_23> a ns1:Place,
         prov:Entity ;
     rdfs:label "Groß Kienitz 7"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_23_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_23_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2917,10 +2917,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_24> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_24> a ns1:Place,
         prov:Entity ;
     rdfs:label "Jüterbog 31"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_24_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_24_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2936,10 +2936,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_25> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_25> a ns1:Place,
         prov:Entity ;
     rdfs:label "Rohrbeck 14"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_25_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_25_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2955,10 +2955,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_26> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_26> a ns1:Place,
         prov:Entity ;
     rdfs:label "Angermünde 41"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_26_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_26_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2974,10 +2974,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_27> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_27> a ns1:Place,
         prov:Entity ;
     rdfs:label "Berkholz zu Berkholz-Meyenburg 5"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_27_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_27_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -2993,10 +2993,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_28> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_28> a ns1:Place,
         prov:Entity ;
     rdfs:label "Berkholz zu Berkholz-Meyenburg 8"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_28_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_28_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3012,10 +3012,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_29> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_29> a ns1:Place,
         prov:Entity ;
     rdfs:label "Flemsdorf 10"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_29_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_29_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3036,10 +3036,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_3> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_3> a ns1:Place,
         prov:Entity ;
     rdfs:label "Egsdorf bei Königs Wusterhausen 2"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_3_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_3_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3050,10 +3050,10 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_3_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_30> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_30> a ns1:Place,
         prov:Entity ;
     rdfs:label "Flemsdorf 6/1 (6)"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_30_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_30_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3069,10 +3069,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_31> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_31> a ns1:Place,
         prov:Entity ;
     rdfs:label "Grünow bei Schönermark 17/18 (17)"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_31_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_31_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3088,10 +3088,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_32> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_32> a ns1:Place,
         prov:Entity ;
     rdfs:label "Herzsprung 7"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_32_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_32_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3107,10 +3107,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_33> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_33> a ns1:Place,
         prov:Entity ;
     rdfs:label "Meichow 8"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_33_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_33_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3126,10 +3126,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_34> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_34> a ns1:Place,
         prov:Entity ;
     rdfs:label "Niederlandin 8"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_34_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_34_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3145,10 +3145,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_35> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_35> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schönfeld bei Prenzlau 11"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_35_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_35_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3164,10 +3164,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_36> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_36> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schönwerder 5"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_36_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_36_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3183,10 +3183,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_37> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_37> a ns1:Place,
         prov:Entity ;
     rdfs:label "Platkow 13"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_37_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_37_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3202,10 +3202,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_38> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_38> a ns1:Place,
         prov:Entity ;
     rdfs:label "Cremzow 5"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_38_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_38_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3221,10 +3221,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_39> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_39> a ns1:Place,
         prov:Entity ;
     rdfs:label "Hohenbrück 2"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_39_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_39_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3245,10 +3245,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_4> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_4> a ns1:Place,
         prov:Entity ;
     rdfs:label "Gallun 4"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_4_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_4_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3259,10 +3259,10 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_4_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_40> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_40> a ns1:Place,
         prov:Entity ;
     rdfs:label "Kruszynek 6"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_40_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_40_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3278,10 +3278,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_41> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_41> a ns1:Place,
         prov:Entity ;
     rdfs:label "Racot 18"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_41_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_41_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3297,10 +3297,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_42> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_42> a ns1:Place,
         prov:Entity ;
     rdfs:label "Zwenkau-Eythra"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_42_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_42_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3316,10 +3316,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_43> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_43> a ns1:Place,
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 1"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_43_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_43_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3335,10 +3335,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_44> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_44> a ns1:Place,
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 2"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_44_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_44_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3354,10 +3354,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_45> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_45> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schiaß 1"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_45_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_45_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3373,10 +3373,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_46> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_46> a ns1:Place,
         prov:Entity ;
     rdfs:label "Karsko/Schöningsburg"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_46_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_46_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3392,10 +3392,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_47> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_47> a ns1:Place,
         prov:Entity ;
     rdfs:label "Kerkow 1"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_47_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_47_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3411,10 +3411,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_48> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_48> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schönweide 19"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_48_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_48_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3430,10 +3430,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_49> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_49> a ns1:Place,
         prov:Entity ;
     rdfs:label "Zöllmersdorf"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_49_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_49_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3454,10 +3454,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_5> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_5> a ns1:Place,
         prov:Entity ;
     rdfs:label "Hohenbrück 3"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_5_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_5_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3468,10 +3468,10 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_5_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_50> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_50> a ns1:Place,
         prov:Entity ;
     rdfs:label "Nowe Objezierze 7"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_50_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_50_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3487,10 +3487,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_51> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_51> a ns1:Place,
         prov:Entity ;
     rdfs:label "Szczecin-Gumieńce 17b"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_51_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_51_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3506,10 +3506,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_52> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_52> a ns1:Place,
         prov:Entity ;
     rdfs:label "Gartz ?"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_52_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_52_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3525,10 +3525,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_53> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_53> a ns1:Place,
         prov:Entity ;
     rdfs:label "Gramzow 23"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_53_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_53_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3544,10 +3544,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_54> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_54> a ns1:Place,
         prov:Entity ;
     rdfs:label "Friesack 4"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_54_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_54_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3563,10 +3563,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_55> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_55> a ns1:Place,
         prov:Entity ;
     rdfs:label "Steckelsdorf 12"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_55_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_55_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3582,10 +3582,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_56> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_56> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 6/7"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_56_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_56_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3606,10 +3606,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_6> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_6> a ns1:Place,
         prov:Entity ;
     rdfs:label "Kaden 4"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_6_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_6_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3625,10 +3625,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_7> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_7> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neuendorf am See 13"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_7_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_7_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3644,10 +3644,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_8> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_8> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neuendorf am See 6"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_8_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_8_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3663,10 +3663,10 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_9> a ns2:Place,
+<http://data.archaeology.link/data/bb5kbc/pc_9> a ns1:Place,
         prov:Entity ;
     rdfs:label "Selchow 7"@en ;
-    ns2:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_9_geom> ;
+    ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_9_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3682,15 +3682,15 @@
     prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_1> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_1> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Seelow 20"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Seelow"@de ;
-    ns2:hasLocationType "Siedlung"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Seelow"@de ;
+    ns1:hasLocationType "Siedlung"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3701,15 +3701,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_1_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_10> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_10> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Lübben Steinkirchen 6"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Lübben Steinkirchen 6"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Lübben Steinkirchen 6"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3720,15 +3720,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_10_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_11> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_11> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Brottewitz 8"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Brottewitz"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Brottewitz"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3739,15 +3739,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_11_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_12> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_12> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Elsterwerda 10"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Elsterwerda"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Elsterwerda"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3758,15 +3758,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_12_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_13> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_13> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Booßen 2"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Booßen"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Booßen"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3777,15 +3777,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_13_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_14> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_14> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Neupetershain 5/33 (5)"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Neupetershain"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Neupetershain"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3796,15 +3796,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_14_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_15> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_15> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Trebatsch 1"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "Sabrodt 1"@de ;
-    ns2:hasGemarkung "Sabrodt"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Sabrodt 1"@de ;
+    ns1:hasGemarkung "Sabrodt"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3815,15 +3815,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_15_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_16> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_16> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Drebkau 2"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Drebkau"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Drebkau"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3834,15 +3834,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_16_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_17> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_17> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Neuendorf 23"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Neuendorf"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Neuendorf"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3853,15 +3853,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_17_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_18> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_18> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Bochow 15"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Bochow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Bochow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3872,15 +3872,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_18_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_19> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_19> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Bochow 16"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Bochow"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Bochow"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3891,15 +3891,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_19_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_2> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_2> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Hohenfinow 10"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "Struwenberg"@de ;
-    ns2:hasGemarkung "Hohenfinow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Struwenberg"@de ;
+    ns1:hasGemarkung "Hohenfinow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3910,15 +3910,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_2_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_20> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_20> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Bochow 2"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Bochow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Bochow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3929,15 +3929,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_20_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_21> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_21> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Bochow 6"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Bochow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Bochow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3948,15 +3948,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_21_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_22> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_22> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Bochow 7"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Bochow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Bochow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3967,15 +3967,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_22_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_23> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_23> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Groß Kienitz 7"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Groß Kienitz"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Groß Kienitz"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -3986,15 +3986,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_23_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_24> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_24> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Jüterbog 31"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "Starenberg / Jüterbog-Damm??"@de ;
-    ns2:hasGemarkung "Jüterbog"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Starenberg / Jüterbog-Damm??"@de ;
+    ns1:hasGemarkung "Jüterbog"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4005,15 +4005,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_24_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_25> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_25> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Rohrbeck 14"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Rohrbeck"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Rohrbeck"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4024,15 +4024,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_25_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_26> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_26> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Angermünde 41"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Angermünde"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Angermünde"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4043,15 +4043,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_26_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_27> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_27> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Berkholz zu Berkholz-Meyenburg 5"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Berkholz zu Berkholz-Meyenburg"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Berkholz zu Berkholz-Meyenburg"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4062,15 +4062,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_27_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_28> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_28> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Berkholz zu Berkholz-Meyenburg 8"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Berkholz zu Berkholz-Meyenburg"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Berkholz zu Berkholz-Meyenburg"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4081,15 +4081,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_28_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_29> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_29> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Flemsdorf 10"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Flemsdorf"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Flemsdorf"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4100,15 +4100,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_29_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_3> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_3> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Egsdorf bei Königs Wusterhausen 2"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "Schmidts Acker"@de ;
-    ns2:hasGemarkung "Egsdorf bei Königs Wusterhausen"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Schmidts Acker"@de ;
+    ns1:hasGemarkung "Egsdorf bei Königs Wusterhausen"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4119,15 +4119,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_3_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_30> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_30> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Flemsdorf 6/1 (6)"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Flemsdorf"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Flemsdorf"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4138,15 +4138,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_30_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_31> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_31> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Grünow bei Schönermark 17/18 (17)"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Grünow bei Schönermark"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Grünow bei Schönermark"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4157,15 +4157,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_31_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_32> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_32> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Herzsprung 7"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Herzsprung"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Herzsprung"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4176,15 +4176,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_32_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_33> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_33> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Meichow 8"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Meichow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Meichow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4195,15 +4195,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_33_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_34> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_34> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Niederlandin 8"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Niederlandin"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Niederlandin"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4214,15 +4214,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_34_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_35> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_35> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Schönfeld bei Prenzlau 11"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Schönfeld bei Prenzlau"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Schönfeld bei Prenzlau"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4233,15 +4233,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_35_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_36> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_36> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Schönwerder 5"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Schönwerder"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Schönwerder"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4252,15 +4252,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_36_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_37> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_37> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Platkow 13"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Gusow-Platkow"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Gusow-Platkow"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4271,15 +4271,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_37_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_38> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_38> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Cremzow 5"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "Rehberge"@de ;
-    ns2:hasGemarkung "Cremzow"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Rehberge"@de ;
+    ns1:hasGemarkung "Cremzow"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4290,15 +4290,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_38_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_39> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_39> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Hohenbrück 2"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Hohenbrück"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Hohenbrück"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4309,15 +4309,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_39_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_4> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_4> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Gallun 4"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Gallun"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Gallun"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4328,15 +4328,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_4_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_40> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_40> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Kruszynek 6"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Kruszynek"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Kruszynek"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4347,15 +4347,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_40_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_41> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_41> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Racot 18"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Racot"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Racot"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4366,15 +4366,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_41_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_42> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_42> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Zwenkau-Eythra"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Eythra"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Eythra"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4385,15 +4385,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_42_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_43> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_43> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 1"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Quedlinburg"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Quedlinburg"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4404,15 +4404,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_43_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_44> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_44> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 2"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Quedlinburg"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Quedlinburg"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4423,15 +4423,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_44_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_45> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_45> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Schiaß 1"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "Windmühlenhügel"@de ;
-    ns2:hasGemarkung "Schiaß 1"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Windmühlenhügel"@de ;
+    ns1:hasGemarkung "Schiaß 1"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4442,15 +4442,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_45_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_46> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_46> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Karsko/Schöningsburg"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Karsko/Schöningsburg"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Karsko/Schöningsburg"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4461,15 +4461,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_46_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_47> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_47> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Kerkow 1"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Kerkow 1"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Kerkow 1"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4480,15 +4480,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_47_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_48> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_48> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Schönweide 19"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Schönweide 19"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Schönweide 19"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4499,15 +4499,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_48_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_49> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_49> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Zöllmersdorf"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Zöllmersdorf"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Zöllmersdorf"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4518,15 +4518,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_49_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_5> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_5> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Hohenbrück 3"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Hohenbrück"@de ;
-    ns2:hasLocationType "Siedlung / Befestigung u.ä."@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Hohenbrück"@de ;
+    ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4537,15 +4537,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_5_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_50> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_50> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Nowe Objezierze 7"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Nowe Objezierze 7"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Nowe Objezierze 7"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4556,15 +4556,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_50_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_51> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_51> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Szczecin-Gumieńce 17b"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Szczecin-Gumieńce 17b"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Szczecin-Gumieńce 17b"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4575,15 +4575,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_51_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_52> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_52> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Gartz ?"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Gartz ?"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Gartz ?"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4594,15 +4594,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_52_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_53> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_53> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Gramzow 23"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Gramzow 23"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Gramzow 23"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4613,15 +4613,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_53_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_54> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_54> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Friesack 4"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Friesack 4"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Friesack 4"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4632,15 +4632,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_54_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_55> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_55> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Steckelsdorf 12"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Steckelsdorf 12"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Steckelsdorf 12"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4651,15 +4651,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_55_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_56> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_56> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Bochow 6/7"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Bochow 6/7"@de ;
-    ns2:hasLocationType "nan"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Bochow 6/7"@de ;
+    ns1:hasLocationType "nan"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4670,15 +4670,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_56_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_6> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_6> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Kaden 4"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Kaden"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Kaden"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4689,15 +4689,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_6_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_7> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_7> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Neuendorf am See 13"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Neuendorf am See"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Neuendorf am See"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4708,15 +4708,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_7_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_8> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_8> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Neuendorf am See 6"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Neuendorf am See"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:DiscoverySite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Neuendorf am See"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -4727,15 +4727,15 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_8_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/loc_9> a ns1:Site,
-        ns2:Location,
+<http://data.archaeology.link/data/bb5kbc/loc_9> a ns2:Site,
+        ns1:Location,
         prov:Entity ;
     rdfs:label "Selchow 7"@de ;
-    ns1:siteType ns1:ArchaeologicalSite ;
-    ns2:hasFlurname "nan"@de ;
-    ns2:hasGemarkung "Selchow"@de ;
-    ns2:hasLocationType "Einzel-/Lesefunde"@de ;
-    ns2:hasType ns2:ExcavationSite ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "nan"@de ;
+    ns1:hasGemarkung "Selchow"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
