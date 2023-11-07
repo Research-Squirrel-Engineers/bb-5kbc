@@ -10,9 +10,24 @@
         prov:Entity ;
     rdfs:label "Flemsdorf 6/1 (6)"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_100>,
+        <http://data.archaeology.link/data/bb5kbc/con_101>,
+        <http://data.archaeology.link/data/bb5kbc/con_102>,
+        <http://data.archaeology.link/data/bb5kbc/con_103>,
+        <http://data.archaeology.link/data/bb5kbc/con_104>,
+        <http://data.archaeology.link/data/bb5kbc/con_105>,
+        <http://data.archaeology.link/data/bb5kbc/con_106>,
+        <http://data.archaeology.link/data/bb5kbc/con_107>,
+        <http://data.archaeology.link/data/bb5kbc/con_108>,
+        <http://data.archaeology.link/data/bb5kbc/con_109>,
+        <http://data.archaeology.link/data/bb5kbc/con_110>,
+        <http://data.archaeology.link/data/bb5kbc/con_111>,
+        <http://data.archaeology.link/data/bb5kbc/con_98>,
+        <http://data.archaeology.link/data/bb5kbc/con_99> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Flemsdorf"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_30> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

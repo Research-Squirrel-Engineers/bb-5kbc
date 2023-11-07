@@ -10,9 +10,39 @@
         prov:Entity ;
     rdfs:label "Zwenkau-Eythra"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_313>,
+        <http://data.archaeology.link/data/bb5kbc/con_314>,
+        <http://data.archaeology.link/data/bb5kbc/con_315>,
+        <http://data.archaeology.link/data/bb5kbc/con_316>,
+        <http://data.archaeology.link/data/bb5kbc/con_317>,
+        <http://data.archaeology.link/data/bb5kbc/con_318>,
+        <http://data.archaeology.link/data/bb5kbc/con_319>,
+        <http://data.archaeology.link/data/bb5kbc/con_320>,
+        <http://data.archaeology.link/data/bb5kbc/con_321>,
+        <http://data.archaeology.link/data/bb5kbc/con_322>,
+        <http://data.archaeology.link/data/bb5kbc/con_323>,
+        <http://data.archaeology.link/data/bb5kbc/con_324>,
+        <http://data.archaeology.link/data/bb5kbc/con_325>,
+        <http://data.archaeology.link/data/bb5kbc/con_326>,
+        <http://data.archaeology.link/data/bb5kbc/con_327>,
+        <http://data.archaeology.link/data/bb5kbc/con_328>,
+        <http://data.archaeology.link/data/bb5kbc/con_329>,
+        <http://data.archaeology.link/data/bb5kbc/con_330>,
+        <http://data.archaeology.link/data/bb5kbc/con_331>,
+        <http://data.archaeology.link/data/bb5kbc/con_332>,
+        <http://data.archaeology.link/data/bb5kbc/con_333>,
+        <http://data.archaeology.link/data/bb5kbc/con_334>,
+        <http://data.archaeology.link/data/bb5kbc/con_335>,
+        <http://data.archaeology.link/data/bb5kbc/con_336>,
+        <http://data.archaeology.link/data/bb5kbc/con_337>,
+        <http://data.archaeology.link/data/bb5kbc/con_338>,
+        <http://data.archaeology.link/data/bb5kbc/con_339>,
+        <http://data.archaeology.link/data/bb5kbc/con_340>,
+        <http://data.archaeology.link/data/bb5kbc/con_341> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Eythra"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_42> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

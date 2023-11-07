@@ -10,9 +10,12 @@
         prov:Entity ;
     rdfs:label "Rohrbeck 14"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_50>,
+        <http://data.archaeology.link/data/bb5kbc/con_51> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Rohrbeck"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_25> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

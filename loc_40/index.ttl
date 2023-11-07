@@ -10,9 +10,27 @@
         prov:Entity ;
     rdfs:label "Kruszynek 6"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_185>,
+        <http://data.archaeology.link/data/bb5kbc/con_186>,
+        <http://data.archaeology.link/data/bb5kbc/con_187>,
+        <http://data.archaeology.link/data/bb5kbc/con_188>,
+        <http://data.archaeology.link/data/bb5kbc/con_189>,
+        <http://data.archaeology.link/data/bb5kbc/con_190>,
+        <http://data.archaeology.link/data/bb5kbc/con_191>,
+        <http://data.archaeology.link/data/bb5kbc/con_192>,
+        <http://data.archaeology.link/data/bb5kbc/con_193>,
+        <http://data.archaeology.link/data/bb5kbc/con_200>,
+        <http://data.archaeology.link/data/bb5kbc/con_201>,
+        <http://data.archaeology.link/data/bb5kbc/con_202>,
+        <http://data.archaeology.link/data/bb5kbc/con_203>,
+        <http://data.archaeology.link/data/bb5kbc/con_204>,
+        <http://data.archaeology.link/data/bb5kbc/con_205>,
+        <http://data.archaeology.link/data/bb5kbc/con_220>,
+        <http://data.archaeology.link/data/bb5kbc/con_221> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Kruszynek"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_40> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

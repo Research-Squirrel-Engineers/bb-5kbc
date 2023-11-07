@@ -4,6 +4,33 @@
 
 <http://data.archaeology.link/data/bb5kbc/con_1> a ns1:Context,
         prov:Entity ;
+    ns1:contains <http://data.archaeology.link/data/bb5kbc/ic_1>,
+        <http://data.archaeology.link/data/bb5kbc/ic_10>,
+        <http://data.archaeology.link/data/bb5kbc/ic_11>,
+        <http://data.archaeology.link/data/bb5kbc/ic_12>,
+        <http://data.archaeology.link/data/bb5kbc/ic_13>,
+        <http://data.archaeology.link/data/bb5kbc/ic_14>,
+        <http://data.archaeology.link/data/bb5kbc/ic_15>,
+        <http://data.archaeology.link/data/bb5kbc/ic_16>,
+        <http://data.archaeology.link/data/bb5kbc/ic_17>,
+        <http://data.archaeology.link/data/bb5kbc/ic_18>,
+        <http://data.archaeology.link/data/bb5kbc/ic_19>,
+        <http://data.archaeology.link/data/bb5kbc/ic_2>,
+        <http://data.archaeology.link/data/bb5kbc/ic_20>,
+        <http://data.archaeology.link/data/bb5kbc/ic_21>,
+        <http://data.archaeology.link/data/bb5kbc/ic_22>,
+        <http://data.archaeology.link/data/bb5kbc/ic_23>,
+        <http://data.archaeology.link/data/bb5kbc/ic_25>,
+        <http://data.archaeology.link/data/bb5kbc/ic_26>,
+        <http://data.archaeology.link/data/bb5kbc/ic_27>,
+        <http://data.archaeology.link/data/bb5kbc/ic_3>,
+        <http://data.archaeology.link/data/bb5kbc/ic_4>,
+        <http://data.archaeology.link/data/bb5kbc/ic_5>,
+        <http://data.archaeology.link/data/bb5kbc/ic_6>,
+        <http://data.archaeology.link/data/bb5kbc/ic_7>,
+        <http://data.archaeology.link/data/bb5kbc/ic_8>,
+        <http://data.archaeology.link/data/bb5kbc/ic_88>,
+        <http://data.archaeology.link/data/bb5kbc/ic_9> ;
     ns1:feature_type "Siedlungsgrube"@en ;
     ns1:locatedWithin <http://data.archaeology.link/data/bb5kbc/loc_1> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,

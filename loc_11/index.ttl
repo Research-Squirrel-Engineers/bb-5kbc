@@ -10,9 +10,11 @@
         prov:Entity ;
     rdfs:label "Brottewitz 8"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_94> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Brottewitz"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_11> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

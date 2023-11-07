@@ -10,9 +10,16 @@
         prov:Entity ;
     rdfs:label "Flemsdorf 10"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_27>,
+        <http://data.archaeology.link/data/bb5kbc/con_28>,
+        <http://data.archaeology.link/data/bb5kbc/con_29>,
+        <http://data.archaeology.link/data/bb5kbc/con_30>,
+        <http://data.archaeology.link/data/bb5kbc/con_31>,
+        <http://data.archaeology.link/data/bb5kbc/con_32> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Flemsdorf"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_29> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

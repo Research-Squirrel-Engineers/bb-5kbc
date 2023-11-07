@@ -4,6 +4,11 @@
 
 <http://data.archaeology.link/data/bb5kbc/con_31> a ns1:Context,
         prov:Entity ;
+    ns1:contains <http://data.archaeology.link/data/bb5kbc/ic_418>,
+        <http://data.archaeology.link/data/bb5kbc/ic_419>,
+        <http://data.archaeology.link/data/bb5kbc/ic_420>,
+        <http://data.archaeology.link/data/bb5kbc/ic_421>,
+        <http://data.archaeology.link/data/bb5kbc/ic_422> ;
     ns1:feature_type "Oberflächen"@en ;
     ns1:locatedWithin <http://data.archaeology.link/data/bb5kbc/loc_29> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,

@@ -10,9 +10,54 @@
         prov:Entity ;
     rdfs:label "Racot 18"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_155>,
+        <http://data.archaeology.link/data/bb5kbc/con_156>,
+        <http://data.archaeology.link/data/bb5kbc/con_157>,
+        <http://data.archaeology.link/data/bb5kbc/con_158>,
+        <http://data.archaeology.link/data/bb5kbc/con_159>,
+        <http://data.archaeology.link/data/bb5kbc/con_160>,
+        <http://data.archaeology.link/data/bb5kbc/con_161>,
+        <http://data.archaeology.link/data/bb5kbc/con_162>,
+        <http://data.archaeology.link/data/bb5kbc/con_163>,
+        <http://data.archaeology.link/data/bb5kbc/con_164>,
+        <http://data.archaeology.link/data/bb5kbc/con_165>,
+        <http://data.archaeology.link/data/bb5kbc/con_166>,
+        <http://data.archaeology.link/data/bb5kbc/con_167>,
+        <http://data.archaeology.link/data/bb5kbc/con_168>,
+        <http://data.archaeology.link/data/bb5kbc/con_169>,
+        <http://data.archaeology.link/data/bb5kbc/con_170>,
+        <http://data.archaeology.link/data/bb5kbc/con_171>,
+        <http://data.archaeology.link/data/bb5kbc/con_172>,
+        <http://data.archaeology.link/data/bb5kbc/con_173>,
+        <http://data.archaeology.link/data/bb5kbc/con_174>,
+        <http://data.archaeology.link/data/bb5kbc/con_175>,
+        <http://data.archaeology.link/data/bb5kbc/con_176>,
+        <http://data.archaeology.link/data/bb5kbc/con_177>,
+        <http://data.archaeology.link/data/bb5kbc/con_178>,
+        <http://data.archaeology.link/data/bb5kbc/con_179>,
+        <http://data.archaeology.link/data/bb5kbc/con_180>,
+        <http://data.archaeology.link/data/bb5kbc/con_181>,
+        <http://data.archaeology.link/data/bb5kbc/con_182>,
+        <http://data.archaeology.link/data/bb5kbc/con_183>,
+        <http://data.archaeology.link/data/bb5kbc/con_184>,
+        <http://data.archaeology.link/data/bb5kbc/con_206>,
+        <http://data.archaeology.link/data/bb5kbc/con_207>,
+        <http://data.archaeology.link/data/bb5kbc/con_208>,
+        <http://data.archaeology.link/data/bb5kbc/con_209>,
+        <http://data.archaeology.link/data/bb5kbc/con_210>,
+        <http://data.archaeology.link/data/bb5kbc/con_211>,
+        <http://data.archaeology.link/data/bb5kbc/con_212>,
+        <http://data.archaeology.link/data/bb5kbc/con_213>,
+        <http://data.archaeology.link/data/bb5kbc/con_214>,
+        <http://data.archaeology.link/data/bb5kbc/con_215>,
+        <http://data.archaeology.link/data/bb5kbc/con_216>,
+        <http://data.archaeology.link/data/bb5kbc/con_217>,
+        <http://data.archaeology.link/data/bb5kbc/con_218>,
+        <http://data.archaeology.link/data/bb5kbc/con_219> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Racot"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_41> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

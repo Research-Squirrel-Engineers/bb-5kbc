@@ -10,9 +10,48 @@
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 2"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_222>,
+        <http://data.archaeology.link/data/bb5kbc/con_223>,
+        <http://data.archaeology.link/data/bb5kbc/con_224>,
+        <http://data.archaeology.link/data/bb5kbc/con_225>,
+        <http://data.archaeology.link/data/bb5kbc/con_226>,
+        <http://data.archaeology.link/data/bb5kbc/con_227>,
+        <http://data.archaeology.link/data/bb5kbc/con_228>,
+        <http://data.archaeology.link/data/bb5kbc/con_229>,
+        <http://data.archaeology.link/data/bb5kbc/con_230>,
+        <http://data.archaeology.link/data/bb5kbc/con_231>,
+        <http://data.archaeology.link/data/bb5kbc/con_232>,
+        <http://data.archaeology.link/data/bb5kbc/con_233>,
+        <http://data.archaeology.link/data/bb5kbc/con_234>,
+        <http://data.archaeology.link/data/bb5kbc/con_235>,
+        <http://data.archaeology.link/data/bb5kbc/con_236>,
+        <http://data.archaeology.link/data/bb5kbc/con_237>,
+        <http://data.archaeology.link/data/bb5kbc/con_238>,
+        <http://data.archaeology.link/data/bb5kbc/con_239>,
+        <http://data.archaeology.link/data/bb5kbc/con_240>,
+        <http://data.archaeology.link/data/bb5kbc/con_241>,
+        <http://data.archaeology.link/data/bb5kbc/con_242>,
+        <http://data.archaeology.link/data/bb5kbc/con_243>,
+        <http://data.archaeology.link/data/bb5kbc/con_244>,
+        <http://data.archaeology.link/data/bb5kbc/con_245>,
+        <http://data.archaeology.link/data/bb5kbc/con_246>,
+        <http://data.archaeology.link/data/bb5kbc/con_247>,
+        <http://data.archaeology.link/data/bb5kbc/con_248>,
+        <http://data.archaeology.link/data/bb5kbc/con_249>,
+        <http://data.archaeology.link/data/bb5kbc/con_250>,
+        <http://data.archaeology.link/data/bb5kbc/con_251>,
+        <http://data.archaeology.link/data/bb5kbc/con_252>,
+        <http://data.archaeology.link/data/bb5kbc/con_253>,
+        <http://data.archaeology.link/data/bb5kbc/con_254>,
+        <http://data.archaeology.link/data/bb5kbc/con_255>,
+        <http://data.archaeology.link/data/bb5kbc/con_256>,
+        <http://data.archaeology.link/data/bb5kbc/con_257>,
+        <http://data.archaeology.link/data/bb5kbc/con_258>,
+        <http://data.archaeology.link/data/bb5kbc/con_259> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Quedlinburg"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_44> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;

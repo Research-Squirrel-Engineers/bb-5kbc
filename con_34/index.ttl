@@ -4,6 +4,31 @@
 
 <http://data.archaeology.link/data/bb5kbc/con_34> a ns1:Context,
         prov:Entity ;
+    ns1:contains <http://data.archaeology.link/data/bb5kbc/ic_425>,
+        <http://data.archaeology.link/data/bb5kbc/ic_426>,
+        <http://data.archaeology.link/data/bb5kbc/ic_427>,
+        <http://data.archaeology.link/data/bb5kbc/ic_428>,
+        <http://data.archaeology.link/data/bb5kbc/ic_429>,
+        <http://data.archaeology.link/data/bb5kbc/ic_430>,
+        <http://data.archaeology.link/data/bb5kbc/ic_431>,
+        <http://data.archaeology.link/data/bb5kbc/ic_432>,
+        <http://data.archaeology.link/data/bb5kbc/ic_433>,
+        <http://data.archaeology.link/data/bb5kbc/ic_434>,
+        <http://data.archaeology.link/data/bb5kbc/ic_435>,
+        <http://data.archaeology.link/data/bb5kbc/ic_436>,
+        <http://data.archaeology.link/data/bb5kbc/ic_437>,
+        <http://data.archaeology.link/data/bb5kbc/ic_438>,
+        <http://data.archaeology.link/data/bb5kbc/ic_439>,
+        <http://data.archaeology.link/data/bb5kbc/ic_440>,
+        <http://data.archaeology.link/data/bb5kbc/ic_441>,
+        <http://data.archaeology.link/data/bb5kbc/ic_442>,
+        <http://data.archaeology.link/data/bb5kbc/ic_443>,
+        <http://data.archaeology.link/data/bb5kbc/ic_444>,
+        <http://data.archaeology.link/data/bb5kbc/ic_445>,
+        <http://data.archaeology.link/data/bb5kbc/ic_446>,
+        <http://data.archaeology.link/data/bb5kbc/ic_447>,
+        <http://data.archaeology.link/data/bb5kbc/ic_448>,
+        <http://data.archaeology.link/data/bb5kbc/ic_456> ;
     ns1:feature_type "Oberflächen"@en ;
     ns1:locatedWithin <http://data.archaeology.link/data/bb5kbc/loc_5> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,

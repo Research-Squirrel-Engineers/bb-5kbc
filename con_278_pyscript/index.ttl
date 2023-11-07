@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/bb5kbc/con_278_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:13:33.702975+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:13:33.677218+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:30:14.715460+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:30:14.675153+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/kontext.py> .
 

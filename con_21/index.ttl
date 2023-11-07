@@ -4,6 +4,25 @@
 
 <http://data.archaeology.link/data/bb5kbc/con_21> a ns1:Context,
         prov:Entity ;
+    ns1:contains <http://data.archaeology.link/data/bb5kbc/ic_235>,
+        <http://data.archaeology.link/data/bb5kbc/ic_236>,
+        <http://data.archaeology.link/data/bb5kbc/ic_237>,
+        <http://data.archaeology.link/data/bb5kbc/ic_238>,
+        <http://data.archaeology.link/data/bb5kbc/ic_239>,
+        <http://data.archaeology.link/data/bb5kbc/ic_240>,
+        <http://data.archaeology.link/data/bb5kbc/ic_241>,
+        <http://data.archaeology.link/data/bb5kbc/ic_242>,
+        <http://data.archaeology.link/data/bb5kbc/ic_243>,
+        <http://data.archaeology.link/data/bb5kbc/ic_244>,
+        <http://data.archaeology.link/data/bb5kbc/ic_245>,
+        <http://data.archaeology.link/data/bb5kbc/ic_246>,
+        <http://data.archaeology.link/data/bb5kbc/ic_247>,
+        <http://data.archaeology.link/data/bb5kbc/ic_248>,
+        <http://data.archaeology.link/data/bb5kbc/ic_249>,
+        <http://data.archaeology.link/data/bb5kbc/ic_250>,
+        <http://data.archaeology.link/data/bb5kbc/ic_251>,
+        <http://data.archaeology.link/data/bb5kbc/ic_252>,
+        <http://data.archaeology.link/data/bb5kbc/ic_253> ;
     ns1:feature_type "Grab"@en ;
     ns1:locatedWithin <http://data.archaeology.link/data/bb5kbc/loc_1> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,

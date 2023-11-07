@@ -2174,453 +2174,734 @@
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9248020668579 51.9068490790357)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_10_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847030+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_11_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.2462762802107 51.4705372020643)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_11_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847193+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_12_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5586988021946 51.4398316239272)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_12_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847355+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_13_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.4891514077344 52.3751537006729)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_13_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847522+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_14_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.189614353341 51.6068726263749)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_14_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847844+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_15_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1985845087684 52.0849261660395)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_15_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848015+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_16_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.2260737668818 51.6503688034177)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_16_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848181+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_17_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.417554004278 51.8011468406747)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_17_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848346+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_18_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.085296860556 51.9626182078923)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_18_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848516+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_19_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0815683800061 51.9630071146682)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_19_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848678+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_1_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.3833333255572 52.5452775430815)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_1_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847680+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_20_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0692830806605 51.9623206773578)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_20_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848839+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_21_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0858993739255 51.9635092440072)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_21_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849004+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_22_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0847532115604 51.9647854812076)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_22_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849166+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_23_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4551075002326 52.3269941183066)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_23_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849323+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_24_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0492011888627 51.9896677289187)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_24_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849483+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_25_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0316686141939 51.965663321984)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_25_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849642+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_26_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0133745411872 52.9992823167434)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_26_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849798+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_27_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1862300013802 53.0625025101861)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_27_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849959+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_28_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1895328419857 53.0614463027942)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_28_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850133+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_29_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1641122617899 53.0302292598348)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_29_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850303+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_2_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9298055943383 52.8274620574839)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_2_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.845663+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.244836+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_30_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1650907441802 53.0305238006921)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_30_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850459+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_31_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0752749543883 53.1239629867006)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_31_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850618+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_32_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0149531909195 52.9986661192959)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_32_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850785+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_33_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9652498943823 53.1832699725103)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_33_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850947+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_34_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1523596505517 53.0554339377783)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_34_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851107+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_35_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9636863071334 53.4277586791405)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_35_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851266+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_36_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.815411741033 53.3874740969454)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_36_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851426+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_37_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.331376484099 52.6057790432099)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_37_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851587+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_38_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_38_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851747+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_39_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_39_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851907+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_3_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5751209183095 52.1238876997843)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_3_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.845839+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.245861+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_40_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.9947200232498 52.5665872011118)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_40_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852068+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_41_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.7086330880121 52.0574297734268)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_41_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852228+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_42_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.2961222325768 51.2351275316024)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_42_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852388+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_43_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1534869240729 51.7846213076888)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_43_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852548+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_44_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1566059319996 51.7858029144234)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_44_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852706+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_45_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.1416364677636 52.2612893628189)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_45_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852870+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_46_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_46_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853032+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_47_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_47_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853191+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_48_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_48_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853347+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_49_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_49_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853504+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_4_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5577360107329 52.2482428722165)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_4_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846008+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.245861+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_50_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_50_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853663+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_51_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_51_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853821+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_52_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_52_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853985+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_53_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_53_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854186+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_54_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_54_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854347+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_55_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_55_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854509+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_56_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_56_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854665+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_5_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9061497197174 52.0999192589813)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_5_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846192+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.246846+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_6_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8034684990564 51.9065771715704)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_6_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846360+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.247848+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_7_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8801446514295 52.1012036059188)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_7_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846526+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_8_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8787796612809 52.0974143164012)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_8_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846697+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_9_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4682086474743 52.3525830057769)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_9_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846861+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_10_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_11_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_12_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_13_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_14_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_15_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_16_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_17_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_18_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_19_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_1_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_20_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_21_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_22_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_23_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_24_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_25_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_26_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_27_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_28_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_29_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_2_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.244836+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_30_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_31_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_32_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_33_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_34_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_35_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_36_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_37_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_38_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_39_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_3_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.244836+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_40_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_41_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_42_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_43_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_44_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_45_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_46_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_47_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_48_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_49_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_4_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.245861+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_50_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_51_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_52_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_53_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_54_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_55_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_56_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_5_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.246846+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_6_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.246846+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_7_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.247848+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_8_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+
+<http://data.archaeology.link/data/bb5kbc/pc_9_pyscript> a prov:Activity ;
+    prov:endedAtTime "2023-11-07T22:32:56.248158+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T22:32:56.230528+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_1> a ns1:Place,
         prov:Entity ;
     rdfs:label "Seelow 20"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_1> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_1_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2635,6 +2916,7 @@
 <http://data.archaeology.link/data/bb5kbc/pc_10> a ns1:Place,
         prov:Entity ;
     rdfs:label "Lübben Steinkirchen 6"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_10> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_10_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2646,14 +2928,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_10_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_10_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846950+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_10_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9248020668579 51.9068490790357)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_11> a ns1:Place,
         prov:Entity ;
     rdfs:label "Brottewitz 8"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_11> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_11_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2665,14 +2946,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_11_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_11_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847117+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_11_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.2462762802107 51.4705372020643)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_12> a ns1:Place,
         prov:Entity ;
     rdfs:label "Elsterwerda 10"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_12> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_12_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2684,14 +2964,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_12_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_12_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847280+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_12_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5586988021946 51.4398316239272)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_13> a ns1:Place,
         prov:Entity ;
     rdfs:label "Booßen 2"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_13> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_13_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2703,14 +2982,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_13_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_13_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847444+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_13_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.4891514077344 52.3751537006729)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_14> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neupetershain 5/33 (5)"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_14> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_14_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2722,14 +3000,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_14_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_14_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847768+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_14_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.189614353341 51.6068726263749)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_15> a ns1:Place,
         prov:Entity ;
     rdfs:label "Trebatsch 1"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_15> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_15_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2741,14 +3018,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_15_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_15_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847938+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_15_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1985845087684 52.0849261660395)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_16> a ns1:Place,
         prov:Entity ;
     rdfs:label "Drebkau 2"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_16> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_16_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2760,14 +3036,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_16_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_16_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848103+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_16_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.2260737668818 51.6503688034177)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_17> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neuendorf 23"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_17> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_17_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2779,14 +3054,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_17_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_17_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848267+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_17_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.417554004278 51.8011468406747)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_18> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 15"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_18> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_18_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2798,14 +3072,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_18_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_18_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848434+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_18_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.085296860556 51.9626182078923)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_19> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 16"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_19> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_19_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2817,19 +3090,16 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_19_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_19_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848604+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_19_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0815683800061 51.9630071146682)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/bb5kbc/pc_1_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.847607+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_1_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.3833333255572 52.5452775430815)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_2> a ns1:Place,
         prov:Entity ;
     rdfs:label "Hohenfinow 10"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_2> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_2_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2844,6 +3114,7 @@
 <http://data.archaeology.link/data/bb5kbc/pc_20> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 2"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_20> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_20_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2855,14 +3126,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_20_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_20_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848767+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_20_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0692830806605 51.9623206773578)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_21> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 6"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_21> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_21_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2874,14 +3144,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_21_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_21_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.848926+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_21_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0858993739255 51.9635092440072)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_22> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 7"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_22> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_22_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2893,14 +3162,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_22_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_22_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849089+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_22_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0847532115604 51.9647854812076)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_23> a ns1:Place,
         prov:Entity ;
     rdfs:label "Groß Kienitz 7"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_23> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_23_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2912,14 +3180,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_23_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_23_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849251+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_23_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4551075002326 52.3269941183066)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_24> a ns1:Place,
         prov:Entity ;
     rdfs:label "Jüterbog 31"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_24> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_24_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2931,14 +3198,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_24_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_24_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849410+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_24_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0492011888627 51.9896677289187)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_25> a ns1:Place,
         prov:Entity ;
     rdfs:label "Rohrbeck 14"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_25> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_25_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2950,14 +3216,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_25_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_25_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849569+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_25_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0316686141939 51.965663321984)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_26> a ns1:Place,
         prov:Entity ;
     rdfs:label "Angermünde 41"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_26> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_26_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2969,14 +3234,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_26_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_26_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849725+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_26_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0133745411872 52.9992823167434)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_27> a ns1:Place,
         prov:Entity ;
     rdfs:label "Berkholz zu Berkholz-Meyenburg 5"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_27> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_27_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -2988,14 +3252,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_27_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_27_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.849882+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_27_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1862300013802 53.0625025101861)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_28> a ns1:Place,
         prov:Entity ;
     rdfs:label "Berkholz zu Berkholz-Meyenburg 8"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_28> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_28_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3007,14 +3270,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_28_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_28_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850047+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_28_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1895328419857 53.0614463027942)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_29> a ns1:Place,
         prov:Entity ;
     rdfs:label "Flemsdorf 10"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_29> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_29_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3026,19 +3288,16 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_29_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_29_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850227+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_29_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1641122617899 53.0302292598348)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/bb5kbc/pc_2_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.845569+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_2_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9298055943383 52.8274620574839)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_3> a ns1:Place,
         prov:Entity ;
     rdfs:label "Egsdorf bei Königs Wusterhausen 2"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_3> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_3_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3053,6 +3312,7 @@
 <http://data.archaeology.link/data/bb5kbc/pc_30> a ns1:Place,
         prov:Entity ;
     rdfs:label "Flemsdorf 6/1 (6)"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_30> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_30_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3064,14 +3324,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_30_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_30_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850388+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_30_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1650907441802 53.0305238006921)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_31> a ns1:Place,
         prov:Entity ;
     rdfs:label "Grünow bei Schönermark 17/18 (17)"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_31> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_31_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3083,14 +3342,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_31_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_31_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850544+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_31_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0752749543883 53.1239629867006)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_32> a ns1:Place,
         prov:Entity ;
     rdfs:label "Herzsprung 7"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_32> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_32_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3102,14 +3360,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_32_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_32_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850710+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_32_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0149531909195 52.9986661192959)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_33> a ns1:Place,
         prov:Entity ;
     rdfs:label "Meichow 8"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_33> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_33_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3121,14 +3378,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_33_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_33_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.850873+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_33_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9652498943823 53.1832699725103)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_34> a ns1:Place,
         prov:Entity ;
     rdfs:label "Niederlandin 8"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_34> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_34_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3140,14 +3396,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_34_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_34_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851035+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_34_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1523596505517 53.0554339377783)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_35> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schönfeld bei Prenzlau 11"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_35> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_35_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3159,14 +3414,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_35_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_35_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851193+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_35_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9636863071334 53.4277586791405)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_36> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schönwerder 5"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_36> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_36_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3178,14 +3432,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_36_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_36_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851352+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_36_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.815411741033 53.3874740969454)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_37> a ns1:Place,
         prov:Entity ;
     rdfs:label "Platkow 13"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_37> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_37_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3197,14 +3450,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_37_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_37_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851513+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_37_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.331376484099 52.6057790432099)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_38> a ns1:Place,
         prov:Entity ;
     rdfs:label "Cremzow 5"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_38> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_38_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3216,14 +3468,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_38_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_38_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851674+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_38_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_39> a ns1:Place,
         prov:Entity ;
     rdfs:label "Hohenbrück 2"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_39> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_39_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3235,19 +3486,16 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_39_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_39_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851832+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_39_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/bb5kbc/pc_3_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.845762+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_3_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5751209183095 52.1238876997843)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_4> a ns1:Place,
         prov:Entity ;
     rdfs:label "Gallun 4"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_4> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_4_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3262,6 +3510,7 @@
 <http://data.archaeology.link/data/bb5kbc/pc_40> a ns1:Place,
         prov:Entity ;
     rdfs:label "Kruszynek 6"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_40> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_40_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3273,14 +3522,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_40_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_40_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.851995+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_40_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.9947200232498 52.5665872011118)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_41> a ns1:Place,
         prov:Entity ;
     rdfs:label "Racot 18"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_41> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_41_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3292,14 +3540,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_41_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_41_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852155+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_41_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.7086330880121 52.0574297734268)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_42> a ns1:Place,
         prov:Entity ;
     rdfs:label "Zwenkau-Eythra"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_42> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_42_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3311,14 +3558,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_42_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_42_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852315+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_42_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.2961222325768 51.2351275316024)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_43> a ns1:Place,
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 1"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_43> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_43_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3330,14 +3576,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_43_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_43_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852475+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_43_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1534869240729 51.7846213076888)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_44> a ns1:Place,
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 2"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_44> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_44_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3349,14 +3594,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_44_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_44_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852633+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_44_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1566059319996 51.7858029144234)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_45> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schiaß 1"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_45> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_45_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3368,14 +3612,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_45_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_45_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852794+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_45_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.1416364677636 52.2612893628189)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_46> a ns1:Place,
         prov:Entity ;
     rdfs:label "Karsko/Schöningsburg"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_46> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_46_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3387,14 +3630,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_46_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_46_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.852955+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_46_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_47> a ns1:Place,
         prov:Entity ;
     rdfs:label "Kerkow 1"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_47> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_47_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3406,14 +3648,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_47_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_47_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853116+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_47_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_48> a ns1:Place,
         prov:Entity ;
     rdfs:label "Schönweide 19"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_48> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_48_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3425,14 +3666,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_48_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_48_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853275+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_48_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_49> a ns1:Place,
         prov:Entity ;
     rdfs:label "Zöllmersdorf"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_49> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_49_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3444,19 +3684,16 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_49_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_49_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853430+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_49_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/bb5kbc/pc_4_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.845930+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_4_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5577360107329 52.2482428722165)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_5> a ns1:Place,
         prov:Entity ;
     rdfs:label "Hohenbrück 3"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_5> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_5_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3471,6 +3708,7 @@
 <http://data.archaeology.link/data/bb5kbc/pc_50> a ns1:Place,
         prov:Entity ;
     rdfs:label "Nowe Objezierze 7"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_50> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_50_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3482,14 +3720,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_50_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_50_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853591+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_50_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_51> a ns1:Place,
         prov:Entity ;
     rdfs:label "Szczecin-Gumieńce 17b"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_51> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_51_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3501,14 +3738,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_51_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_51_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853750+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_51_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_52> a ns1:Place,
         prov:Entity ;
     rdfs:label "Gartz ?"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_52> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_52_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3520,14 +3756,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_52_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_52_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.853909+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_52_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_53> a ns1:Place,
         prov:Entity ;
     rdfs:label "Gramzow 23"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_53> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_53_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3539,14 +3774,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_53_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_53_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854111+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_53_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_54> a ns1:Place,
         prov:Entity ;
     rdfs:label "Friesack 4"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_54> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_54_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3558,14 +3792,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_54_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_54_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854271+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_54_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_55> a ns1:Place,
         prov:Entity ;
     rdfs:label "Steckelsdorf 12"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_55> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_55_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3577,14 +3810,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_55_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_55_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854436+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_55_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_56> a ns1:Place,
         prov:Entity ;
     rdfs:label "Bochow 6/7"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_56> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_56_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3596,19 +3828,16 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_56_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_56_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.854593+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_56_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/bb5kbc/pc_5_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846113+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_5_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9061497197174 52.0999192589813)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_6> a ns1:Place,
         prov:Entity ;
     rdfs:label "Kaden 4"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_6> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_6_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3620,14 +3849,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_6_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_6_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846282+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_6_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8034684990564 51.9065771715704)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_7> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neuendorf am See 13"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_7> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_7_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3639,14 +3867,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_7_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_7_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846450+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_7_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8801446514295 52.1012036059188)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_8> a ns1:Place,
         prov:Entity ;
     rdfs:label "Neuendorf am See 6"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_8> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_8_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3658,14 +3885,13 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_8_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_8_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846618+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_8_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8787796612809 52.0974143164012)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/pc_9> a ns1:Place,
         prov:Entity ;
     rdfs:label "Selchow 7"@en ;
+    ns1:hasLocation <http://data.archaeology.link/data/bb5kbc/loc_9> ;
     ns1:hasRepresentativeGeometry <http://data.archaeology.link/data/bb5kbc/pc_9_geom> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3677,19 +3903,44 @@
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_9_pyscript> .
 
-<http://data.archaeology.link/data/bb5kbc/pc_9_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T22:14:09.846786+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T22:14:09.839590+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
+<http://data.archaeology.link/data/bb5kbc/pc_9_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4682086474743 52.3525830057769)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_1> a ns2:Site,
         ns1:Location,
         prov:Entity ;
     rdfs:label "Seelow 20"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_1>,
+        <http://data.archaeology.link/data/bb5kbc/con_10>,
+        <http://data.archaeology.link/data/bb5kbc/con_11>,
+        <http://data.archaeology.link/data/bb5kbc/con_12>,
+        <http://data.archaeology.link/data/bb5kbc/con_13>,
+        <http://data.archaeology.link/data/bb5kbc/con_14>,
+        <http://data.archaeology.link/data/bb5kbc/con_15>,
+        <http://data.archaeology.link/data/bb5kbc/con_16>,
+        <http://data.archaeology.link/data/bb5kbc/con_17>,
+        <http://data.archaeology.link/data/bb5kbc/con_18>,
+        <http://data.archaeology.link/data/bb5kbc/con_19>,
+        <http://data.archaeology.link/data/bb5kbc/con_2>,
+        <http://data.archaeology.link/data/bb5kbc/con_20>,
+        <http://data.archaeology.link/data/bb5kbc/con_21>,
+        <http://data.archaeology.link/data/bb5kbc/con_22>,
+        <http://data.archaeology.link/data/bb5kbc/con_23>,
+        <http://data.archaeology.link/data/bb5kbc/con_24>,
+        <http://data.archaeology.link/data/bb5kbc/con_25>,
+        <http://data.archaeology.link/data/bb5kbc/con_26>,
+        <http://data.archaeology.link/data/bb5kbc/con_3>,
+        <http://data.archaeology.link/data/bb5kbc/con_4>,
+        <http://data.archaeology.link/data/bb5kbc/con_5>,
+        <http://data.archaeology.link/data/bb5kbc/con_6>,
+        <http://data.archaeology.link/data/bb5kbc/con_7>,
+        <http://data.archaeology.link/data/bb5kbc/con_8>,
+        <http://data.archaeology.link/data/bb5kbc/con_9> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Seelow"@de ;
     ns1:hasLocationType "Siedlung"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_1> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3706,9 +3957,12 @@
         prov:Entity ;
     rdfs:label "Lübben Steinkirchen 6"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_61>,
+        <http://data.archaeology.link/data/bb5kbc/con_63> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Lübben Steinkirchen 6"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_10> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3725,9 +3979,11 @@
         prov:Entity ;
     rdfs:label "Brottewitz 8"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_94> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Brottewitz"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_11> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3747,6 +4003,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Elsterwerda"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_12> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3766,6 +4023,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Booßen"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_13> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3785,6 +4043,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Neupetershain"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_14> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3801,9 +4060,11 @@
         prov:Entity ;
     rdfs:label "Trebatsch 1"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_33> ;
     ns1:hasFlurname "Sabrodt 1"@de ;
     ns1:hasGemarkung "Sabrodt"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_15> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3820,9 +4081,11 @@
         prov:Entity ;
     rdfs:label "Drebkau 2"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_55> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Drebkau"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_16> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3839,9 +4102,26 @@
         prov:Entity ;
     rdfs:label "Neuendorf 23"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_125>,
+        <http://data.archaeology.link/data/bb5kbc/con_126>,
+        <http://data.archaeology.link/data/bb5kbc/con_127>,
+        <http://data.archaeology.link/data/bb5kbc/con_128>,
+        <http://data.archaeology.link/data/bb5kbc/con_129>,
+        <http://data.archaeology.link/data/bb5kbc/con_130>,
+        <http://data.archaeology.link/data/bb5kbc/con_131>,
+        <http://data.archaeology.link/data/bb5kbc/con_133>,
+        <http://data.archaeology.link/data/bb5kbc/con_134>,
+        <http://data.archaeology.link/data/bb5kbc/con_135>,
+        <http://data.archaeology.link/data/bb5kbc/con_136>,
+        <http://data.archaeology.link/data/bb5kbc/con_137>,
+        <http://data.archaeology.link/data/bb5kbc/con_138>,
+        <http://data.archaeology.link/data/bb5kbc/con_139>,
+        <http://data.archaeology.link/data/bb5kbc/con_140>,
+        <http://data.archaeology.link/data/bb5kbc/con_141> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Neuendorf"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_17> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3858,9 +4138,15 @@
         prov:Entity ;
     rdfs:label "Bochow 15"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_47>,
+        <http://data.archaeology.link/data/bb5kbc/con_48>,
+        <http://data.archaeology.link/data/bb5kbc/con_56>,
+        <http://data.archaeology.link/data/bb5kbc/con_57>,
+        <http://data.archaeology.link/data/bb5kbc/con_95> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Bochow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_18> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3877,9 +4163,19 @@
         prov:Entity ;
     rdfs:label "Bochow 16"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_142>,
+        <http://data.archaeology.link/data/bb5kbc/con_84>,
+        <http://data.archaeology.link/data/bb5kbc/con_85>,
+        <http://data.archaeology.link/data/bb5kbc/con_86>,
+        <http://data.archaeology.link/data/bb5kbc/con_87>,
+        <http://data.archaeology.link/data/bb5kbc/con_88>,
+        <http://data.archaeology.link/data/bb5kbc/con_89>,
+        <http://data.archaeology.link/data/bb5kbc/con_90>,
+        <http://data.archaeology.link/data/bb5kbc/con_91> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Bochow"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_19> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3899,6 +4195,7 @@
     ns1:hasFlurname "Struwenberg"@de ;
     ns1:hasGemarkung "Hohenfinow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_2> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3915,9 +4212,22 @@
         prov:Entity ;
     rdfs:label "Bochow 2"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_35>,
+        <http://data.archaeology.link/data/bb5kbc/con_36>,
+        <http://data.archaeology.link/data/bb5kbc/con_37>,
+        <http://data.archaeology.link/data/bb5kbc/con_38>,
+        <http://data.archaeology.link/data/bb5kbc/con_39>,
+        <http://data.archaeology.link/data/bb5kbc/con_40>,
+        <http://data.archaeology.link/data/bb5kbc/con_41>,
+        <http://data.archaeology.link/data/bb5kbc/con_42>,
+        <http://data.archaeology.link/data/bb5kbc/con_43>,
+        <http://data.archaeology.link/data/bb5kbc/con_44>,
+        <http://data.archaeology.link/data/bb5kbc/con_45>,
+        <http://data.archaeology.link/data/bb5kbc/con_96> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Bochow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_20> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3937,6 +4247,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Bochow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_21> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3956,6 +4267,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Bochow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_22> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3972,9 +4284,22 @@
         prov:Entity ;
     rdfs:label "Groß Kienitz 7"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_112>,
+        <http://data.archaeology.link/data/bb5kbc/con_113>,
+        <http://data.archaeology.link/data/bb5kbc/con_114>,
+        <http://data.archaeology.link/data/bb5kbc/con_115>,
+        <http://data.archaeology.link/data/bb5kbc/con_116>,
+        <http://data.archaeology.link/data/bb5kbc/con_117>,
+        <http://data.archaeology.link/data/bb5kbc/con_118>,
+        <http://data.archaeology.link/data/bb5kbc/con_119>,
+        <http://data.archaeology.link/data/bb5kbc/con_120>,
+        <http://data.archaeology.link/data/bb5kbc/con_121>,
+        <http://data.archaeology.link/data/bb5kbc/con_122>,
+        <http://data.archaeology.link/data/bb5kbc/con_123> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Groß Kienitz"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_23> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -3991,9 +4316,11 @@
         prov:Entity ;
     rdfs:label "Jüterbog 31"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_49> ;
     ns1:hasFlurname "Starenberg / Jüterbog-Damm??"@de ;
     ns1:hasGemarkung "Jüterbog"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_24> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4010,9 +4337,12 @@
         prov:Entity ;
     rdfs:label "Rohrbeck 14"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_50>,
+        <http://data.archaeology.link/data/bb5kbc/con_51> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Rohrbeck"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_25> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4032,6 +4362,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Angermünde"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_26> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4051,6 +4382,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Berkholz zu Berkholz-Meyenburg"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_27> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4070,6 +4402,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Berkholz zu Berkholz-Meyenburg"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_28> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4086,9 +4419,16 @@
         prov:Entity ;
     rdfs:label "Flemsdorf 10"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_27>,
+        <http://data.archaeology.link/data/bb5kbc/con_28>,
+        <http://data.archaeology.link/data/bb5kbc/con_29>,
+        <http://data.archaeology.link/data/bb5kbc/con_30>,
+        <http://data.archaeology.link/data/bb5kbc/con_31>,
+        <http://data.archaeology.link/data/bb5kbc/con_32> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Flemsdorf"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_29> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4108,6 +4448,7 @@
     ns1:hasFlurname "Schmidts Acker"@de ;
     ns1:hasGemarkung "Egsdorf bei Königs Wusterhausen"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_3> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4124,9 +4465,24 @@
         prov:Entity ;
     rdfs:label "Flemsdorf 6/1 (6)"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_100>,
+        <http://data.archaeology.link/data/bb5kbc/con_101>,
+        <http://data.archaeology.link/data/bb5kbc/con_102>,
+        <http://data.archaeology.link/data/bb5kbc/con_103>,
+        <http://data.archaeology.link/data/bb5kbc/con_104>,
+        <http://data.archaeology.link/data/bb5kbc/con_105>,
+        <http://data.archaeology.link/data/bb5kbc/con_106>,
+        <http://data.archaeology.link/data/bb5kbc/con_107>,
+        <http://data.archaeology.link/data/bb5kbc/con_108>,
+        <http://data.archaeology.link/data/bb5kbc/con_109>,
+        <http://data.archaeology.link/data/bb5kbc/con_110>,
+        <http://data.archaeology.link/data/bb5kbc/con_111>,
+        <http://data.archaeology.link/data/bb5kbc/con_98>,
+        <http://data.archaeology.link/data/bb5kbc/con_99> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Flemsdorf"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_30> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4146,6 +4502,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Grünow bei Schönermark"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_31> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4165,6 +4522,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Herzsprung"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_32> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4181,9 +4539,11 @@
         prov:Entity ;
     rdfs:label "Meichow 8"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_132> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Meichow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_33> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4203,6 +4563,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Niederlandin"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_34> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4222,6 +4583,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Schönfeld bei Prenzlau"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_35> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4241,6 +4603,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Schönwerder"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_36> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4257,9 +4620,11 @@
         prov:Entity ;
     rdfs:label "Platkow 13"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_97> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Gusow-Platkow"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_37> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4279,6 +4644,7 @@
     ns1:hasFlurname "Rehberge"@de ;
     ns1:hasGemarkung "Cremzow"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_38> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4298,6 +4664,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Hohenbrück"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_39> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4317,6 +4684,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Gallun"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_4> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4333,9 +4701,27 @@
         prov:Entity ;
     rdfs:label "Kruszynek 6"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_185>,
+        <http://data.archaeology.link/data/bb5kbc/con_186>,
+        <http://data.archaeology.link/data/bb5kbc/con_187>,
+        <http://data.archaeology.link/data/bb5kbc/con_188>,
+        <http://data.archaeology.link/data/bb5kbc/con_189>,
+        <http://data.archaeology.link/data/bb5kbc/con_190>,
+        <http://data.archaeology.link/data/bb5kbc/con_191>,
+        <http://data.archaeology.link/data/bb5kbc/con_192>,
+        <http://data.archaeology.link/data/bb5kbc/con_193>,
+        <http://data.archaeology.link/data/bb5kbc/con_200>,
+        <http://data.archaeology.link/data/bb5kbc/con_201>,
+        <http://data.archaeology.link/data/bb5kbc/con_202>,
+        <http://data.archaeology.link/data/bb5kbc/con_203>,
+        <http://data.archaeology.link/data/bb5kbc/con_204>,
+        <http://data.archaeology.link/data/bb5kbc/con_205>,
+        <http://data.archaeology.link/data/bb5kbc/con_220>,
+        <http://data.archaeology.link/data/bb5kbc/con_221> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Kruszynek"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_40> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4352,9 +4738,54 @@
         prov:Entity ;
     rdfs:label "Racot 18"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_155>,
+        <http://data.archaeology.link/data/bb5kbc/con_156>,
+        <http://data.archaeology.link/data/bb5kbc/con_157>,
+        <http://data.archaeology.link/data/bb5kbc/con_158>,
+        <http://data.archaeology.link/data/bb5kbc/con_159>,
+        <http://data.archaeology.link/data/bb5kbc/con_160>,
+        <http://data.archaeology.link/data/bb5kbc/con_161>,
+        <http://data.archaeology.link/data/bb5kbc/con_162>,
+        <http://data.archaeology.link/data/bb5kbc/con_163>,
+        <http://data.archaeology.link/data/bb5kbc/con_164>,
+        <http://data.archaeology.link/data/bb5kbc/con_165>,
+        <http://data.archaeology.link/data/bb5kbc/con_166>,
+        <http://data.archaeology.link/data/bb5kbc/con_167>,
+        <http://data.archaeology.link/data/bb5kbc/con_168>,
+        <http://data.archaeology.link/data/bb5kbc/con_169>,
+        <http://data.archaeology.link/data/bb5kbc/con_170>,
+        <http://data.archaeology.link/data/bb5kbc/con_171>,
+        <http://data.archaeology.link/data/bb5kbc/con_172>,
+        <http://data.archaeology.link/data/bb5kbc/con_173>,
+        <http://data.archaeology.link/data/bb5kbc/con_174>,
+        <http://data.archaeology.link/data/bb5kbc/con_175>,
+        <http://data.archaeology.link/data/bb5kbc/con_176>,
+        <http://data.archaeology.link/data/bb5kbc/con_177>,
+        <http://data.archaeology.link/data/bb5kbc/con_178>,
+        <http://data.archaeology.link/data/bb5kbc/con_179>,
+        <http://data.archaeology.link/data/bb5kbc/con_180>,
+        <http://data.archaeology.link/data/bb5kbc/con_181>,
+        <http://data.archaeology.link/data/bb5kbc/con_182>,
+        <http://data.archaeology.link/data/bb5kbc/con_183>,
+        <http://data.archaeology.link/data/bb5kbc/con_184>,
+        <http://data.archaeology.link/data/bb5kbc/con_206>,
+        <http://data.archaeology.link/data/bb5kbc/con_207>,
+        <http://data.archaeology.link/data/bb5kbc/con_208>,
+        <http://data.archaeology.link/data/bb5kbc/con_209>,
+        <http://data.archaeology.link/data/bb5kbc/con_210>,
+        <http://data.archaeology.link/data/bb5kbc/con_211>,
+        <http://data.archaeology.link/data/bb5kbc/con_212>,
+        <http://data.archaeology.link/data/bb5kbc/con_213>,
+        <http://data.archaeology.link/data/bb5kbc/con_214>,
+        <http://data.archaeology.link/data/bb5kbc/con_215>,
+        <http://data.archaeology.link/data/bb5kbc/con_216>,
+        <http://data.archaeology.link/data/bb5kbc/con_217>,
+        <http://data.archaeology.link/data/bb5kbc/con_218>,
+        <http://data.archaeology.link/data/bb5kbc/con_219> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Racot"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_41> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4371,9 +4802,39 @@
         prov:Entity ;
     rdfs:label "Zwenkau-Eythra"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_313>,
+        <http://data.archaeology.link/data/bb5kbc/con_314>,
+        <http://data.archaeology.link/data/bb5kbc/con_315>,
+        <http://data.archaeology.link/data/bb5kbc/con_316>,
+        <http://data.archaeology.link/data/bb5kbc/con_317>,
+        <http://data.archaeology.link/data/bb5kbc/con_318>,
+        <http://data.archaeology.link/data/bb5kbc/con_319>,
+        <http://data.archaeology.link/data/bb5kbc/con_320>,
+        <http://data.archaeology.link/data/bb5kbc/con_321>,
+        <http://data.archaeology.link/data/bb5kbc/con_322>,
+        <http://data.archaeology.link/data/bb5kbc/con_323>,
+        <http://data.archaeology.link/data/bb5kbc/con_324>,
+        <http://data.archaeology.link/data/bb5kbc/con_325>,
+        <http://data.archaeology.link/data/bb5kbc/con_326>,
+        <http://data.archaeology.link/data/bb5kbc/con_327>,
+        <http://data.archaeology.link/data/bb5kbc/con_328>,
+        <http://data.archaeology.link/data/bb5kbc/con_329>,
+        <http://data.archaeology.link/data/bb5kbc/con_330>,
+        <http://data.archaeology.link/data/bb5kbc/con_331>,
+        <http://data.archaeology.link/data/bb5kbc/con_332>,
+        <http://data.archaeology.link/data/bb5kbc/con_333>,
+        <http://data.archaeology.link/data/bb5kbc/con_334>,
+        <http://data.archaeology.link/data/bb5kbc/con_335>,
+        <http://data.archaeology.link/data/bb5kbc/con_336>,
+        <http://data.archaeology.link/data/bb5kbc/con_337>,
+        <http://data.archaeology.link/data/bb5kbc/con_338>,
+        <http://data.archaeology.link/data/bb5kbc/con_339>,
+        <http://data.archaeology.link/data/bb5kbc/con_340>,
+        <http://data.archaeology.link/data/bb5kbc/con_341> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Eythra"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_42> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4390,9 +4851,63 @@
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 1"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_260>,
+        <http://data.archaeology.link/data/bb5kbc/con_261>,
+        <http://data.archaeology.link/data/bb5kbc/con_262>,
+        <http://data.archaeology.link/data/bb5kbc/con_263>,
+        <http://data.archaeology.link/data/bb5kbc/con_264>,
+        <http://data.archaeology.link/data/bb5kbc/con_265>,
+        <http://data.archaeology.link/data/bb5kbc/con_266>,
+        <http://data.archaeology.link/data/bb5kbc/con_267>,
+        <http://data.archaeology.link/data/bb5kbc/con_268>,
+        <http://data.archaeology.link/data/bb5kbc/con_269>,
+        <http://data.archaeology.link/data/bb5kbc/con_270>,
+        <http://data.archaeology.link/data/bb5kbc/con_271>,
+        <http://data.archaeology.link/data/bb5kbc/con_272>,
+        <http://data.archaeology.link/data/bb5kbc/con_273>,
+        <http://data.archaeology.link/data/bb5kbc/con_274>,
+        <http://data.archaeology.link/data/bb5kbc/con_275>,
+        <http://data.archaeology.link/data/bb5kbc/con_276>,
+        <http://data.archaeology.link/data/bb5kbc/con_277>,
+        <http://data.archaeology.link/data/bb5kbc/con_278>,
+        <http://data.archaeology.link/data/bb5kbc/con_279>,
+        <http://data.archaeology.link/data/bb5kbc/con_280>,
+        <http://data.archaeology.link/data/bb5kbc/con_281>,
+        <http://data.archaeology.link/data/bb5kbc/con_282>,
+        <http://data.archaeology.link/data/bb5kbc/con_283>,
+        <http://data.archaeology.link/data/bb5kbc/con_284>,
+        <http://data.archaeology.link/data/bb5kbc/con_285>,
+        <http://data.archaeology.link/data/bb5kbc/con_286>,
+        <http://data.archaeology.link/data/bb5kbc/con_287>,
+        <http://data.archaeology.link/data/bb5kbc/con_288>,
+        <http://data.archaeology.link/data/bb5kbc/con_289>,
+        <http://data.archaeology.link/data/bb5kbc/con_290>,
+        <http://data.archaeology.link/data/bb5kbc/con_291>,
+        <http://data.archaeology.link/data/bb5kbc/con_292>,
+        <http://data.archaeology.link/data/bb5kbc/con_293>,
+        <http://data.archaeology.link/data/bb5kbc/con_294>,
+        <http://data.archaeology.link/data/bb5kbc/con_295>,
+        <http://data.archaeology.link/data/bb5kbc/con_296>,
+        <http://data.archaeology.link/data/bb5kbc/con_297>,
+        <http://data.archaeology.link/data/bb5kbc/con_298>,
+        <http://data.archaeology.link/data/bb5kbc/con_299>,
+        <http://data.archaeology.link/data/bb5kbc/con_300>,
+        <http://data.archaeology.link/data/bb5kbc/con_301>,
+        <http://data.archaeology.link/data/bb5kbc/con_302>,
+        <http://data.archaeology.link/data/bb5kbc/con_303>,
+        <http://data.archaeology.link/data/bb5kbc/con_304>,
+        <http://data.archaeology.link/data/bb5kbc/con_305>,
+        <http://data.archaeology.link/data/bb5kbc/con_306>,
+        <http://data.archaeology.link/data/bb5kbc/con_307>,
+        <http://data.archaeology.link/data/bb5kbc/con_308>,
+        <http://data.archaeology.link/data/bb5kbc/con_309>,
+        <http://data.archaeology.link/data/bb5kbc/con_310>,
+        <http://data.archaeology.link/data/bb5kbc/con_311>,
+        <http://data.archaeology.link/data/bb5kbc/con_312> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Quedlinburg"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_43> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4409,9 +4924,48 @@
         prov:Entity ;
     rdfs:label "Quedlinburg KGA 2"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_222>,
+        <http://data.archaeology.link/data/bb5kbc/con_223>,
+        <http://data.archaeology.link/data/bb5kbc/con_224>,
+        <http://data.archaeology.link/data/bb5kbc/con_225>,
+        <http://data.archaeology.link/data/bb5kbc/con_226>,
+        <http://data.archaeology.link/data/bb5kbc/con_227>,
+        <http://data.archaeology.link/data/bb5kbc/con_228>,
+        <http://data.archaeology.link/data/bb5kbc/con_229>,
+        <http://data.archaeology.link/data/bb5kbc/con_230>,
+        <http://data.archaeology.link/data/bb5kbc/con_231>,
+        <http://data.archaeology.link/data/bb5kbc/con_232>,
+        <http://data.archaeology.link/data/bb5kbc/con_233>,
+        <http://data.archaeology.link/data/bb5kbc/con_234>,
+        <http://data.archaeology.link/data/bb5kbc/con_235>,
+        <http://data.archaeology.link/data/bb5kbc/con_236>,
+        <http://data.archaeology.link/data/bb5kbc/con_237>,
+        <http://data.archaeology.link/data/bb5kbc/con_238>,
+        <http://data.archaeology.link/data/bb5kbc/con_239>,
+        <http://data.archaeology.link/data/bb5kbc/con_240>,
+        <http://data.archaeology.link/data/bb5kbc/con_241>,
+        <http://data.archaeology.link/data/bb5kbc/con_242>,
+        <http://data.archaeology.link/data/bb5kbc/con_243>,
+        <http://data.archaeology.link/data/bb5kbc/con_244>,
+        <http://data.archaeology.link/data/bb5kbc/con_245>,
+        <http://data.archaeology.link/data/bb5kbc/con_246>,
+        <http://data.archaeology.link/data/bb5kbc/con_247>,
+        <http://data.archaeology.link/data/bb5kbc/con_248>,
+        <http://data.archaeology.link/data/bb5kbc/con_249>,
+        <http://data.archaeology.link/data/bb5kbc/con_250>,
+        <http://data.archaeology.link/data/bb5kbc/con_251>,
+        <http://data.archaeology.link/data/bb5kbc/con_252>,
+        <http://data.archaeology.link/data/bb5kbc/con_253>,
+        <http://data.archaeology.link/data/bb5kbc/con_254>,
+        <http://data.archaeology.link/data/bb5kbc/con_255>,
+        <http://data.archaeology.link/data/bb5kbc/con_256>,
+        <http://data.archaeology.link/data/bb5kbc/con_257>,
+        <http://data.archaeology.link/data/bb5kbc/con_258>,
+        <http://data.archaeology.link/data/bb5kbc/con_259> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Quedlinburg"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_44> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4428,9 +4982,12 @@
         prov:Entity ;
     rdfs:label "Schiaß 1"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_53>,
+        <http://data.archaeology.link/data/bb5kbc/con_54> ;
     ns1:hasFlurname "Windmühlenhügel"@de ;
     ns1:hasGemarkung "Schiaß 1"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_45> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4447,9 +5004,14 @@
         prov:Entity ;
     rdfs:label "Karsko/Schöningsburg"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_194>,
+        <http://data.archaeology.link/data/bb5kbc/con_195>,
+        <http://data.archaeology.link/data/bb5kbc/con_196>,
+        <http://data.archaeology.link/data/bb5kbc/con_197> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Karsko/Schöningsburg"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_46> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4466,9 +5028,15 @@
         prov:Entity ;
     rdfs:label "Kerkow 1"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_151>,
+        <http://data.archaeology.link/data/bb5kbc/con_152>,
+        <http://data.archaeology.link/data/bb5kbc/con_153>,
+        <http://data.archaeology.link/data/bb5kbc/con_92>,
+        <http://data.archaeology.link/data/bb5kbc/con_93> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Kerkow 1"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_47> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4485,9 +5053,15 @@
         prov:Entity ;
     rdfs:label "Schönweide 19"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_143>,
+        <http://data.archaeology.link/data/bb5kbc/con_144>,
+        <http://data.archaeology.link/data/bb5kbc/con_149>,
+        <http://data.archaeology.link/data/bb5kbc/con_150>,
+        <http://data.archaeology.link/data/bb5kbc/con_80> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Schönweide 19"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_48> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4504,9 +5078,12 @@
         prov:Entity ;
     rdfs:label "Zöllmersdorf"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_81>,
+        <http://data.archaeology.link/data/bb5kbc/con_82> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Zöllmersdorf"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_49> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4523,9 +5100,11 @@
         prov:Entity ;
     rdfs:label "Hohenbrück 3"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_34> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Hohenbrück"@de ;
     ns1:hasLocationType "Siedlung / Befestigung u.ä."@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_5> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4542,9 +5121,11 @@
         prov:Entity ;
     rdfs:label "Nowe Objezierze 7"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_198> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Nowe Objezierze 7"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_50> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4561,9 +5142,11 @@
         prov:Entity ;
     rdfs:label "Szczecin-Gumieńce 17b"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_199> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Szczecin-Gumieńce 17b"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_51> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4580,9 +5163,11 @@
         prov:Entity ;
     rdfs:label "Gartz ?"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_154> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Gartz ?"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_52> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4599,9 +5184,11 @@
         prov:Entity ;
     rdfs:label "Gramzow 23"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_124> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Gramzow 23"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_53> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4618,9 +5205,26 @@
         prov:Entity ;
     rdfs:label "Friesack 4"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_64>,
+        <http://data.archaeology.link/data/bb5kbc/con_65>,
+        <http://data.archaeology.link/data/bb5kbc/con_66>,
+        <http://data.archaeology.link/data/bb5kbc/con_67>,
+        <http://data.archaeology.link/data/bb5kbc/con_68>,
+        <http://data.archaeology.link/data/bb5kbc/con_69>,
+        <http://data.archaeology.link/data/bb5kbc/con_70>,
+        <http://data.archaeology.link/data/bb5kbc/con_71>,
+        <http://data.archaeology.link/data/bb5kbc/con_72>,
+        <http://data.archaeology.link/data/bb5kbc/con_73>,
+        <http://data.archaeology.link/data/bb5kbc/con_74>,
+        <http://data.archaeology.link/data/bb5kbc/con_75>,
+        <http://data.archaeology.link/data/bb5kbc/con_76>,
+        <http://data.archaeology.link/data/bb5kbc/con_77>,
+        <http://data.archaeology.link/data/bb5kbc/con_78>,
+        <http://data.archaeology.link/data/bb5kbc/con_79> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Friesack 4"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_54> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4637,9 +5241,11 @@
         prov:Entity ;
     rdfs:label "Steckelsdorf 12"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_62> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Steckelsdorf 12"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_55> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4656,9 +5262,14 @@
         prov:Entity ;
     rdfs:label "Bochow 6/7"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_46>,
+        <http://data.archaeology.link/data/bb5kbc/con_58>,
+        <http://data.archaeology.link/data/bb5kbc/con_59>,
+        <http://data.archaeology.link/data/bb5kbc/con_60> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Bochow 6/7"@de ;
     ns1:hasLocationType "nan"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_56> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4675,9 +5286,11 @@
         prov:Entity ;
     rdfs:label "Kaden 4"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_83> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Kaden"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_6> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4697,6 +5310,7 @@
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Neuendorf am See"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_7> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4713,9 +5327,11 @@
         prov:Entity ;
     rdfs:label "Neuendorf am See 6"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_52> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Neuendorf am See"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_8> ;
     ns1:hasType ns1:DiscoverySite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4732,9 +5348,14 @@
         prov:Entity ;
     rdfs:label "Selchow 7"@de ;
     ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:belongsTo <http://data.archaeology.link/data/bb5kbc/con_145>,
+        <http://data.archaeology.link/data/bb5kbc/con_146>,
+        <http://data.archaeology.link/data/bb5kbc/con_147>,
+        <http://data.archaeology.link/data/bb5kbc/con_148> ;
     ns1:hasFlurname "nan"@de ;
     ns1:hasGemarkung "Selchow"@de ;
     ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasPlace <http://data.archaeology.link/data/bb5kbc/pc_9> ;
     ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
@@ -4745,172 +5366,4 @@
     prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
     prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_9_pyscript> .
-
-<http://data.archaeology.link/data/bb5kbc/pc_10_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9248020668579 51.9068490790357)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_11_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.2462762802107 51.4705372020643)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_12_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5586988021946 51.4398316239272)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_13_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.4891514077344 52.3751537006729)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_14_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.189614353341 51.6068726263749)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_15_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1985845087684 52.0849261660395)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_16_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.2260737668818 51.6503688034177)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_17_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.417554004278 51.8011468406747)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_18_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.085296860556 51.9626182078923)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_19_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0815683800061 51.9630071146682)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_1_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.3833333255572 52.5452775430815)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_20_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0692830806605 51.9623206773578)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_21_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0858993739255 51.9635092440072)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_22_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0847532115604 51.9647854812076)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_23_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4551075002326 52.3269941183066)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_24_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0492011888627 51.9896677289187)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_25_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.0316686141939 51.965663321984)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_26_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0133745411872 52.9992823167434)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_27_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1862300013802 53.0625025101861)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_28_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1895328419857 53.0614463027942)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_29_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1641122617899 53.0302292598348)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_2_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9298055943383 52.8274620574839)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_30_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1650907441802 53.0305238006921)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_31_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0752749543883 53.1239629867006)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_32_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.0149531909195 52.9986661192959)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_33_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9652498943823 53.1832699725103)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_34_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.1523596505517 53.0554339377783)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_35_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9636863071334 53.4277586791405)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_36_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.815411741033 53.3874740969454)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_37_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.331376484099 52.6057790432099)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_38_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_39_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_3_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5751209183095 52.1238876997843)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_40_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.9947200232498 52.5665872011118)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_41_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.7086330880121 52.0574297734268)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_42_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.2961222325768 51.2351275316024)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_43_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1534869240729 51.7846213076888)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_44_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.1566059319996 51.7858029144234)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_45_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.1416364677636 52.2612893628189)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_46_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_47_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_48_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_49_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_4_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.5577360107329 52.2482428722165)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_50_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_51_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_52_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_53_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_54_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_55_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_56_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> nan"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_5_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9061497197174 52.0999192589813)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_6_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8034684990564 51.9065771715704)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_7_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8801446514295 52.1012036059188)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_8_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.8787796612809 52.0974143164012)"^^geo:wktLiteral .
-
-<http://data.archaeology.link/data/bb5kbc/pc_9_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.4682086474743 52.3525830057769)"^^geo:wktLiteral .
 
