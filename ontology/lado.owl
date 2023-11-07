@@ -289,6 +289,18 @@
     
 
 
+    <!-- http://archaeology.link/ontology#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#belongsTo">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#locatedWithin"/>
+        <owl:inverseOf rdf:resource="http://archaeology.link/ontology#locatedWithin"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Context"/>
+        <rdfs:label xml:lang="en">belongs to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://archaeology.link/ontology#carries -->
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#carries">
@@ -331,6 +343,18 @@
         <rdfs:range rdf:resource="http://archaeology.link/ontology#KilnRegion"/>
         <rdfs:label xml:lang="en">clustered as</rdfs:label>
         <rdfs:label xml:lang="de">geclustert als</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#contains -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#contains">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#partOf"/>
+        <owl:inverseOf rdf:resource="http://archaeology.link/ontology#partOf"/>
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Context"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+        <rdfs:label xml:lang="en">contains</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -452,6 +476,7 @@
     <!-- http://archaeology.link/ontology#hasLocation -->
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasLocation">
+        <owl:inverseOf rdf:resource="http://archaeology.link/ontology#hasPlace"/>
         <rdfs:domain rdf:resource="http://archaeology.link/ontology#Place"/>
         <rdfs:range rdf:resource="http://archaeology.link/ontology#Location"/>
         <rdfs:label xml:lang="en">has location</rdfs:label>
@@ -475,6 +500,17 @@
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasNarrowerItem">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
         <rdfs:label xml:lang="en">has narrower item</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasPlace -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasPlace">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasLocation"/>
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Location"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:label xml:lang="en">has place</rdfs:label>
     </owl:ObjectProperty>
     
 

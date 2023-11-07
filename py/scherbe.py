@@ -70,6 +70,7 @@ for index, row in data.iterrows():
     
     # cross-table
     lines.append("bb5kbc:ic_" + str(row['id']) + " " + "lado:partOf" + " " + "bb5kbc:con_" + str(row['kontext_id']) + " .")
+    lines.append("bb5kbc:con_" + str(row['kontext_id']) + " " + "lado:contains" + " " + "bb5kbc:ic_" + str(row['id']) + " .")
 
     # license
     lines.append("bb5kbc:ic_" + str(row['id']) + " " + "dct:license" +

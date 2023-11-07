@@ -134,6 +134,7 @@ for index, row in data.iterrows():
 
     # cross-reference
     lines.append("bb5kbc:pc_" + str(row['id']) + " " + "lado:hasLocation" + " " + "bb5kbc:loc_" + str(row['id']) + " .")
+    lines.append("bb5kbc:loc_" + str(row['id']) + " " + "lado:hasPlace" + " " + "bb5kbc:pc_" + str(row['id']) + " .")
     
     # metadata
     lines.append("bb5kbc:loc_" +
