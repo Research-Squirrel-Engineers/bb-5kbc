@@ -19,6 +19,8 @@ import datetime
 import importlib
 import sys
 import hashlib
+from pathlib import Path # for file management
+
 
 # set UTF8 as default
 importlib.reload(sys)
@@ -28,9 +30,15 @@ starttime = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 lines = []
 
 # set paths I
+
+def get_project_root() -> Path:
+    return Path(__file__).parent.parent
+
+Path = get_project_root()
+
 file_name = "fundplatz.csv"
 dir_path = os.path.dirname(os.path.realpath(__file__))
-file_in = dir_path.replace("\\py", "\\csv") + "\\" + file_name
+file_in = Path.joinpath("csv").joinpath(file_name) # joinpath used to join parts of the path together. Path as project root
 
 # read csv file
 data = pd.read_csv(
@@ -207,8 +215,7 @@ prefixes += "\r\n"
 
 for x in range(1, int(files) + 1):
     strX = str(x)
-    filename = dir_path.replace("\\py", "\\rdf") + \
-        "\\" + "site.ttl"
+    filename = Path.joinpath("rdf").joinpath("site.ttl")
     file = codecs.open(filename, "w", "utf-8")
     file.write(
         "# create triples from https://github.com/Research-Squirrel-Engineers/bb-5kbc \r\n")
