@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_54_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-07T18:53:06.023730+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-07T18:53:05.899350+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T20:38:26.213594+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T20:38:26.169173+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
