@@ -1,0 +1,17 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://data.archaeology.link/data/bb5kbc/ic_227> a ns1:InformationCarrier,
+        prov:Entity ;
+    ns1:partOf <http://data.archaeology.link/data/bb5kbc/con_4> ;
+    ns1:potsherd_type "Wandscherbe"@en ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/scherbe.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/ic_227_pyscript> .
+

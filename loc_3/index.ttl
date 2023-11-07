@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://archaeoinformatics.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_3> a ns2:Site,
+        ns1:Location,
+        prov:Entity ;
+    rdfs:label "Egsdorf bei Königs Wusterhausen 2"@de ;
+    ns2:siteType ns2:ArchaeologicalSite ;
+    ns1:hasFlurname "Schmidts Acker"@de ;
+    ns1:hasGemarkung "Egsdorf bei Königs Wusterhausen"@de ;
+    ns1:hasLocationType "Einzel-/Lesefunde"@de ;
+    ns1:hasType ns1:DiscoverySite ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    geo:hasGeometry <http://data.archaeology.link/data/bb5kbc/loc_3_geom> ;
+    prov:wasAttributedTo <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> ;
+    prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/loc_3_pyscript> .
+

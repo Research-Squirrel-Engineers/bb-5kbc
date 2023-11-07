@@ -4,7 +4,8 @@
 
 <http://data.archaeology.link/data/bb5kbc/con_300> a ns1:Context,
         prov:Entity ;
-    ns1:feature_type "Bla"@en ;
+    ns1:feature_type "Oberflächen"@en ;
+    ns1:locatedWithin <http://data.archaeology.link/data/bb5kbc/loc_43> ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;

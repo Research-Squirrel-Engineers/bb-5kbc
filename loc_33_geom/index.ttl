@@ -1,0 +1,5 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<http://data.archaeology.link/data/bb5kbc/loc_33_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.9652498943823 53.1832699725103)"^^geo:wktLiteral .
+
