@@ -1,4 +1,342 @@
-"id","type"
-100,"Siedlung"
-200,"Grabung"
-300,"Bla"
+id,archivnr_in_tab,fundplatz_id,type
+1,18/6/1,1,Siedlungsgrube
+2,18/6/1 und 18/10/1,1,Grab
+3,18/4/1,1,Oberflächen
+4,18/11/1,1,Siedlungsgrube
+5,18/16/1,1,Grab
+6,18/5/1 und 18/4/1,1,Oberflächen
+7,18/4/1 und 18/6/1,1,Siedlungsgrube
+8,18/1/1,1,Grab
+9,18/12/1,1,Oberflächen
+10,18/7/1,1,Siedlungsgrube
+11,18/7/1 und 18/8/2,1,Grab
+12,18/8/2 und 18/9/1,1,Oberflächen
+13,18/8/2,1,Siedlungsgrube
+14,18/8/1,1,Grab
+15,18/5/1,1,Oberflächen
+16,18/7/1 und 18/4/1,1,Siedlungsgrube
+17,18/12/1 und 18/14/1,1,Grab
+18,18/9/1,1,Oberflächen
+19,18/3/1,1,Siedlungsgrube
+20,18/10/1,1,Siedlungsgrube
+21,18/13/1,1,Grab
+22,18/6/1 und 18/5/6,1,Oberflächen
+23,18/5/6,1,Siedlungsgrube
+24,18/17/1,1,Grab
+25,19/3/1,1,Oberflächen
+26,19/4/1,1,Siedlungsgrube
+27,1961:2/1,29,Grab
+28,1961:2/7/1,29,Oberflächen
+29,1961:2/2/1,29,Siedlungsgrube
+30,2009/224/1,29,Grab
+31,1961:2/3c,29,Oberflächen
+32,1976:286/2,29,Siedlungsgrube
+33,1994:353,15,Grab
+34,2009:631/1,5,Oberflächen
+35,1986:41/1,20,Siedlungsgrube
+36,1992:109/3,20,Siedlungsgrube
+37,1992:109/8/1,20,Grab
+38,1992:109/10/1,20,Oberflächen
+39,1992:109/18,20,Siedlungsgrube
+40,1992:109/20,20,Grab
+41,1992:109/44/1,20,Oberflächen
+42,1992:109/49,20,Siedlungsgrube
+43,1992:109/48,20,Grab
+44,2010:1018/4,20,Oberflächen
+45,2001:636/1,20,Siedlungsgrube
+46,1981:77/1/1,56,Grab
+47,1998:699/1,18,Oberflächen
+48,2007:1339/1,18,Siedlungsgrube
+49,2001:634/1,24,Grab
+50,1980:105/1,25,Oberflächen
+51,1980:91/1,25,Siedlungsgrube
+52,2009:1070/2,8,Siedlungsgrube
+53,1975:50/6/1/1,45,Grab
+54,1975:50/85,45,Oberflächen
+55,1959:87/75,16,Siedlungsgrube
+56,1981:91,18,Grab
+57,1982:115/1,18,Oberflächen
+58,1981:77/8/1,56,Siedlungsgrube
+59,1983:281/1,56,Grab
+60,1990:32/1,56,Oberflächen
+61,1969:63/28/4,10,Siedlungsgrube
+62,2004:33/283/1,55,Grab
+63,1969:63/30/9/1,10,Oberflächen
+64,1977:7/3157T,54,Siedlungsgrube
+65,1977:7/3158,54,Grab
+66,1977:7/3186,54,Oberflächen
+67,1977:7/3256T,54,Siedlungsgrube
+68,1977:7/3154,54,Siedlungsgrube
+69,1977:7/3150,54,Grab
+70,1977:7/3251,54,Oberflächen
+71,1977:7/3039,54,Siedlungsgrube
+72,1977:7/2935,54,Grab
+73,1977:7/3258,54,Oberflächen
+74,1977:7/2949,54,Siedlungsgrube
+75,1977:7/2846.4,54,Grab
+76,1977:7/3038.3,54,Oberflächen
+77,1977:7/3038,54,Siedlungsgrube
+78,1977:7/3020/1,54,Grab
+79,1977:7/3085.1,54,Oberflächen
+80,2008:49/5/1,48,Siedlungsgrube
+81,IV/55/B/1333 oder 14/62,49,Grab
+82,IV 54/B/1332 oder 12/62,49,Oberflächen
+83,IV 664/78 oder IV 45/62,6,Siedlungsgrube
+84,2008:799/1,19,Siedlungsgrube
+85,2008:252/12/1,19,Grab
+86,1999:676/16/14,19,Oberflächen
+87,1999:676/17/3,19,Siedlungsgrube
+88,1999:676/25/22,19,Grab
+89,1999:676/30/08,19,Oberflächen
+90,1999:676/30/13,19,Siedlungsgrube
+91,1999:676/30/26,19,Grab
+92,1996:908/1,47,Oberflächen
+93,2011:786,47,Siedlungsgrube
+94,2017:53/11/1,11,Grab
+95,1981:87,18,Oberflächen
+96,IV/94/11,20,Siedlungsgrube
+97,2012:21/1,37,Grab
+98,IV/1816.48,30,Oberflächen
+99,IV/1816.49,30,Siedlungsgrube
+100,IV/1816.??,30,Siedlungsgrube
+101,IV/1816.50,30,Grab
+102,IV/1816.69,30,Oberflächen
+103,IV/1816.33,30,Siedlungsgrube
+104,IV/1816.32,30,Grab
+105,IV/1816.37,30,Oberflächen
+106,IV/1816.35,30,Siedlungsgrube
+107,IV/1816.42,30,Grab
+108,IV/1816.14?,30,Oberflächen
+109,IV/1816.44,30,Siedlungsgrube
+110,IV/1816.41,30,Grab
+111,IV/1816.45,30,Oberflächen
+112,1995:725/126,23,Siedlungsgrube
+113,1995:725/150,23,Grab
+114,1995:725/110,23,Oberflächen
+115,1995:725/48,23,Siedlungsgrube
+116,1995:725/37,23,Siedlungsgrube
+117,1995:725/26,23,Grab
+118,1995:725/18,23,Oberflächen
+119,1995:725/27,23,Siedlungsgrube
+120,1995:725/24,23,Grab
+121,1995:725/208,23,Oberflächen
+122,1995:725/209,23,Siedlungsgrube
+123,1995:725/212,23,Grab
+124,1999:64/63/1,53,Oberflächen
+125,2013:133/4/7/1,17,Siedlungsgrube
+126,2013:133/5/6,17,Grab
+127,2013:133/5/8,17,Oberflächen
+128,2013:133/5/11,17,Siedlungsgrube
+129,2013:133/6/3,17,Grab
+130,2013:133/6/5,17,Oberflächen
+131,2013:133/6/4,17,Siedlungsgrube
+132,2018:74/55/1,33,Siedlungsgrube
+133,2013:133/6/9,17,Grab
+134,2013:133/6/12/2,17,Oberflächen
+135,2013:133/1/1/1,17,Siedlungsgrube
+136,2013:133/2/3,17,Grab
+137,2013:133/2/2,17,Oberflächen
+138,2013:133/6/8,17,Siedlungsgrube
+139,2013:133/6/15,17,Grab
+140,2013:133/6/13/2,17,Oberflächen
+141,2013:133/7/3/1,17,Siedlungsgrube
+142,1999:676/40/17,19,Grab
+143,IV/541,48,Oberflächen
+144,IV/1488,48,Siedlungsgrube
+145,2013:12/47/1/1,9,Grab
+146,2013:12/47/1/3,9,Oberflächen
+147,2013:12/47/1/2,9,Siedlungsgrube
+148,2013:12/47/1/4,9,Siedlungsgrube
+149,IV/1829.5 neu MA00420,48,Grab
+150,IV/1828.3 neu  MA00421,48,Oberflächen
+151,neue Inv-Nr MA00446,47,Siedlungsgrube
+152,neue Inv-Nr MA00447,47,Grab
+153,neue Inv-Nr MA00448,47,Oberflächen
+154,neue Inv-Nr MA00458,52,Siedlungsgrube
+155,R 18/519/85 528,41,Grab
+156,R 18/ 889/87,41,Oberflächen
+157,R 18/ 507/85,41,Siedlungsgrube
+158,R 18/687/87,41,Grab
+159,R 18/820/87,41,Oberflächen
+160,R18/518/85,41,Siedlungsgrube
+161,R18/750/87,41,Grab
+162,R 18/819/87,41,Oberflächen
+163,R 18/507/85,41,Siedlungsgrube
+164,R 18/507/85,41,Siedlungsgrube
+165,R18/807/87 und 507/85,41,Grab
+166,R18/819/87,41,Oberflächen
+167,R18/836/87,41,Siedlungsgrube
+168,R18/519/85,41,Grab
+169,R18/507/xx (49?),41,Oberflächen
+170,R18/793/87,41,Siedlungsgrube
+171,R18/501/86,41,Grab
+172,R18/501/85,41,Oberflächen
+173,"R18/832/87, in Tüte R18/501/86 od. 85",41,Siedlungsgrube
+174,"Unbeschrif., in Tüte R18/501/86 od. 85",41,Grab
+175,R18/848/87,41,Oberflächen
+176,R18/519/85 und R18/501/85,41,Siedlungsgrube
+177,R18/507/85,41,Grab
+178,R18/888/87,41,Oberflächen
+179,R18/903/87,41,Siedlungsgrube
+180,R18/849/87,41,Siedlungsgrube
+181,R18/899/87,41,Grab
+182,R18/892/87,41,Oberflächen
+183,R18/503/85,41,Siedlungsgrube
+184,R18/523/85,41,Grab
+185,K6/I11/09,40,Oberflächen
+186,K6/I20/09,40,Siedlungsgrube
+187,K6/I28/09,40,Grab
+188,K6/I13/09,40,Oberflächen
+189,K6/I30/09,40,Siedlungsgrube
+190,K6/I42/09,40,Grab
+191,K6/I29/09,40,Oberflächen
+192,K6/I15/09,40,Siedlungsgrube
+193,K6/I44/09,40,Grab
+194,"1962:157, MNS/A/22065, PS 1398a",46,Oberflächen
+195,"1962:157, MNS/A/22065, 2007",46,Siedlungsgrube
+196,"1962:157, MNS/A/22065",46,Siedlungsgrube
+197,"1962:157, MNS/A/22065 ?",46,Grab
+198,NO/22/94/M,50,Oberflächen
+199,S-G/133/17/M,51,Siedlungsgrube
+200,K6/B59/09,40,Grab
+201,K6/07/08,40,Oberflächen
+202,K6/J7/09,40,Siedlungsgrube
+203,K6/B21/08,40,Grab
+204,K6/B15/08,40,Oberflächen
+205,K6/B45/08,40,Siedlungsgrube
+206,R18/269/85 und 270/85,41,Grab
+207,R18/270/85,41,Oberflächen
+208,R18/388/85,41,Siedlungsgrube
+209,R18/502/85 und 522/85,41,Grab
+210,R18/522/85,41,Oberflächen
+211,R18/474/85,41,Siedlungsgrube
+212,R18/520/85,41,Siedlungsgrube
+213,R18/358/85,41,Grab
+214,R18/247/48,41,Oberflächen
+215,R18/245/84,41,Siedlungsgrube
+216,R18/834/87,41,Grab
+217,R18/879/87,41,Oberflächen
+218,R18/843/87,41,Siedlungsgrube
+219,R19/359/85,41,Grab
+220,K6/B101/09,40,Oberflächen
+221,K6/B95/09,40,Siedlungsgrube
+222,2005:26452,44,Grab
+223,2005:26470 (I) ?,44,Oberflächen
+224,2005:27902-b und d,44,Siedlungsgrube
+225,2005:27902-d,44,Grab
+226,2005:27902-b,44,Oberflächen
+227,2005:28182,44,Siedlungsgrube
+228,2005:28183,44,Siedlungsgrube
+229,2005:26738a,44,Grab
+230,2005:26804,44,Oberflächen
+231,2005:28092,44,Siedlungsgrube
+232,2005:28245,44,Grab
+233,2005:19343a,44,Oberflächen
+234,2005:26742,44,Siedlungsgrube
+235,2005:19537a,44,Grab
+236,2005:20027a,44,Oberflächen
+237,2005:27053,44,Siedlungsgrube
+238,2005:28327a und b,44,Grab
+239,2005:26904,44,Oberflächen
+240,2005:28189,44,Siedlungsgrube
+241,2005:20039a,44,Grab
+242,2005:20369c,44,Oberflächen
+243,2005:28088,44,Siedlungsgrube
+244,2005:28249,44,Siedlungsgrube
+245,2005:26571,44,Grab
+246,2005:26728,44,Oberflächen
+247,2005:28060,44,Siedlungsgrube
+248,2005:19894b,44,Grab
+249,2005:26401a,44,Oberflächen
+250,2005:28112a,44,Siedlungsgrube
+251,2005:26583,44,Grab
+252,2005:26576,44,Oberflächen
+253,2005:26401i,44,Siedlungsgrube
+254,2005:19338c,44,Grab
+255,2005:20079a,44,Oberflächen
+256,2005:26317a,44,Siedlungsgrube
+257,2005:27045,44,Grab
+258,2005:19752a,44,Oberflächen
+259,2005:28337a,44,Siedlungsgrube
+260,5380:4500:13,43,Siedlungsgrube
+261,"5380:4500:034, 5380:4500:005, 5380:4002:6, 5380:4002:7",43,Grab
+262,"5380:4500:35, 005",43,Oberflächen
+263,"5380:4500:38, 007",43,Siedlungsgrube
+264,5380:4500:14,43,Grab
+265,5380:4500:29,43,Oberflächen
+266,"5380:4002:4, 5380:4500:10,  5380:4500:30 und 35",43,Siedlungsgrube
+267,5380:4500:38,43,Grab
+268,5380:4500:28 und 6,43,Oberflächen
+269,"5380:4500:10, 5 und 6",43,Siedlungsgrube
+270,5380:4500:29 und 4002:19,43,Grab
+271,"5380:4500:15, 30, 35 und 38",43,Oberflächen
+272,5380:4500:005,43,Siedlungsgrube
+273,"5380:4500:10 und 30, 4002:6",43,Grab
+274,5380:4500:020,43,Oberflächen
+275,5380:4500:030,43,Siedlungsgrube
+276,5380:4500:028,43,Siedlungsgrube
+277,5380:4002:4,43,Grab
+278,5380:4500:037,43,Oberflächen
+279,8622/6001/EF49,43,Siedlungsgrube
+280,8622/6001/EF56,43,Grab
+281,8622/6001/EF78,43,Oberflächen
+282,8622/6001/EF79,43,Siedlungsgrube
+283,8622/6001/EF70,43,Grab
+284,8622/6001/72,43,Oberflächen
+285,8622/6001/EF88,43,Siedlungsgrube
+286,8622/6001/EF81,43,Grab
+287,8622/6001/EF138,43,Oberflächen
+288,8622/6001/EF145,43,Siedlungsgrube
+289,8622/6001/EF58,43,Grab
+290,8622/6001/EF102,43,Oberflächen
+291,8622/6001/EF097,43,Siedlungsgrube
+292,8622/6001/EF091,43,Siedlungsgrube
+293,8622/6001/EF096,43,Grab
+294,8622/6001/EF090,43,Oberflächen
+295,8622/6002/EF099,43,Siedlungsgrube
+296,8622/6002/EF129,43,Grab
+297,10544/8001/EF84,43,Oberflächen
+298,10544/8001/EF129,43,Siedlungsgrube
+299,10544/8001/EF23,43,Grab
+300,5380:4003:EF005,43,Oberflächen
+301,5380:4004:EF012,43,Siedlungsgrube
+302,8622/6003/EF27,43,Grab
+303,8622/6003/EF37,43,Oberflächen
+304,8622/6003/EF77,43,Siedlungsgrube
+305,8622/6003/EF85,43,Grab
+306,8622/6003/EF70,43,Oberflächen
+307,8622/6068/EF003,43,Siedlungsgrube
+308,8622/6006/EF034,43,Siedlungsgrube
+309,8622/6006/EF085,43,Grab
+310,8622/6006/EF077,43,Oberflächen
+311,8622/6006/EF087,43,Siedlungsgrube
+312,8622/6006/EF072,43,Grab
+313,"ZW1-2575/1, ZW1-2575",42,Oberflächen
+314,ZW1-2575,42,Siedlungsgrube
+315,ZW1-2575/2,42,Grab
+316,ZW1-2575/1,42,Oberflächen
+317,ZW1-2575/3,42,Siedlungsgrube
+318,ZW1-2575/4,42,Grab
+319,"ZW1-2575/2, ZW1-2575",42,Oberflächen
+320,"ZW1-2575/1, ZW1-2575/3",42,Siedlungsgrube
+321,"ZW1-2575/1, ZW1-2575/2",42,Grab
+322,ZW1-2575/1-3,42,Oberflächen
+323,"ZW1-2575, ZW1-2575 /2",42,Siedlungsgrube
+324,ZW1-3537/2,42,Siedlungsgrube
+325,ZW1-3537,42,Grab
+326,ZW1-1509/2,42,Oberflächen
+327,ZW1-1509/1,42,Siedlungsgrube
+328,"ZW1-1509, ZW1-1509/2",42,Grab
+329,"ZW1-1509, ZW1-1509/1",42,Oberflächen
+330,ZW1-1509,42,Siedlungsgrube
+331,"ZW1-1509, ZW1-1303",42,Grab
+332,ZW1-1825,42,Oberflächen
+333,ZW1-1697,42,Siedlungsgrube
+334,ZW1-1266,42,Grab
+335,ZW1-2070,42,Oberflächen
+336,ZW1-2331,42,Siedlungsgrube
+337,ZW1-3537/10,42,Grab
+338,ZW1-3537/11,42,Oberflächen
+339,ZW1-3537/10 u. 11,42,Siedlungsgrube
+340,ZW1-1537,42,Siedlungsgrube
+341,ZW1-3537/9,42,Grab

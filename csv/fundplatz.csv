@@ -1,4 +1,57 @@
-"id","name","flurname","gemarkung","typ","sitetype","wkt"
-693,"Location 1","Test 1","Gem 1","Typ 1","es","POINT(18.4815 42.7790)"
-563,"Location 2","Test 2","Gem 2","Typ 2","ds","POINT(24.0053 43.1907)"
-542,"Location 3","Test 3","Gem 3","Typ 3","ds","POINT(14.3998 40.6385)"
+id,name,flurname,gemarkung,typ,sitetype,wkt
+2,Hohenfinow 10,Struwenberg,Hohenfinow,Einzel-/Lesefunde,ds,POINT (13.9298055943383 52.8274620574839)
+3,Egsdorf bei Königs Wusterhausen 2,Schmidts Acker,Egsdorf bei Königs Wusterhausen,Einzel-/Lesefunde,ds,POINT (13.5751209183095 52.1238876997843)
+4,Gallun 4,,Gallun,Einzel-/Lesefunde,ds,POINT (13.5577360107329 52.2482428722165)
+5,Hohenbrück 3,,Hohenbrück,Siedlung / Befestigung u.ä.,ds,POINT (13.9061497197174 52.0999192589813)
+6,Kaden 4,,Kaden,Einzel-/Lesefunde,ds,POINT (13.8034684990564 51.9065771715704)
+7,Neuendorf am See 13,,Neuendorf am See,Einzel-/Lesefunde,ds,POINT (13.8801446514295 52.1012036059188)
+8,Neuendorf am See 6,,Neuendorf am See,Einzel-/Lesefunde,ds,POINT (13.8787796612809 52.0974143164012)
+9,Selchow 7,,Selchow,Einzel-/Lesefunde,es,POINT (13.4682086474743 52.3525830057769)
+10,Lübben Steinkirchen 6,,Lübben Steinkirchen 6,Einzel-/Lesefunde,ds,POINT (13.9248020668579 51.9068490790357)
+11,Brottewitz 8,,Brottewitz,Siedlung / Befestigung u.ä.,es,POINT (13.2462762802107 51.4705372020643)
+12,Elsterwerda 10,,Elsterwerda,Siedlung / Befestigung u.ä.,ds,POINT (13.5586988021946 51.4398316239272)
+13,Booßen 2,,Booßen,Siedlung / Befestigung u.ä.,ds,POINT (14.4891514077344 52.3751537006729)
+1,Seelow 20,,Seelow,Siedlung,es,POINT (14.3833333255572 52.5452775430815)
+14,Neupetershain 5/33 (5),,Neupetershain,Einzel-/Lesefunde,es,POINT (14.189614353341 51.6068726263749)
+15,Trebatsch 1,Sabrodt 1,Sabrodt,Einzel-/Lesefunde,ds,POINT (14.1985845087684 52.0849261660395)
+16,Drebkau 2,,Drebkau,Einzel-/Lesefunde,es,POINT (14.2260737668818 51.6503688034177)
+17,Neuendorf 23,,Neuendorf,Einzel-/Lesefunde,es,POINT (14.417554004278 51.8011468406747)
+18,Bochow 15,,Bochow,Einzel-/Lesefunde,ds,POINT (13.085296860556 51.9626182078923)
+19,Bochow 16,,Bochow,Siedlung / Befestigung u.ä.,es,POINT (13.0815683800061 51.9630071146682)
+20,Bochow 2,,Bochow,Einzel-/Lesefunde,es,POINT (13.0692830806605 51.9623206773578)
+21,Bochow 6,,Bochow,Einzel-/Lesefunde,ds,POINT (13.0858993739255 51.9635092440072)
+22,Bochow 7,,Bochow,Einzel-/Lesefunde,ds,POINT (13.0847532115604 51.9647854812076)
+23,Groß Kienitz 7,,Groß Kienitz,Einzel-/Lesefunde,es,POINT (13.4551075002326 52.3269941183066)
+24,Jüterbog 31,Starenberg / Jüterbog-Damm??,Jüterbog,Einzel-/Lesefunde,ds,POINT (13.0492011888627 51.9896677289187)
+25,Rohrbeck 14,,Rohrbeck,Siedlung / Befestigung u.ä.,ds,POINT (13.0316686141939 51.965663321984)
+26,Angermünde 41,,Angermünde,Einzel-/Lesefunde,ds,POINT (14.0133745411872 52.9992823167434)
+27,Berkholz zu Berkholz-Meyenburg 5,,Berkholz zu Berkholz-Meyenburg,Einzel-/Lesefunde,ds,POINT (14.1862300013802 53.0625025101861)
+28,Berkholz zu Berkholz-Meyenburg 8,,Berkholz zu Berkholz-Meyenburg,Einzel-/Lesefunde,ds,POINT (14.1895328419857 53.0614463027942)
+29,Flemsdorf 10,,Flemsdorf,Siedlung / Befestigung u.ä.,es,POINT (14.1641122617899 53.0302292598348)
+30,Flemsdorf 6/1 (6),,Flemsdorf,Siedlung / Befestigung u.ä.,es,POINT (14.1650907441802 53.0305238006921)
+31,Grünow bei Schönermark 17/18 (17),,Grünow bei Schönermark,Einzel-/Lesefunde,ds,POINT (14.0752749543883 53.1239629867006)
+32,Herzsprung 7,,Herzsprung,Einzel-/Lesefunde,ds,POINT (14.0149531909195 52.9986661192959)
+33,Meichow 8,,Meichow,Einzel-/Lesefunde,es,POINT (13.9652498943823 53.1832699725103)
+34,Niederlandin 8,,Niederlandin,Einzel-/Lesefunde,ds,POINT (14.1523596505517 53.0554339377783)
+35,Schönfeld bei Prenzlau 11,,Schönfeld bei Prenzlau,Siedlung / Befestigung u.ä.,ds,POINT (13.9636863071334 53.4277586791405)
+36,Schönwerder 5,,Schönwerder,Einzel-/Lesefunde,ds,POINT (13.815411741033 53.3874740969454)
+37,Platkow 13,,Gusow-Platkow,,ds,POINT (14.331376484099 52.6057790432099)
+38,Cremzow 5,Rehberge,Cremzow,,ds,
+39,Hohenbrück 2,,Hohenbrück,,ds,
+40,Kruszynek 6,,Kruszynek,,es,POINT (18.9947200232498 52.5665872011118)
+41,Racot 18,,Racot,,es,POINT (16.7086330880121 52.0574297734268)
+42,Zwenkau-Eythra,,Eythra,Siedlung / Befestigung u.ä.,es,POINT (12.2961222325768 51.2351275316024)
+43,Quedlinburg KGA 1,,Quedlinburg,Siedlung / Befestigung u.ä.,es,POINT (11.1534869240729 51.7846213076888)
+44,Quedlinburg KGA 2,,Quedlinburg,Siedlung / Befestigung u.ä.,es,POINT (11.1566059319996 51.7858029144234)
+45,Schiaß 1,Windmühlenhügel,Schiaß 1,Einzel-/Lesefunde,es,POINT (13.1416364677636 52.2612893628189)
+46,Karsko/Schöningsburg,,Karsko/Schöningsburg,,ds,
+47,Kerkow 1,,Kerkow 1,,ds,
+48,Schönweide 19,,Schönweide 19,,ds,
+49,Zöllmersdorf,,Zöllmersdorf,,ds,
+50,Nowe Objezierze 7,,Nowe Objezierze 7,,ds,
+51,Szczecin-Gumieńce 17b,,Szczecin-Gumieńce 17b,,es,
+52,Gartz ?,,Gartz ?,,ds,
+53,Gramzow 23,,Gramzow 23,,ds,
+54,Friesack 4,,Friesack 4,,es,
+55,Steckelsdorf 12,,Steckelsdorf 12,,ds,
+56,Bochow 6/7,,Bochow 6/7,,ds,
