@@ -65,24 +65,24 @@
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.3998 40.6385)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_542_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T08:57:46.459133+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T08:57:46.427443+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_563_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.0053 43.1907)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_563_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T08:57:46.459133+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T08:57:46.427443+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_693_geom> a <http://www.opengis.net/ont/sf#Point> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(18.4815 42.7790)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/bb5kbc/loc_693_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T08:57:46.459133+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T08:57:46.427443+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_542> a ns1:Place,
@@ -98,8 +98,8 @@
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_542_pyscript> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_542_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T08:57:46.459133+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T08:57:46.427443+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_563> a ns1:Place,
@@ -115,8 +115,8 @@
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_563_pyscript> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_563_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T08:57:46.459133+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T08:57:46.427443+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_693> a ns1:Place,
@@ -132,8 +132,8 @@
     prov:wasGeneratedBy <http://data.archaeology.link/data/bb5kbc/pc_693_pyscript> .
 
 <http://data.archaeology.link/data/bb5kbc/pc_693_pyscript> a prov:Activity ;
-    prov:endedAtTime "2023-11-06T22:37:02.846622+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-06T22:37:02.834011+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-11-07T08:57:46.459133+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-11-07T08:57:46.427443+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 <http://data.archaeology.link/data/bb5kbc/loc_542> a ns2:Site,
@@ -182,7 +182,7 @@
     ns1:hasFlurname "Test 1"@de ;
     ns1:hasGemarkung "Gem 1"@de ;
     ns1:hasLocationType "Typ 1"@de ;
-    ns1:hasType ns1:ExcuvationSite ;
+    ns1:hasType ns1:ExcavationSite ;
     dcterms:creator <https://orcid.org/0000-0002-3246-3531>,
         <https://orcid.org/0000-0003-4696-2101> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;

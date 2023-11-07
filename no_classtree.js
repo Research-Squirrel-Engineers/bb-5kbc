@@ -223,9 +223,8 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeology.link/ontology#Location": 1,
-              "http://www.w3.org/ns/prov#Entity": 1,
-              "http://archaeoinformatics.link/ontology#Site": 1
+              "http://archaeology.link/ontology#Place": 1,
+              "http://www.w3.org/ns/prov#Entity": 1
             }
           }
         },
@@ -427,14 +426,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 3,
-              "http://archaeology.link/ontology#Place": 3,
-              "http://www.w3.org/ns/prov#Entity": 3
+              "instancecount": 12,
+              "http://www.w3.org/ns/prov#Activity": 6
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 14
       },
       {
         "id": "http://data.archaeology.link/data/bb5kbc/Location_collection",
