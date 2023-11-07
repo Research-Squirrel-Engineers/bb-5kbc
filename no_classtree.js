@@ -1232,12 +1232,6 @@ var tree={
         "text": "Entity (prov:Entity) [932]",
         "data": {
           "to": {
-            "http://archaeology.link/ontology#hasLocation": {
-              "instancecount": 1,
-              "http://archaeology.link/ontology#Location": 1,
-              "http://www.w3.org/ns/prov#Entity": 1,
-              "http://archaeoinformatics.link/ontology#Site": 1
-            },
             "http://archaeology.link/ontology#hasRepresentativeGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -1280,7 +1274,7 @@ var tree={
             }
           }
         },
-        "instancecount": 14
+        "instancecount": 13
       },
       {
         "id": "http://data.archaeology.link/data/bb5kbc/pc_2_geom",
@@ -2081,15 +2075,11 @@ var tree={
             }
           },
           "from": {
-            "http://archaeology.link/ontology#hasRepresentativeGeometry": {
-              "instancecount": 0,
-              "http://archaeology.link/ontology#Place": 1,
-              "http://www.w3.org/ns/prov#Entity": 1
-            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://archaeology.link/ontology#Place": 1,
-              "http://www.w3.org/ns/prov#Entity": 1
+              "http://archaeology.link/ontology#Location": 1,
+              "http://www.w3.org/ns/prov#Entity": 1,
+              "http://archaeoinformatics.link/ontology#Site": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -2910,9 +2900,8 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://archaeology.link/ontology#Location": 1,
-              "http://www.w3.org/ns/prov#Entity": 1,
-              "http://archaeoinformatics.link/ontology#Site": 1
+              "http://archaeology.link/ontology#Place": 1,
+              "http://www.w3.org/ns/prov#Entity": 1
             }
           }
         },
@@ -3762,11 +3751,6 @@ var tree={
             }
           },
           "from": {
-            "http://archaeology.link/ontology#hasLocation": {
-              "instancecount": 0,
-              "http://archaeology.link/ontology#Place": 1,
-              "http://www.w3.org/ns/prov#Entity": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.opengis.net/ont/geosparql#FeatureCollection": 3,
@@ -3819,9 +3803,8 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 56,
-              "http://archaeology.link/ontology#Location": 56,
-              "http://www.w3.org/ns/prov#Entity": 56,
-              "http://archaeoinformatics.link/ontology#Site": 56
+              "http://archaeology.link/ontology#Place": 56,
+              "http://www.w3.org/ns/prov#Entity": 56
             }
           },
           "from": {}
