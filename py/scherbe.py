@@ -60,7 +60,7 @@ for index, row in data.iterrows():
                  str(row['id']) + " " + "lado:potsherd_type" + " '" + str(row['type']) + "'@en.")
     
     # cross-table
-    lines.append("bb5kbc:ic_" + str(row['id']) + " " + "lado:partOf" + " " + "bb5kbc:con_" + str(row['kontext_id']))
+    lines.append("bb5kbc:ic_" + str(row['id']) + " " + "lado:partOf" + " " + "bb5kbc:con_" + str(row['kontext_id']) + " .")
 
     # license
     lines.append("bb5kbc:ic_" + str(row['id']) + " " + "dct:license" +
