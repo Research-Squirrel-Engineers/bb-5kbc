@@ -1459,7 +1459,7 @@
     <owl:Class rdf:about="http://archaeology.link/ontology#ExcuvationSite">
         <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
         <rdfs:label xml:lang="de">Ausgrabungsstätte</rdfs:label>
-        <rdfs:label xml:lang="en">Excuvation Site</rdfs:label>
+        <rdfs:label xml:lang="en">Excavation Site</rdfs:label>
     </owl:Class>
     
 

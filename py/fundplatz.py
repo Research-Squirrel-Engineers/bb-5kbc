@@ -109,7 +109,7 @@ for index, row in data.iterrows():
             "bb5kbc:loc_" + str(row['id']) + " " + "lado:hasType" + " lado:DiscoverySite  .")
     if str(row['sitetype']) == 'es':
         lines.append(
-            "bb5kbc:loc_" + str(row['id']) + " " + "lado:hasType" + " lado:ExcuvationSite  .")
+            "bb5kbc:loc_" + str(row['id']) + " " + "lado:hasType" + " lado:ExcavationSite  .")
 
     # metadata
     lines.append("bb5kbc:loc_" +

@@ -1,5 +1,5 @@
 # create triples from https://github.com/Research-Squirrel-Engineers/bb-5kbc 
-# on 2023-11-06 22:37
+# on 2023-11-07 08:57
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -31,15 +31,15 @@ bb5kbc:pc_693 prov:wasAttributedTo <https://github.com/Research-Squirrel-Enginee
 bb5kbc:pc_693 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:pc_693 prov:wasGeneratedBy bb5kbc:pc_693_pyscript .
 bb5kbc:pc_693_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_693_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
-bb5kbc:pc_693_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:pc_693_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
+bb5kbc:pc_693_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
 bb5kbc:pc_693_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:loc_693 rdf:type lado:Location  .
 bb5kbc:loc_693 rdf:type prov:Entity .
 bb5kbc:loc_693 rdf:type fsl:Site .
 bb5kbc:loc_693 fsl:siteType fsl:ArchaeologicalSite .
-bb5kbc:loc_693 lado:hasType lado:ExcuvationSite  .
+bb5kbc:loc_693 lado:hasType lado:ExcavationSite  .
 bb5kbc:loc_693 rdfs:label 'Location 1'@de.
 bb5kbc:loc_693 lado:hasFlurname 'Test 1'@de.
 bb5kbc:loc_693 lado:hasGemarkung 'Gem 1'@de.
@@ -56,8 +56,8 @@ bb5kbc:loc_693 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engine
 bb5kbc:loc_693 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:loc_693 prov:wasGeneratedBy bb5kbc:loc_693_pyscript .
 bb5kbc:loc_693_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:loc_693_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
-bb5kbc:loc_693_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:loc_693_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
+bb5kbc:loc_693_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
 bb5kbc:loc_693_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:pc_563 rdf:type lado:Place .
@@ -72,8 +72,8 @@ bb5kbc:pc_563 prov:wasAttributedTo <https://github.com/Research-Squirrel-Enginee
 bb5kbc:pc_563 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:pc_563 prov:wasGeneratedBy bb5kbc:pc_563_pyscript .
 bb5kbc:pc_563_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_563_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
-bb5kbc:pc_563_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:pc_563_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
+bb5kbc:pc_563_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
 bb5kbc:pc_563_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:loc_563 rdf:type lado:Location  .
@@ -97,8 +97,8 @@ bb5kbc:loc_563 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engine
 bb5kbc:loc_563 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:loc_563 prov:wasGeneratedBy bb5kbc:loc_563_pyscript .
 bb5kbc:loc_563_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:loc_563_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
-bb5kbc:loc_563_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:loc_563_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
+bb5kbc:loc_563_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
 bb5kbc:loc_563_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:pc_542 rdf:type lado:Place .
@@ -113,8 +113,8 @@ bb5kbc:pc_542 prov:wasAttributedTo <https://github.com/Research-Squirrel-Enginee
 bb5kbc:pc_542 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:pc_542 prov:wasGeneratedBy bb5kbc:pc_542_pyscript .
 bb5kbc:pc_542_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:pc_542_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
-bb5kbc:pc_542_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:pc_542_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
+bb5kbc:pc_542_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
 bb5kbc:pc_542_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
 bb5kbc:loc_542 rdf:type lado:Location  .
@@ -138,7 +138,7 @@ bb5kbc:loc_542 prov:wasAttributedTo <https://github.com/Research-Squirrel-Engine
 bb5kbc:loc_542 prov:wasDerivedFrom <https://github.com/Research-Squirrel-Engineers/bb-5kbc> .
 bb5kbc:loc_542 prov:wasGeneratedBy bb5kbc:loc_542_pyscript .
 bb5kbc:loc_542_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
-bb5kbc:loc_542_pyscript prov:startedAtTime '2023-11-06T22:37:02.834011Z'^^xsd:dateTime .
-bb5kbc:loc_542_pyscript prov:endedAtTime '2023-11-06T22:37:02.846622Z'^^xsd:dateTime .
+bb5kbc:loc_542_pyscript prov:startedAtTime '2023-11-07T08:57:46.427443Z'^^xsd:dateTime .
+bb5kbc:loc_542_pyscript prov:endedAtTime '2023-11-07T08:57:46.459133Z'^^xsd:dateTime .
 bb5kbc:loc_542_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
 
