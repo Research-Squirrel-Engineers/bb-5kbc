@@ -132,6 +132,9 @@ for index, row in data.iterrows():
         lines.append(
             "bb5kbc:loc_" + str(row['id']) + " " + "lado:hasType" + " lado:ExcavationSite  .")
 
+    # cross-reference
+    lines.append("bb5kbc:pc_" + str(row['id']) + " " + "lado:hasLocation" + " " + "bb5kbc:loc_" + str(row['id']) + " .")
+    
     # metadata
     lines.append("bb5kbc:loc_" +
                  str(row['id']) + " " + "rdfs:label" + " '" + str(row['name']) + "'@de.")

@@ -2538,4 +2538,3 @@ bb5kbc:loc_56_pyscript rdf:type <http://www.w3.org/ns/prov#Activity> .
 bb5kbc:loc_56_pyscript prov:startedAtTime '2023-11-07T22:14:09.839590Z'^^xsd:dateTime .
 bb5kbc:loc_56_pyscript prov:endedAtTime '2023-11-07T22:14:09.854665Z'^^xsd:dateTime .
 bb5kbc:loc_56_pyscript prov:wasAssociatedWith <https://github.com/Research-Squirrel-Engineers/bb-5kbc/blob/main/py/fundplatz.py> .
-
